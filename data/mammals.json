@@ -1,0 +1,642 @@
+{
+  "name": "Mammals",
+  "nickname": "All mammals",
+  "scientific": "Mammalia",
+  "clade": "root",
+  "color": "#8a9a8e",
+  "banner": true,
+  "children": [
+    {
+      "name": "Monotremes",
+      "nickname": "Egg-layers",
+      "scientific": "Monotremata",
+      "clade": "monotreme",
+      "color": "#6d8f7a",
+      "banner": true,
+      "children": [
+        {
+          "name": "Platypus & kin",
+          "scientific": "Ornithorhynchidae",
+          "clade": "monotreme",
+          "color": "#6d8f7a",
+          "cluster": 1,
+          "leaves": [
+            {
+              "name": "Platypus",
+              "scientific": "Ornithorhynchus anatinus",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Australia.jpg/200px-Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Australia.jpg",
+              "credit": "Wikimedia Commons / JJ Harrison"
+            }
+          ]
+        },
+        {
+          "name": "Echidnas",
+          "scientific": "Tachyglossidae",
+          "clade": "monotreme",
+          "color": "#6d8f7a",
+          "cluster": 2,
+          "leaves": [
+            {
+              "name": "Short-beaked echidna",
+              "scientific": "Tachyglossus aculeatus",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Short-beaked_Echidna.jpg/200px-Short-beaked_Echidna.jpg",
+              "credit": "Wikimedia Commons / Fir0002"
+            },
+            {
+              "name": "Long-beaked echidna",
+              "scientific": "Zaglossus bruijni",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Zaglossus_bruijni.jpg/200px-Zaglossus_bruijni.jpg",
+              "credit": "Wikimedia Commons"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marsupials",
+      "nickname": "Pouch mammals",
+      "scientific": "Marsupialia",
+      "clade": "marsupial",
+      "color": "#e07a5f",
+      "banner": true,
+      "children": [
+        {
+          "name": "American opossums",
+          "scientific": "Didelphimorphia",
+          "clade": "marsupial",
+          "color": "#e07a5f",
+          "cluster": 3,
+          "leaves": [
+            {
+              "name": "Virginia opossum",
+              "scientific": "Didelphis virginiana",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Didelphis_virginiana.jpg/200px-Didelphis_virginiana.jpg",
+              "credit": "Wikimedia Commons"
+            }
+          ]
+        },
+        {
+          "name": "Shrew opossums",
+          "scientific": "Paucituberculata",
+          "clade": "marsupial",
+          "color": "#e07a5f",
+          "cluster": 4,
+          "leaves": [
+            {
+              "name": "Lestoros",
+              "scientific": "Lestoros inca",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lestoros_inca.jpg/200px-Lestoros_inca.jpg",
+              "credit": "Wikimedia Commons"
+            }
+          ]
+        },
+        {
+          "name": "Marsupial moles",
+          "scientific": "Notoryctemorphia",
+          "clade": "marsupial",
+          "color": "#e07a5f",
+          "cluster": 5,
+          "leaves": [
+            {
+              "name": "Southern marsupial mole",
+              "scientific": "Notoryctes typhlops",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Notoryctes_typhlops.jpg/200px-Notoryctes_typhlops.jpg",
+              "credit": "Wikimedia Commons"
+            }
+          ]
+        },
+        {
+          "name": "Carnivorous marsupials",
+          "nickname": "Bitey pouched hunters",
+          "scientific": "Dasyuromorphia",
+          "clade": "marsupial",
+          "color": "#d45d48",
+          "banner": true,
+          "children": [
+            {
+              "name": "Tasmanian devil",
+              "scientific": "Sarcophilus harrisii",
+              "clade": "marsupial",
+              "color": "#d45d48",
+              "cluster": 6,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sarcophilus_harrisii_taranna.jpg/200px-Sarcophilus_harrisii_taranna.jpg",
+              "credit": "Wikimedia Commons / JJ Harrison"
+            },
+            {
+              "name": "Quolls",
+              "scientific": "Dasyurus",
+              "clade": "marsupial",
+              "color": "#d45d48",
+              "cluster": 7,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Tiger_Quoll.jpg/200px-Tiger_Quoll.jpg",
+              "credit": "Wikimedia Commons"
+            },
+            {
+              "name": "Numbat",
+              "scientific": "Myrmecobius fasciatus",
+              "clade": "marsupial",
+              "color": "#d45d48",
+              "cluster": 8,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Myrmecobius_fasciatus_2005.jpg/200px-Myrmecobius_fasciatus_2005.jpg",
+              "credit": "Wikimedia Commons"
+            }
+          ]
+        },
+        {
+          "name": "Bandicoots & bilbies",
+          "scientific": "Peramelemorphia",
+          "clade": "marsupial",
+          "color": "#e07a5f",
+          "cluster": 9,
+          "leaves": [
+            {
+              "name": "Greater bilby",
+              "scientific": "Macrotis lagotis",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Macrotis_lagotis.jpg/200px-Macrotis_lagotis.jpg",
+              "credit": "Wikimedia Commons"
+            },
+            {
+              "name": "Southern brown bandicoot",
+              "scientific": "Isoodon obesulus",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Isoodon_obesulus.jpg/200px-Isoodon_obesulus.jpg",
+              "credit": "Wikimedia Commons"
+            }
+          ]
+        },
+        {
+          "name": "Kangaroos & kin",
+          "nickname": "Hop masters",
+          "scientific": "Diprotodontia",
+          "clade": "marsupial",
+          "color": "#c94c3a",
+          "banner": true,
+          "children": [
+            {
+              "name": "Kangaroos & wallabies",
+              "scientific": "Macropodidae",
+              "clade": "marsupial",
+              "color": "#c94c3a",
+              "cluster": 10,
+              "leaves": [
+                {
+                  "name": "Red kangaroo",
+                  "scientific": "Osphranter rufus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Kangaroo_and_joey03.jpg/200px-Kangaroo_and_joey03.jpg",
+                  "credit": "Wikimedia Commons"
+                },
+                {
+                  "name": "Koala",
+                  "scientific": "Phascolarctos cinereus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/200px-Koala_climbing_tree.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            },
+            {
+              "name": "Wombats",
+              "scientific": "Vombatidae",
+              "clade": "marsupial",
+              "color": "#c94c3a",
+              "cluster": 11,
+              "leaves": [
+                {
+                  "name": "Common wombat",
+                  "scientific": "Vombatus ursinus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Vombatus_ursinus.jpg/200px-Vombatus_ursinus.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            },
+            {
+              "name": "Possums & gliders",
+              "scientific": "Phalangeridae",
+              "clade": "marsupial",
+              "color": "#c94c3a",
+              "cluster": 12,
+              "leaves": [
+                {
+                  "name": "Common brushtail possum",
+                  "scientific": "Trichosurus vulpecula",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Brushtail_possum.jpg/200px-Brushtail_possum.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Placentals",
+      "nickname": "Live-birth mammals",
+      "scientific": "Placentalia",
+      "clade": "placental",
+      "color": "#7a8b99",
+      "banner": true,
+      "children": [
+        {
+          "name": "Xenarthrans",
+          "nickname": "Armored slow movers",
+          "scientific": "Xenarthra",
+          "clade": "xenarthra",
+          "color": "#b8956a",
+          "banner": true,
+          "children": [
+            {
+              "name": "Armadillos",
+              "scientific": "Cingulata",
+              "clade": "xenarthra",
+              "color": "#b8956a",
+              "cluster": 13,
+              "leaves": [
+                {
+                  "name": "Nine-banded armadillo",
+                  "scientific": "Dasypus novemcinctus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Nine-banded-Armadillo.jpg/200px-Nine-banded-Armadillo.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            },
+            {
+              "name": "Anteaters & sloths",
+              "scientific": "Pilosa",
+              "clade": "xenarthra",
+              "color": "#b8956a",
+              "cluster": 14,
+              "leaves": [
+                {
+                  "name": "Giant anteater",
+                  "scientific": "Myrmecophaga tridactyla",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Myresluger2.jpg/200px-Myresluger2.jpg",
+                  "credit": "Wikimedia Commons"
+                },
+                {
+                  "name": "Brown-throated sloth",
+                  "scientific": "Bradypus variegatus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Bradypus.jpg/200px-Bradypus.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Afrotherians",
+          "nickname": "African heritage",
+          "scientific": "Afrotheria",
+          "clade": "afrotheria",
+          "color": "#9b8aa5",
+          "banner": true,
+          "children": [
+            {
+              "name": "Elephants",
+              "scientific": "Proboscidea",
+              "clade": "afrotheria",
+              "color": "#9b8aa5",
+              "cluster": 15,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/200px-African_Bush_Elephant.jpg",
+              "credit": "Wikimedia Commons"
+            },
+            {
+              "name": "Sea cows",
+              "scientific": "Sirenia",
+              "clade": "afrotheria",
+              "color": "#9b8aa5",
+              "cluster": 16,
+              "leaves": [
+                {
+                  "name": "West Indian manatee",
+                  "scientific": "Trichechus manatus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/FL_fig04.jpg/200px-FL_fig04.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            },
+            {
+              "name": "Hyraxes",
+              "scientific": "Hyracoidea",
+              "clade": "afrotheria",
+              "color": "#9b8aa5",
+              "cluster": 17,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rock_hyrax.jpg/200px-Rock_hyrax.jpg",
+              "credit": "Wikimedia Commons"
+            },
+            {
+              "name": "Aardvark",
+              "scientific": "Tubulidentata",
+              "clade": "afrotheria",
+              "color": "#9b8aa5",
+              "cluster": 18,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Orycteropus_afer.jpg/200px-Orycteropus_afer.jpg",
+              "credit": "Wikimedia Commons"
+            },
+            {
+              "name": "Elephant shrews",
+              "scientific": "Macroscelidea",
+              "clade": "afrotheria",
+              "color": "#9b8aa5",
+              "cluster": 19,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Rhynchocyon_petersi.jpg/200px-Rhynchocyon_petersi.jpg",
+              "credit": "Wikimedia Commons"
+            },
+            {
+              "name": "Tenrecs & golden moles",
+              "scientific": "Afrosoricida",
+              "clade": "afrotheria",
+              "color": "#9b8aa5",
+              "cluster": 20,
+              "leaves": [
+                {
+                  "name": "Greater hedgehog tenrec",
+                  "scientific": "Setifer setosus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Setifer_setosus.jpg/200px-Setifer_setosus.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Euarchontoglires",
+          "nickname": "Primates & gnawers",
+          "scientific": "Euarchontoglires",
+          "clade": "euarchontoglires",
+          "color": "#5a9bb5",
+          "banner": true,
+          "children": [
+            {
+              "name": "Rodents",
+              "scientific": "Rodentia",
+              "clade": "euarchontoglires",
+              "color": "#5a9bb5",
+              "cluster": 21,
+              "leaves": [
+                {
+                  "name": "Brown rat",
+                  "scientific": "Rattus norvegicus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rattus_norvegicus_1.jpg/200px-Rattus_norvegicus_1.jpg",
+                  "credit": "Wikimedia Commons"
+                },
+                {
+                  "name": "North American beaver",
+                  "scientific": "Castor canadensis",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/200px-American_Beaver.jpg",
+                  "credit": "Wikimedia Commons"
+                },
+                {
+                  "name": "Guinea pig",
+                  "scientific": "Cavia porcellus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Guinea_pig_-_Cavia_porcellus.jpg/200px-Guinea_pig_-_Cavia_porcellus.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            },
+            {
+              "name": "Rabbits & hares",
+              "scientific": "Lagomorpha",
+              "clade": "euarchontoglires",
+              "color": "#5a9bb5",
+              "cluster": 22,
+              "leaves": [
+                {
+                  "name": "European rabbit",
+                  "scientific": "Oryctolagus cuniculus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/200px-Oryctolagus_cuniculus_Rcdo.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            },
+            {
+              "name": "Treeshrews",
+              "scientific": "Scandentia",
+              "clade": "euarchontoglires",
+              "color": "#5a9bb5",
+              "cluster": 23,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tupaia_belangeri.jpg/200px-Tupaia_belangeri.jpg",
+              "credit": "Wikimedia Commons"
+            },
+            {
+              "name": "Colugos",
+              "scientific": "Dermoptera",
+              "clade": "euarchontoglires",
+              "color": "#5a9bb5",
+              "cluster": 24,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cynocephalus_variegatus.jpg/200px-Cynocephalus_variegatus.jpg",
+              "credit": "Wikimedia Commons"
+            },
+            {
+              "name": "Primates",
+              "nickname": "Our branch",
+              "scientific": "Primates",
+              "clade": "euarchontoglires",
+              "color": "#3d7a94",
+              "banner": true,
+              "children": [
+                {
+                  "name": "Lemurs & lorises",
+                  "scientific": "Strepsirrhini",
+                  "clade": "euarchontoglires",
+                  "color": "#3d7a94",
+                  "cluster": 25,
+                  "leaves": [
+                    {
+                      "name": "Ring-tailed lemur",
+                      "scientific": "Lemur catta",
+                      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Lemur_catta_2011.jpg/200px-Lemur_catta_2011.jpg",
+                      "credit": "Wikimedia Commons"
+                    }
+                  ]
+                },
+                {
+                  "name": "Monkeys & apes",
+                  "scientific": "Haplorhini",
+                  "clade": "euarchontoglires",
+                  "color": "#3d7a94",
+                  "cluster": 26,
+                  "leaves": [
+                    {
+                      "name": "Chimpanzee",
+                      "scientific": "Pan troglodytes",
+                      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Schimpanse_Zoo_Leipzig.jpg/200px-Schimpanse_Zoo_Leipzig.jpg",
+                      "credit": "Wikimedia Commons"
+                    },
+                    {
+                      "name": "Human",
+                      "scientific": "Homo sapiens",
+                      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Human.jpg/200px-Human.jpg",
+                      "credit": "Wikimedia Commons"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Laurasiatherians",
+          "nickname": "Hooves, fangs & wings",
+          "scientific": "Laurasiatheria",
+          "clade": "laurasiatheria",
+          "color": "#c45c5c",
+          "banner": true,
+          "children": [
+            {
+              "name": "Shrews & moles",
+              "scientific": "Eulipotyphla",
+              "clade": "laurasiatheria",
+              "color": "#c45c5c",
+              "cluster": 27,
+              "leaves": [
+                {
+                  "name": "European hedgehog",
+                  "scientific": "Erinaceus europaeus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Erinaceus_europaeus.jpg/200px-Erinaceus_europaeus.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            },
+            {
+              "name": "Bats",
+              "scientific": "Chiroptera",
+              "clade": "laurasiatheria",
+              "color": "#c45c5c",
+              "cluster": 28,
+              "leaves": [
+                {
+                  "name": "Egyptian fruit bat",
+                  "scientific": "Rousettus aegyptiacus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Rousettus_aegyptiacus.jpg/200px-Rousettus_aegyptiacus.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            },
+            {
+              "name": "Pangolins",
+              "scientific": "Pholidota",
+              "clade": "laurasiatheria",
+              "color": "#c45c5c",
+              "cluster": 29,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pangolin_baby.jpg/200px-Pangolin_baby.jpg",
+              "credit": "Wikimedia Commons"
+            },
+            {
+              "name": "Carnivorans",
+              "nickname": "Predators",
+              "scientific": "Carnivora",
+              "clade": "laurasiatheria",
+              "color": "#a84343",
+              "banner": true,
+              "children": [
+                {
+                  "name": "Cats & kin",
+                  "scientific": "Feliformia",
+                  "clade": "laurasiatheria",
+                  "color": "#a84343",
+                  "cluster": 30,
+                  "leaves": [
+                    {
+                      "name": "Lion",
+                      "scientific": "Panthera leo",
+                      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/200px-Lion_waiting_in_Namibia.jpg",
+                      "credit": "Wikimedia Commons"
+                    },
+                    {
+                      "name": "Domestic cat",
+                      "scientific": "Felis catus",
+                      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/200px-Cat_poster_1.jpg",
+                      "credit": "Wikimedia Commons"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dogs & bears",
+                  "scientific": "Caniformia",
+                  "clade": "laurasiatheria",
+                  "color": "#a84343",
+                  "cluster": 31,
+                  "leaves": [
+                    {
+                      "name": "Gray wolf",
+                      "scientific": "Canis lupus",
+                      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Canis_lupus_laying.jpg/200px-Canis_lupus_laying.jpg",
+                      "credit": "Wikimedia Commons"
+                    },
+                    {
+                      "name": "Brown bear",
+                      "scientific": "Ursus arctos",
+                      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/200px-2010-kodiak-bear-1.jpg",
+                      "credit": "Wikimedia Commons"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Odd-toed ungulates",
+              "scientific": "Perissodactyla",
+              "clade": "laurasiatheria",
+              "color": "#c45c5c",
+              "cluster": 32,
+              "leaves": [
+                {
+                  "name": "Horse",
+                  "scientific": "Equus caballus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nokota_Horses_cropped.jpg/200px-Nokota_Horses_cropped.jpg",
+                  "credit": "Wikimedia Commons"
+                },
+                {
+                  "name": "White rhinoceros",
+                  "scientific": "Ceratotherium simum",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/White_Rhino_at_Waterhole.jpg/200px-White_Rhino_at_Waterhole.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            },
+            {
+              "name": "Even-toed ungulates",
+              "scientific": "Artiodactyla",
+              "clade": "laurasiatheria",
+              "color": "#c45c5c",
+              "cluster": 33,
+              "leaves": [
+                {
+                  "name": "Giraffe",
+                  "scientific": "Giraffa camelopardalis",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/200px-Giraffe_Mikumi_National_Park.jpg",
+                  "credit": "Wikimedia Commons"
+                },
+                {
+                  "name": "Domestic cattle",
+                  "scientific": "Bos taurus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/200px-Cow_female_black_white.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            },
+            {
+              "name": "Whales & dolphins",
+              "scientific": "Cetacea",
+              "clade": "laurasiatheria",
+              "color": "#c45c5c",
+              "cluster": 34,
+              "leaves": [
+                {
+                  "name": "Humpback whale",
+                  "scientific": "Megaptera novaeangliae",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/200px-Humpback_Whale_underwater_shot.jpg",
+                  "credit": "Wikimedia Commons"
+                },
+                {
+                  "name": "Bottlenose dolphin",
+                  "scientific": "Tursiops truncatus",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/200px-Tursiops_truncatus_01.jpg",
+                  "credit": "Wikimedia Commons"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

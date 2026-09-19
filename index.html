@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mammal Family Tree — Interactive Phylogeny</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mammal family tree</h1>
+      <p>
+        Explore the full mammal phylogeny — monotremes, marsupials, and placental
+        superorders — in the style of STEAM Galaxy’s Go Extinct boards. Scroll to
+        zoom, drag the background to pan, and drag nodes to nudge branches. Click
+        any species node for details and image credits.
+      </p>
+      <div class="toolbar">
+        <button type="button" id="btn-reset">Reset view</button>
+      </div>
+    </header>
+
+    <div id="tree-container" aria-label="Interactive mammal phylogenetic tree">
+      <svg role="img" aria-labelledby="tree-title">
+        <title id="tree-title">Mammal phylogenetic tree</title>
+        <g class="zoom-root">
+          <g class="links"></g>
+          <g class="banners"></g>
+          <g class="nodes"></g>
+        </g>
+      </svg>
+    </div>
+
+    <aside id="detail-panel" hidden>
+      <button type="button" id="detail-close" aria-label="Close">×</button>
+      <img class="detail-img" alt="" hidden />
+      <h2 class="detail-name"></h2>
+      <p class="detail-nick"></p>
+      <p class="detail-sci"></p>
+      <p class="detail-credit"></p>
+    </aside>
+
+    <footer>
+      Taxonomy follows widely accepted mammal phylogeny. Species photos from
+      Wikimedia Commons (see panel credits). Inspired by
+      <a href="https://www.steamgalaxy.com/design-your-own-game/">STEAM Galaxy</a>.
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
