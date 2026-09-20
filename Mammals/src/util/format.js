@@ -8,9 +8,7 @@ export function formatPercent(part, whole) {
   return `${((part / whole) * 100).toFixed(1)}%`;
 }
 
-export function displayName(node) {
-  return node?.name ?? "";
-}
+export { displayName } from "./names.js";
 
 export function italicRank(rank) {
   return rank === "genus" || rank === "species";

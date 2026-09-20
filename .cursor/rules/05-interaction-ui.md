@@ -45,6 +45,11 @@ Type-ahead over every node name **and** every species name (~8,400 strings).
 
 A small control cluster:
 
+- **Names:** *Latin* / *English* / *فارسی*. Switches every label (arcs, centre,
+  breadcrumbs, panel, search, text tree). Scientific names stay the identity keys
+  and the hash path. `?names=en` or `?names=fa` on the hash. Persian sets
+  `lang=fa` and a `names-fa` font class; the document stays LTR so English chrome
+  does not flip. Missing vernaculars fall back to Latin — never invent names.
 - **Sizing:** *By species count* / *Equal weight* (chart `sizing` option).
 - **Show species ring:** loads `data/mammals.species.json` and rebuilds with a fourth
   taxonomic ring. Warn in a tooltip that this is heavier; measure it and if interaction

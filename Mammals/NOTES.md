@@ -75,3 +75,15 @@ Append-only log of resolved versions, API quirks, and decisions.
 - Tiny slices no longer get labels: a name shows only if the arc is wider
   than the text (`midR * angle > nameLen * 6.2 + 10`). Hidden labels also
   set `stroke-opacity` to 0 so dark-mode halos do not leave black blobs.
+- That full-name-must-fit rule hid almost every root label once name length
+  was wired through. Labels now hide only on needle-thin slices (Bostock
+  area ≤ 0.03 or mid-arc < ~32px). Hidden labels still zero `stroke-opacity`.
+
+## Names — Latin / English / فارسی
+
+- Chart, panel, breadcrumbs, search, and the text tree share a Names control.
+  Latin is the scientific name (identity and hash path). English prefers MDD
+  `common` then Wikidata. Persian is Wikidata only (`P225` + `rdfs:label` /
+  `P1843` in `fa`), written to `data/vernacular.json` by `scripts/fetch-names.mjs`.
+  Missing vernaculars fall back to Latin; nothing is invented. Hash may include
+  `?names=en` or `?names=fa`. Persian sets `lang=fa`; the document stays LTR.

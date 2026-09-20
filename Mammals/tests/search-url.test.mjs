@@ -39,7 +39,18 @@ test("hash serialisation round-trips a species view", () => {
   assert.equal(hash, "#/Carnivora/Felidae/Panthera?species=Panthera%20leo");
   assert.deepEqual(parseView(hash), {
     names: ["Carnivora", "Felidae", "Panthera"],
-    species: "Panthera leo"
+    species: "Panthera leo",
+    lang: "la"
+  });
+});
+
+test("hash serialisation stores the name language", () => {
+  const hash = serializeView(["Carnivora"], null, "fa");
+  assert.equal(hash, "#/Carnivora?names=fa");
+  assert.deepEqual(parseView(hash), {
+    names: ["Carnivora"],
+    species: null,
+    lang: "fa"
   });
 });
 

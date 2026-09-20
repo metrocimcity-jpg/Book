@@ -1,8 +1,9 @@
 import { el, clear } from "./util/dom.js";
 import { flattenIndex, searchIndex } from "./util/tree.js";
+import { displayName } from "./util/names.js";
 
-export function createSearch(input, listbox, root) {
-  const items = flattenIndex(root);
+export function createSearch(input, listbox, root, { vernacular = {}, getLang = () => "la" } = {}) {
+  const items = flattenIndex(root, vernacular);
   const listeners = new Map();
   let results = [];
   let active = -1;
@@ -39,8 +40,8 @@ export function createSearch(input, listbox, root) {
         class: "search-option",
         "aria-selected": i === active ? "true" : "false"
       }, [
-        el("span", { text: item.common ? `${item.name} · ${item.common}` : item.name }),
-        el("span", { class: "lineage", text: item.path.join(" › ") })
+        el("span", { text: displayName(item.species || item.node, getLang(), vernacular) }),
+        el("span", { class: "lineage", text: item.path.map((name) => displayName({ name }, getLang(), vernacular)).join(" › ") })
       ]);
       option.addEventListener("mousedown", (event) => {
         event.preventDefault();
@@ -53,7 +54,7 @@ export function createSearch(input, listbox, root) {
 
   function choose(item) {
     emit("select", item);
-    input.value = item.name;
+    input.value = displayName(item.species || item.node, getLang(), vernacular);
     close();
   }
 

@@ -1,15 +1,22 @@
 import { el, clear } from "./util/dom.js";
 import { formatNumber, formatPercent, italicRank, titleRank, speciesCount, iucnClass } from "./util/format.js";
+import { displayName } from "./util/names.js";
 import { countsUnder } from "./util/tree.js";
 
 const PAGE = 60;
 
-export function createPanel(root, { credits = {}, meta = null, totalSpecies = 0 } = {}) {
+export function createPanel(root, { credits = {}, meta = null, totalSpecies = 0, vernacular = {}, namesLang = "la" } = {}) {
   const heading = root.querySelector("#panel-heading") || root.querySelector("h2");
   const body = root.querySelector("#panel-body") || root;
   let selected = null;
   let highlight = null;
   let page = 0;
+  let lang = namesLang;
+  let names = vernacular;
+
+  function label(node) {
+    return displayName(node, lang, names);
+  }
 
   function creditFor(name) {
     return credits[name] || null;
@@ -73,8 +80,8 @@ export function createPanel(root, { credits = {}, meta = null, totalSpecies = 0 
     for (const s of slice) {
       const item = el("li", { class: highlight && s.name === highlight ? "highlight" : null }, [
         el("span", {}, [
-          el("em", { text: s.name }),
-          s.common ? ` — ${s.common}` : ""
+          lang === "la" ? el("em", { text: label(s) }) : el("span", { text: label(s) }),
+          lang !== "la" && s.name !== label(s) ? ` — ${s.name}` : ""
         ]),
         el("span", { class: `chip ${iucnClass(s.iucn)}`, text: iucnClass(s.iucn), title: `IUCN ${iucnClass(s.iucn)}` }),
         el("span", { text: s.year ? String(s.year) : "" })
@@ -119,13 +126,16 @@ export function createPanel(root, { credits = {}, meta = null, totalSpecies = 0 
       const idx = node.species.findIndex((s) => s.name === speciesName);
       if (idx >= 0) page = Math.floor(idx / PAGE);
     }
-    heading.textContent = node.name;
-    heading.classList.toggle("italic", italicRank(node.rank));
+    heading.textContent = label(node);
+    heading.classList.toggle("italic", italicRank(node.rank) && lang === "la");
     clear(body);
     const n = countsUnder(node);
     const species = n.species || speciesCount(node);
+    const rankLine = lang === "la"
+      ? `${titleRank(node.rank)}${node.common ? ` · ${node.common}` : ""}`
+      : `${titleRank(node.rank)} · ${node.name}`;
     body.append(
-      el("p", { class: "rank", text: `${titleRank(node.rank)}${node.common ? ` · ${node.common}` : ""}` }),
+      el("p", { class: "rank", text: rankLine }),
       artwork(node),
       el("div", { class: "counts" }, [
         el("div", {}, [el("b", { text: formatNumber(n.families) }), " families"]),
@@ -139,5 +149,14 @@ export function createPanel(root, { credits = {}, meta = null, totalSpecies = 0 
   }
 
   empty();
-  return { show, empty, citation };
+  return {
+    show,
+    empty,
+    citation,
+    setNames(nextLang, nextVernacular) {
+      lang = nextLang || lang;
+      if (nextVernacular) names = nextVernacular;
+      if (selected) show(selected, { speciesName: highlight });
+    }
+  };
 }

@@ -45,6 +45,7 @@ mammals/
    Scripts:
    - `"data": "node scripts/build-taxonomy.mjs"`
    - `"images": "node scripts/fetch-images.mjs"`
+   - `"names": "node scripts/fetch-names.mjs"`
    - `"serve": "npx --yes serve . -l 5173"` (any static server is fine)
 2. Vendor D3: download `https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js` into
    `mammals/vendor/d3.v7.min.js`. Record the exact version in `NOTES.md`.

@@ -81,6 +81,15 @@ Then regenerate `mammals/CREDITS.md` from it: grouped by source, each entry as
 `Taxon — Title, Creator (Licence) · link`. This file is the licence compliance record;
 it must list **every** downloaded image.
 
+## Birds — Wikipedia lead images
+
+For `Birds/`, the primary source is the English Wikipedia article image
+(`pageimages`), then Commons `imageinfo` for licence metadata. Painting vs
+photograph does not matter. Fair use / NC / ND still rejected. Commons,
+Openverse, PhyloPic, and iNaturalist remain fallbacks. Any non-Wikipedia credit
+is upgradeable on the next run. The 70% illustration target does **not** apply
+to this Wikipedia harvest.
+
 ## Placeholder
 
 `assets/img/placeholder.svg`: a neutral hand-drawn-feel silhouette in `currentColor`,

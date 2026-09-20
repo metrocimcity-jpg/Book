@@ -16,7 +16,8 @@ Add `scripts/verify.mjs`, run by `npm run verify`. It must fail non-zero on any 
 ## 2. Functional tests
 
 Plain Node test runner (`node --test`) for the pure logic — tree building, search index,
-hash serialisation, colour derivation. No DOM framework needed for these.
+hash serialisation, colour derivation, and the Latin/English/Persian display-name
+helper. No DOM framework needed for these.
 
 For the chart, one Playwright spec (ask before installing) covering:
 
@@ -54,7 +55,7 @@ to match the result.
   licence summary.
 - **Attribution for the visualisation technique:** Mike Bostock's Zoomable Sunburst,
   Observable, ISC licence, with link.
-- How to rebuild: `npm run data`, `npm run images`, `npm run verify`, `npm run serve`.
+- How to rebuild: `npm run data`, `npm run images`, `npm run names`, `npm run verify`, `npm run serve`.
 - Known gaps: the list from `missing-images.txt`, and any taxa where the MDD and common
   usage disagree.
 - Licence for the repo's own code, and the note that image licences are *separate and

@@ -11,6 +11,7 @@
 import { colorForNode, orderColorMap } from "./palette.js";
 import { motionDuration } from "./util/dom.js";
 import { formatNumber } from "./util/format.js";
+import { displayName } from "./util/names.js";
 import { isExtinctNode } from "./util/tree.js";
 
 export function createSunburst(container, data, options = {}) {
@@ -20,6 +21,8 @@ export function createSunburst(container, data, options = {}) {
     data,
     sizing: options.sizing || "species",
     credits: options.credits || {},
+    namesLang: options.namesLang || "la",
+    vernacular: options.vernacular || {},
     width: options.width || Math.min(container.clientWidth || 640, 900),
     focus: null,
     hierarchyRoot: null,
@@ -110,12 +113,19 @@ export function createSunburst(container, data, options = {}) {
     return d.y1 <= 3 && d.y0 >= 1 && d.x1 > d.x0;
   }
 
-  function labelVisible(d) {
-    if (d.y1 > 3 || d.y0 < 1 || d.x1 <= d.x0) return false;
-    const angle = d.x1 - d.x0;
-    const midR = ((d.y0 + d.y1) / 2) * (radius || 80);
-    const nameLen = String(d.data?.name || "").length;
-    return midR * angle > nameLen * 6.2 + 10;
+  function nodeLabel(d) {
+    return displayName(d?.data || d, state.namesLang, state.vernacular);
+  }
+
+  function labelVisible(node, coords) {
+    const c = coords || node;
+    if (c.y1 > 3 || c.y0 < 1 || c.x1 <= c.x0) return false;
+    if ((c.y1 - c.y0) * (c.x1 - c.x0) <= 0.03) return false;
+    const angle = c.x1 - c.x0;
+    const midR = ((c.y0 + c.y1) / 2) * (radius || 80);
+    // Hide needle slivers only. Do not require the full name to fit — that
+    // left only Passeriformes labelled at the root view.
+    return midR * angle > 32;
   }
 
   function labelTransform(d) {
@@ -126,7 +136,7 @@ export function createSunburst(container, data, options = {}) {
 
   function titleFor(d) {
     const rank = d.data.rank ? d.data.rank.charAt(0).toUpperCase() + d.data.rank.slice(1) : "Taxon";
-    return `${rank} ${d.data.name} · ${formatNumber(Math.round(d.value))} species`;
+    return `${rank} ${nodeLabel(d)} · ${formatNumber(Math.round(d.value))} species`;
   }
 
   function creditFor(name) {
@@ -158,8 +168,8 @@ export function createSunburst(container, data, options = {}) {
   }
 
   function updateCentre(p) {
-    const name = p.data.name;
-    const credit = creditFor(name);
+    const name = nodeLabel(p);
+    const credit = creditFor(p.data.name);
     centre.select(".centre-art").attr("href", credit?.file || "assets/img/placeholder.svg");
     const lines = [
       p === state.hierarchyRoot ? name : `↰ ${name}`,
@@ -172,9 +182,10 @@ export function createSunburst(container, data, options = {}) {
       .attr("dy", (d, i) => (i === 0 ? radius * 0.92 : "1.15em"))
       .style("font-size", (d, i) => (i === 0 ? "13px" : "10px"))
       .text((d) => d);
+    const rootName = displayName(state.hierarchyRoot?.data, state.namesLang, state.vernacular) || "Aves";
     centre.select(".centre-hit")
       .attr("tabindex", p === state.hierarchyRoot ? null : "0")
-      .attr("aria-label", p === state.hierarchyRoot ? "Aves" : `Zoom out to ${p.parent?.data?.name || "Aves"}`);
+      .attr("aria-label", p === state.hierarchyRoot ? rootName : `Zoom out to ${p.parent ? nodeLabel(p.parent) : rootName}`);
   }
 
   function targetsFrom(p) {
@@ -217,11 +228,11 @@ export function createSunburst(container, data, options = {}) {
 
     labelSel
       .filter(function (d) {
-        return +this.getAttribute("fill-opacity") || labelVisible(d.target);
+        return +this.getAttribute("fill-opacity") || labelVisible(d, d.target);
       })
       .transition(t)
-      .attr("fill-opacity", (d) => +labelVisible(d.target))
-      .attr("stroke-opacity", (d) => +labelVisible(d.target))
+      .attr("fill-opacity", (d) => +labelVisible(d, d.target))
+      .attr("stroke-opacity", (d) => +labelVisible(d, d.target))
       .attrTween("transform", (d) => () => labelTransform(d.current));
   }
 
@@ -270,8 +281,8 @@ export function createSunburst(container, data, options = {}) {
       .data(root.descendants().slice(1), (d) => d.data.name + (d.parent?.data?.name || ""))
       .join("text")
       .attr("dy", "0.35em")
-      .attr("fill-opacity", (d) => +labelVisible(d.current))
-      .attr("stroke-opacity", (d) => +labelVisible(d.current))
+      .attr("fill-opacity", (d) => +labelVisible(d, d.current))
+      .attr("stroke-opacity", (d) => +labelVisible(d, d.current))
       .attr("transform", (d) => labelTransform(d.current))
       .style("fill", "var(--ink)")
       .style("paint-order", "stroke")
@@ -279,13 +290,9 @@ export function createSunburst(container, data, options = {}) {
       .style("stroke-width", "2px")
       .style("text-rendering", "optimizeLegibility")
       .each(function (d) {
-        const wide = d.depth === 1 && (d.x1 - d.x0) > 0.18;
         const sel = d3.select(this);
         sel.selectAll("tspan").remove();
-        sel.append("tspan").attr("x", 0).text(d.data.name);
-        if (wide && d.data.common) {
-          sel.append("tspan").attr("x", 0).attr("dy", "1.1em").text(d.data.common);
-        }
+        sel.append("tspan").attr("x", 0).text(nodeLabel(d));
       });
 
     parentSel = centre.select(".centre-hit").datum(root).on("click", (event, d) => {
@@ -369,6 +376,24 @@ export function createSunburst(container, data, options = {}) {
         n = n.parent;
       }
       rebuild(state.data, path);
+    },
+    setNames(lang, vernacular) {
+      state.namesLang = lang || state.namesLang;
+      if (vernacular) state.vernacular = vernacular;
+      if (!labelSel) return;
+      labelSel.each(function (d) {
+        const sel = d3.select(this);
+        sel.selectAll("tspan").remove();
+        sel.append("tspan").attr("x", 0).text(nodeLabel(d));
+      });
+      labelSel
+        .attr("fill-opacity", (d) => +labelVisible(d, d.current))
+        .attr("stroke-opacity", (d) => +labelVisible(d, d.current));
+      if (pathSel) {
+        pathSel.attr("aria-label", titleFor);
+        pathSel.selectAll("title").text(titleFor);
+      }
+      if (state.focus) updateCentre(state.focus);
     },
     getFocus() {
       return state.focus;

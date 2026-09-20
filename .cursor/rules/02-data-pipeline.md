@@ -88,6 +88,14 @@ Key decisions, follow them exactly:
   The footer renders this as the citation line.
 - Pretty-print with 0 indentation (minified) but keep key order stable so diffs are readable.
 
+## Vernacular names
+
+Do not invent English or Persian names, and do not fold them into the taxonomy JSON.
+`scripts/fetch-names.mjs` writes `data/vernacular.json` from Wikidata (`wdt:P225`
+taxon name, `rdfs:label` and `wdt:P1843` in `en`/`fa`). Species English names already
+live on each species as `common` from MDD / AviList. The UI falls back to Latin when
+a vernacular is missing.
+
 ## Definition of done
 
 - `npm run data` prints a counts table and writes all three JSON files.

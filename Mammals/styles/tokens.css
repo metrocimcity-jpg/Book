@@ -11,6 +11,7 @@
   --shadow: 0 12px 40px rgba(40, 28, 16, 0.12);
   --font-serif: ui-serif, Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
   --font-sans: ui-sans-serif, "Segoe UI", system-ui, sans-serif;
+  --font-fa: Tahoma, "Segoe UI", "Noto Naskh Arabic", sans-serif;
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;

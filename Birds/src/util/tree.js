@@ -1,3 +1,5 @@
+import { searchKey } from "./names.js";
+
 export function walk(node, fn, parent = null, depth = 0) {
   fn(node, parent, depth);
   for (const child of node.children || []) walk(child, fn, node, depth + 1);
@@ -100,7 +102,7 @@ export function expandSpeciesUnder(node, focusNames = []) {
   return expand(node, []);
 }
 
-export function flattenIndex(root) {
+export function flattenIndex(root, vernacular = {}) {
   const items = [];
   const walkIndex = (node, lineage) => {
     const path = node.rank && node.rank !== "class" ? [...lineage, node.name] : lineage;
@@ -110,7 +112,7 @@ export function flattenIndex(root) {
       rank: node.rank,
       path,
       node,
-      key: `${node.name} ${node.common || ""}`.toLowerCase()
+      key: searchKey(node, vernacular)
     });
     for (const species of node.species || []) {
       items.push({
@@ -120,7 +122,7 @@ export function flattenIndex(root) {
         path,
         node,
         species,
-        key: `${species.name} ${species.common || ""}`.toLowerCase()
+        key: searchKey(species, vernacular)
       });
     }
     for (const child of node.children || []) walkIndex(child, path);

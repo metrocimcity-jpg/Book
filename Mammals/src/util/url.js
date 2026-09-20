@@ -1,8 +1,10 @@
-export function serializeView(pathNames, speciesName) {
+export function serializeView(pathNames, speciesName, lang = "la") {
   const path = pathNames.map(encodeURIComponent).join("/");
   const hash = path ? `#/${path}` : "#/";
-  if (!speciesName) return hash;
-  return `${hash}?species=${encodeURIComponent(speciesName)}`;
+  const parts = [];
+  if (speciesName) parts.push(`species=${encodeURIComponent(speciesName)}`);
+  if (lang && lang !== "la") parts.push(`names=${encodeURIComponent(lang)}`);
+  return parts.length ? `${hash}?${parts.join("&")}` : hash;
 }
 
 export function parseView(hash = "") {
@@ -14,11 +16,12 @@ export function parseView(hash = "") {
     .filter(Boolean);
   const params = new URLSearchParams(queryPart || "");
   const species = params.get("species");
-  return { names, species: species || null };
+  const lang = params.get("names") || "la";
+  return { names, species: species || null, lang };
 }
 
-export function writeView(pathNames, speciesName) {
-  const next = serializeView(pathNames, speciesName);
+export function writeView(pathNames, speciesName, lang = "la") {
+  const next = serializeView(pathNames, speciesName, lang);
   if (location.hash === next || (next === "#/" && !location.hash)) return;
-  history.pushState({ names: pathNames, species: speciesName || null }, "", next);
+  history.pushState({ names: pathNames, species: speciesName || null, lang }, "", next);
 }

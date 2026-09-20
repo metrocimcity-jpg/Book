@@ -39,7 +39,18 @@ test("hash serialisation round-trips a species view", () => {
   assert.equal(hash, "#/Accipitriformes/Accipitridae/Aquila?species=Aquila%20chrysaetos");
   assert.deepEqual(parseView(hash), {
     names: ["Accipitriformes", "Accipitridae", "Aquila"],
-    species: "Aquila chrysaetos"
+    species: "Aquila chrysaetos",
+    lang: "la"
+  });
+});
+
+test("hash serialisation stores the name language", () => {
+  const hash = serializeView(["Accipitriformes"], null, "fa");
+  assert.equal(hash, "#/Accipitriformes?names=fa");
+  assert.deepEqual(parseView(hash), {
+    names: ["Accipitriformes"],
+    species: null,
+    lang: "fa"
   });
 });
 

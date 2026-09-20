@@ -90,10 +90,15 @@ current focus: the taxon's artwork (via `<image>` inside a `clipPath` circle of 
 and shows a `↰` affordance when `focus !== root`. Use `credits.json` to resolve the file;
 fall back to `placeholder.svg`.
 
-**Labels.** Two-line labels on ring 1 (order name + common name) when the arc is wide
-enough; single-line elsewhere. Use `text-rendering: optimizeLegibility` and
-`paint-order: stroke` with a 2px background-coloured stroke so names stay legible over
-saturated arcs.
+**Labels.** Show the current name-language on every visible arc. Hide a name only
+on needle-thin slices (Bostock `(y1-y0)*(x1-x0) ≤ 0.03`, or mid-arc length under
+~32px). Do **not** require the full name to fit — that hides almost every order
+at the root. Hidden labels must also set `stroke-opacity` to 0 so dark-mode halo
+strokes do not leave black blobs. Use `text-rendering: optimizeLegibility` and
+`paint-order: stroke` with a 2px background-coloured stroke so names stay
+legible over saturated arcs. Mouse clicks `blur()` the target so the UA
+rectangular focus outline does not flash; keyboard `:focus-visible` keeps a
+circular stroke.
 
 ## Rendering details
 

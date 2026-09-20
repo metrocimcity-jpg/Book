@@ -5,6 +5,7 @@ import { $, el, clear } from "./util/dom.js";
 import { filterExtinct, expandSpeciesUnder, pathNames, countsUnder } from "./util/tree.js";
 import { parseView, writeView } from "./util/url.js";
 import { formatNumber } from "./util/format.js";
+import { applyNameLang, displayName, normalizeNameLang } from "./util/names.js";
 
 const status = $("#chart-status");
 const chartEl = $("#chart");
@@ -26,11 +27,11 @@ async function loadJson(url) {
   return res.json();
 }
 
-function crumbLabel(node) {
-  return node.name;
+function crumbLabel(node, lang, vernacular) {
+  return displayName(node, lang, vernacular);
 }
 
-function renderBreadcrumbs(path, onFocus) {
+function renderBreadcrumbs(path, onFocus, lang, vernacular) {
   const ol = $("#breadcrumbs ol");
   clear(ol);
   const narrow = window.matchMedia("(max-width: 640px)").matches && path.length > 3;
@@ -46,10 +47,11 @@ function renderBreadcrumbs(path, onFocus) {
     }
     if (hide) return;
     const li = el("li");
+    const text = crumbLabel(node, lang, vernacular);
     if (last) {
-      li.append(el("span", { "aria-current": "location", text: crumbLabel(node) }));
+      li.append(el("span", { "aria-current": "location", text }));
     } else {
-      const btn = el("button", { type: "button", text: crumbLabel(node) });
+      const btn = el("button", { type: "button", text });
       btn.addEventListener("click", () => onFocus(node));
       li.append(btn);
     }
@@ -57,18 +59,18 @@ function renderBreadcrumbs(path, onFocus) {
   });
 }
 
-function renderTextTree(root, host) {
+function renderTextTree(root, host, lang, vernacular) {
   clear(host);
   const list = el("ul");
   for (const order of root.children || []) {
-    const li = el("li", {}, [`${order.name} (${formatNumber(countsUnder(order).species)} species)`]);
+    const li = el("li", {}, [`${displayName(order, lang, vernacular)} (${formatNumber(countsUnder(order).species)} species)`]);
     const fams = el("ul");
     for (const family of order.children || []) {
-      const fli = el("li", {}, [family.name]);
+      const fli = el("li", {}, [displayName(family, lang, vernacular)]);
       const details = el("details");
       details.append(el("summary", { text: `${(family.children || []).length} genera` }));
       const gl = el("ul");
-      for (const genus of family.children || []) gl.append(el("li", { text: genus.name }));
+      for (const genus of family.children || []) gl.append(el("li", { text: displayName(genus, lang, vernacular) }));
       details.append(gl);
       fli.append(details);
       fams.append(fli);
@@ -98,17 +100,25 @@ async function boot() {
 
   try { meta = await loadJson("data/meta.json"); } catch { meta = null; }
   try { credits = await loadJson("assets/credits.json"); } catch { credits = {}; }
+  let vernacular = {};
+  try { vernacular = await loadJson("data/vernacular.json"); } catch { vernacular = {}; }
 
   const totalSpecies = countsUnder(tree).species;
   console.info(`Loaded Mammalia: ${totalSpecies} species, ${(tree.children || []).length} orders`);
   showStatus("");
 
-  const panel = createPanel($("#panel"), { credits, meta, totalSpecies });
+  const initial = parseView(location.hash);
+  let namesLang = normalizeNameLang(initial.lang);
+  applyNameLang(namesLang);
+  const nameRadios = document.getElementsByName("names");
+  nameRadios.forEach((input) => { input.checked = input.value === namesLang; });
+
+  const panel = createPanel($("#panel"), { credits, meta, totalSpecies, vernacular, namesLang });
   if (meta) {
     $("#citation").textContent = `${meta.source || "ASM Mammal Diversity Database"} ${meta.version || ""} · ${meta.doi || ""} · retrieved ${meta.retrievedAt || ""}`;
   }
 
-  renderTextTree(tree, $("#text-tree-body"));
+  renderTextTree(tree, $("#text-tree-body"), namesLang, vernacular);
 
   let includeExtinct = $("#toggle-extinct").checked;
   let showSpecies = false;
@@ -124,19 +134,19 @@ async function boot() {
   }
 
   let currentPathNames = [];
-  const chart = createSunburst(chartEl, currentTree(), { sizing, credits });
+  const chart = createSunburst(chartEl, currentTree(), { sizing, credits, namesLang, vernacular });
 
   chart.on("focus", (d) => {
     const path = pathFromFocus(d);
     currentPathNames = path.map((n) => n.name);
     renderBreadcrumbs(path, (node) => {
       chart.focus(node);
-    });
+    }, namesLang, vernacular);
     const species = countsUnder(d.data).species;
-    announce(`Focused ${d.data.name}, ${d.data.rank || "class"}, ${formatNumber(species)} species.`);
+    announce(`Focused ${displayName(d.data, namesLang, vernacular)}, ${d.data.rank || "class"}, ${formatNumber(species)} species.`);
     $("#toggle-species").disabled = !path.some((n) => n.rank === "family" || n.rank === "genus");
     panel.show(d.data, { speciesName: selectedSpecies });
-    writeView(pathNames(path), selectedSpecies);
+    writeView(pathNames(path), selectedSpecies, namesLang);
   });
 
   chart.on("hover", (d) => {
@@ -152,17 +162,36 @@ async function boot() {
     hasSelection = true;
     selectedSpecies = d.data.rank === "species" ? d.data.name : selectedSpecies;
     panel.show(d.data, { speciesName: selectedSpecies });
-    writeView(pathNames(pathFromFocus(d)), selectedSpecies);
+    writeView(pathNames(pathFromFocus(d)), selectedSpecies, namesLang);
   });
 
-  createSearch($("#search-input"), $("#search-listbox"), tree).on("select", (item) => {
+  createSearch($("#search-input"), $("#search-listbox"), tree, {
+    vernacular,
+    getLang: () => namesLang
+  }).on("select", (item) => {
     hasSelection = true;
     selectedSpecies = item.rank === "species" ? item.name : null;
     const names = item.path;
     chart.setRoot(currentTree(), names);
     const panelNode = item.rank === "species" ? item.node : item.node;
     panel.show(panelNode, { speciesName: selectedSpecies });
-    writeView(names, selectedSpecies);
+    writeView(names, selectedSpecies, namesLang);
+  });
+
+  document.getElementsByName("names").forEach((input) => {
+    input.addEventListener("change", () => {
+      if (!input.checked) return;
+      namesLang = normalizeNameLang(input.value);
+      applyNameLang(namesLang);
+      chart.setNames(namesLang, vernacular);
+      panel.setNames(namesLang, vernacular);
+      renderTextTree(tree, $("#text-tree-body"), namesLang, vernacular);
+      const focus = chart.getFocus();
+      if (focus) {
+        renderBreadcrumbs(pathFromFocus(focus), (node) => chart.focus(node), namesLang, vernacular);
+      }
+      writeView(pathNames(pathFromFocus(focus) || []), selectedSpecies, namesLang);
+    });
   });
 
   document.getElementsByName("sizing").forEach((input) => {
@@ -198,19 +227,23 @@ async function boot() {
     showSpecies = false;
     $("#toggle-species").checked = false;
     chart.setRoot(filterExtinct(tree, includeExtinct), []);
-    writeView([], null);
+    writeView([], null, namesLang);
     panel.empty();
   });
 
   window.addEventListener("popstate", () => {
     const view = parseView(location.hash);
     selectedSpecies = view.species;
+    namesLang = normalizeNameLang(view.lang);
+    applyNameLang(namesLang);
+    nameRadios.forEach((input) => { input.checked = input.value === namesLang; });
+    chart.setNames(namesLang, vernacular);
+    panel.setNames(namesLang, vernacular);
     chart.setRoot(currentTree(), view.names);
     const focus = chart.getFocus();
     panel.show(focus?.data, { speciesName: selectedSpecies });
   });
 
-  const initial = parseView(location.hash);
   if (initial.names.length || initial.species) {
     selectedSpecies = initial.species;
     chart.setRoot(currentTree(), initial.names);

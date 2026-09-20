@@ -1,0 +1,2331 @@
+{
+  "Mammalia": {
+    "en": "Mammal",
+    "fa": "پستانداران"
+  },
+  "Afrosoricida": {
+    "fa": "حشرهخواران آفریقایی"
+  },
+  "Artiodactyla": {
+    "fa": "جفتسمان"
+  },
+  "Carnivora": {
+    "fa": "گوشتخوارسانان"
+  },
+  "Chiroptera": {
+    "fa": "خفاش"
+  },
+  "Cingulata": {
+    "fa": "نوارهسانان"
+  },
+  "Dasyuromorphia": {
+    "fa": "ستبردمسانان"
+  },
+  "Dermoptera": {
+    "fa": "پوستپر"
+  },
+  "Diprotodontia": {
+    "fa": "کیسهداران علفخوار"
+  },
+  "Eulipotyphla": {
+    "fa": "هوچربکورسانان"
+  },
+  "Hyracoidea": {
+    "en": "Hyraxes",
+    "fa": "خرگوش کوهی"
+  },
+  "Lagomorpha": {
+    "fa": "خرگوش"
+  },
+  "Macroscelidea": {
+    "en": "Elephant-shrews",
+    "fa": "حشرهخور جهنده"
+  },
+  "Microbiotheria": {
+    "fa": "میمونکسانان"
+  },
+  "Monotremata": {
+    "en": "Monotreme",
+    "fa": "تکسوراخیان"
+  },
+  "Notoryctemorphia": {
+    "fa": "موش کور کیسهدار"
+  },
+  "Paucituberculata": {
+    "en": "Shrew Opossums"
+  },
+  "Peramelemorphia": {
+    "fa": "کیسهداران همهچیزخوار"
+  },
+  "Perissodactyla": {
+    "en": "Odd-toed ungulate",
+    "fa": "فردسمان"
+  },
+  "Pholidota": {
+    "fa": "پولکپوست"
+  },
+  "Pilosa": {
+    "fa": "کرکداران"
+  },
+  "Primates": {
+    "en": "Primate",
+    "fa": "نخستیسانان"
+  },
+  "Proboscidea": {
+    "en": "Mule grab",
+    "fa": "خرطومداران"
+  },
+  "Rodentia": {
+    "en": "Rodent",
+    "fa": "جوندگان"
+  },
+  "Scandentia": {
+    "fa": "حشرهخواران درختی"
+  },
+  "Sirenia": {
+    "fa": "گاودریاییان"
+  },
+  "Tubulidentata": {
+    "en": "Aardvark"
+  },
+  "Abrocomidae": {
+    "en": "Chinchilla rats",
+    "fa": "موشهای چینچیلا"
+  },
+  "Acrobatidae": {
+    "fa": "کوتولهپروازان کیسهدار"
+  },
+  "Ailuridae": {
+    "fa": "سرخپاندایان"
+  },
+  "Anomaluridae": {
+    "en": "Anomalures or scaly-tailed flying squirrels",
+    "fa": "سنجابهای دمپولکی"
+  },
+  "Antilocapridae": {
+    "fa": "شاخچنگالان"
+  },
+  "Archaeolemuridae": {
+    "en": "Monkey lemur",
+    "fa": "لمور میمونی"
+  },
+  "Atelidae": {
+    "fa": "میمونهای دمآویز"
+  },
+  "Balaenidae": {
+    "fa": "نهنگ شکار"
+  },
+  "Balaenopteridae": {
+    "fa": "بزرگبالهایان"
+  },
+  "Bathyergidae": {
+    "fa": "موشهای آفریقایی"
+  },
+  "Bovidae": {
+    "fa": "گاوسانان"
+  },
+  "Bradypodidae": {
+    "en": "Three-toed sloth"
+  },
+  "Burramyidae": {
+    "en": "Pygmy possum",
+    "fa": "صاریغ کوتوله"
+  },
+  "Caenolestidae": {
+    "fa": "صاریغ شبگرد"
+  },
+  "Callitrichidae": {
+    "fa": "میمونهای پنجهای"
+  },
+  "Camelidae": {
+    "en": "Camels",
+    "fa": "شترسانان"
+  },
+  "Canidae": {
+    "fa": "سگان"
+  },
+  "Castoridae": {
+    "en": "Beaver",
+    "fa": "بيدستران"
+  },
+  "Caviidae": {
+    "fa": "خوگچگان هندی"
+  },
+  "Cebidae": {
+    "fa": "میمونهای شنلپوش"
+  },
+  "Cercopithecidae": {
+    "fa": "میمونهای جهان قدیم"
+  },
+  "Cervidae": {
+    "fa": "گوزن"
+  },
+  "Cetotheriidae": {
+    "fa": "ستوثریدائه"
+  },
+  "Cheirogaleidae": {
+    "fa": "لمورهای کوتوله"
+  },
+  "Chinchillidae": {
+    "fa": "چینچیلایان"
+  },
+  "Chlamyphoridae": {
+    "fa": "بالاپوشداران"
+  },
+  "Chrysochloridae": {
+    "en": "Golden mole",
+    "fa": "موش کور طلایی"
+  },
+  "Cricetidae": {
+    "fa": "همسترهای دمکوتاه"
+  },
+  "Ctenodactylidae": {
+    "en": "Gundi",
+    "fa": "شانهموشان"
+  },
+  "Ctenomyidae": {
+    "en": "Tuco-tuco"
+  },
+  "Cyclopedidae": {
+    "fa": "ابریشممورچهخواران"
+  },
+  "Cynocephalidae": {
+    "en": "Colugo"
+  },
+  "Dasypodidae": {
+    "fa": "آرمادیلو"
+  },
+  "Dasyproctidae": {
+    "fa": "پشمیکفلان"
+  },
+  "Dasyuridae": {
+    "fa": "ستبردمان"
+  },
+  "Daubentoniidae": {
+    "en": "Aye-aye"
+  },
+  "Delphinidae": {
+    "fa": "دلفین اقیانوسی"
+  },
+  "Diatomyidae": {
+    "fa": "خرگوشهای صخرهای لائوس"
+  },
+  "Didelphidae": {
+    "fa": "صاریغ"
+  },
+  "Dinomyidae": {
+    "fa": "پاکاراناها"
+  },
+  "Dipodidae": {
+    "fa": "پامسواکی"
+  },
+  "Dugongidae": {
+    "fa": "دریافیلان"
+  },
+  "Echimyidae": {
+    "fa": "تیغیموشان"
+  },
+  "Elephantidae": {
+    "en": "Elephant",
+    "fa": "فیل"
+  },
+  "Emballonuridae": {
+    "fa": "خفاشهای بالکیسهای"
+  },
+  "Equidae": {
+    "fa": "اسبیان"
+  },
+  "Erethizontidae": {
+    "en": "New World porcupine",
+    "fa": "تشیهای جهان جدید"
+  },
+  "Erinaceidae": {
+    "fa": "خارپشتسانان"
+  },
+  "Eupleridae": {
+    "fa": "زبادمانندهای ماداگاسکار"
+  },
+  "Felidae": {
+    "fa": "گربهایان"
+  },
+  "Furipteridae": {
+    "fa": "بیانگشتان"
+  },
+  "Galagidae": {
+    "fa": "گالاگو"
+  },
+  "Geomyidae": {
+    "fa": "موشهای کیسهدار"
+  },
+  "Giraffidae": {
+    "fa": "زرافهسانان"
+  },
+  "Gliridae": {
+    "en": "Dormouse",
+    "fa": "سنجابک درختی"
+  },
+  "Herpestidae": {
+    "fa": "خدنگ"
+  },
+  "Heteromyidae": {
+    "fa": "دیگرموشان"
+  },
+  "Hippopotamidae": {
+    "fa": "اسبآبیان"
+  },
+  "Hipposideridae": {
+    "fa": "خفاشهای بینیبرگهای جهان قدیم"
+  },
+  "Hominidae": {
+    "fa": "انسان سانان"
+  },
+  "Hyaenidae": {
+    "en": "Hyenas",
+    "fa": "کفتار"
+  },
+  "Hylobatidae": {
+    "en": "Gibbon",
+    "fa": "گیبون"
+  },
+  "Hypsiprymnodontidae": {
+    "fa": "هیپسیپریمنودونتیده"
+  },
+  "Hystricidae": {
+    "en": "Old World porcupine",
+    "fa": "تشیهای جهان قدیم"
+  },
+  "Indriidae": {
+    "fa": "ایندیریان"
+  },
+  "Iniidae": {
+    "fa": "شبهدولفینیان"
+  },
+  "Kogiidae": {
+    "fa": "کوچکعنبریان"
+  },
+  "Lemuridae": {
+    "fa": "لموریان"
+  },
+  "Leporidae": {
+    "en": "Rabbits and hares",
+    "fa": "خرگوشان"
+  },
+  "Lorisidae": {
+    "fa": "لوریائیان"
+  },
+  "Macropodidae": {
+    "fa": "درازپایان"
+  },
+  "Macroscelididae": {
+    "en": "Elephant Shrews",
+    "fa": "حشرهخوار جهنده"
+  },
+  "Mephitidae": {
+    "en": "Skunk",
+    "fa": "راسوی آمریکایی"
+  },
+  "Microbiotheriidae": {
+    "fa": "کولوکولوسانان"
+  },
+  "Molossidae": {
+    "fa": "خفاشهای دمآزاد"
+  },
+  "Monodontidae": {
+    "fa": "تکدندانان"
+  },
+  "Moschidae": {
+    "fa": "آهوی ختن"
+  },
+  "Muridae": {
+    "en": "Murid",
+    "fa": "موشان"
+  },
+  "Mustelidae": {
+    "en": "Weasel family",
+    "fa": "راسویان"
+  },
+  "Myrmecophagidae": {
+    "fa": "مورچهخواران"
+  },
+  "Myzopodidae": {
+    "en": "Madagascar Sucker-footed Bat."
+  },
+  "Natalidae": {
+    "fa": "گوشقیفان"
+  },
+  "Nesomyidae": {
+    "fa": "موشهای مالاگاسی"
+  },
+  "Noctilionidae": {
+    "en": "Bulldog bats."
+  },
+  "Notoryctidae": {
+    "en": "Marsupial Moles"
+  },
+  "Nycteridae": {
+    "en": "Slit-faced bats."
+  },
+  "Octodontidae": {
+    "fa": "دندانهشتیها"
+  },
+  "Odobenidae": {
+    "fa": "گرازهای دریایی"
+  },
+  "Ornithorhynchidae": {
+    "fa": "اورنیثورینکیدائه"
+  },
+  "Orycteropodidae": {
+    "fa": "آردوارک"
+  },
+  "Otariidae": {
+    "fa": "فک گوشدار"
+  },
+  "Palaeopropithecidae": {
+    "fa": "لمور تنبلی"
+  },
+  "Pedetidae": {
+    "fa": "جهندهخرگوشان"
+  },
+  "Peramelidae": {
+    "fa": "کیسهسموران"
+  },
+  "Petauridae": {
+    "fa": "بادپرکیسهداران"
+  },
+  "Phalangeridae": {
+    "fa": "درختنوردان کیسهدار"
+  },
+  "Phascolarctidae": {
+    "fa": "کیسهخرسان"
+  },
+  "Phocidae": {
+    "fa": "خوک دریایی بیگوش"
+  },
+  "Phocoenidae": {
+    "en": "Porpoise",
+    "fa": "گرازماهی"
+  },
+  "Phyllostomidae": {
+    "fa": "خفاش برگبینی"
+  },
+  "Physeteridae": {
+    "en": "Sperm whales",
+    "fa": "عنبرنهنگیان"
+  },
+  "Pitheciidae": {
+    "fa": "لختصورتان"
+  },
+  "Platacanthomyidae": {
+    "fa": "سنجابکهای درختی شرقی"
+  },
+  "Platanistidae": {
+    "fa": "دلفینان رودخانهای آسیایی"
+  },
+  "Potoroidae": {
+    "fa": "کانگوروهای موشوار"
+  },
+  "Procyonidae": {
+    "en": "Raccoons",
+    "fa": "خرسکیان"
+  },
+  "Pseudocheiridae": {
+    "fa": "شبهدستان"
+  },
+  "Pteropodidae": {
+    "fa": "خفاش میوهخوار"
+  },
+  "Rhinocerotidae": {
+    "en": "Rhinoceros",
+    "fa": "کرگدن"
+  },
+  "Rhinolophidae": {
+    "fa": "خفاش نعلبینی"
+  },
+  "Rhinopomatidae": {
+    "en": "Mouse-tailed bats."
+  },
+  "Sciuridae": {
+    "en": "Squirrel",
+    "fa": "سنجاب"
+  },
+  "Solenodontidae": {
+    "fa": "شکافدندانان"
+  },
+  "Soricidae": {
+    "fa": "حشرهخوار"
+  },
+  "Suidae": {
+    "fa": "گرازسانان"
+  },
+  "Tachyglossidae": {
+    "en": "Echidna",
+    "fa": "خارپشت بیدندان"
+  },
+  "Talpidae": {
+    "fa": "کورموشها"
+  },
+  "Tapiridae": {
+    "en": "Tapir",
+    "fa": "تاپیر"
+  },
+  "Tarsiidae": {
+    "en": "Tarsier",
+    "fa": "شبگردان هندی"
+  },
+  "Tayassuidae": {
+    "fa": "گراز بدبو"
+  },
+  "Tenrecidae": {
+    "en": "Tenrecs",
+    "fa": "تیغپشت"
+  },
+  "Thylacinidae": {
+    "fa": "گرگهای کیسهدار"
+  },
+  "Thyropteridae": {
+    "en": "Disc-winged bats."
+  },
+  "Tragulidae": {
+    "fa": "موشآهو"
+  },
+  "Trichechidae": {
+    "en": "Manatee",
+    "fa": "دریاگاوان"
+  },
+  "Tupaiidae": {
+    "en": "Treeshrew",
+    "fa": "حشرهخوار درختی سنجابی"
+  },
+  "Ursidae": {
+    "en": "Bears",
+    "fa": "خرس"
+  },
+  "Vespertilionidae": {
+    "fa": "خفاشناهیدی"
+  },
+  "Viverridae": {
+    "fa": "گربه زباد"
+  },
+  "Vombatidae": {
+    "fa": "وامبت"
+  },
+  "Zapodidae": {
+    "en": "Jumping mice"
+  },
+  "Ziphiidae": {
+    "fa": "نهنگمنقاریان"
+  },
+  "Abrocoma": {
+    "fa": "موش چینچیلا (سرده)"
+  },
+  "Abrothrix": {
+    "fa": "نرمکرک"
+  },
+  "Acinonyx": {
+    "fa": "پنجهایستاها"
+  },
+  "Acomys": {
+    "fa": "موش خارپشت"
+  },
+  "Aegialomys": {
+    "fa": "موشهای کرانه"
+  },
+  "Aeretes": {
+    "en": "Groove-toothed Flying Squirrel"
+  },
+  "Aeromys": {
+    "en": "Large black flying squirrel",
+    "fa": "موش هوایی"
+  },
+  "Ailuropoda": {
+    "fa": "گربهپاها"
+  },
+  "Ailurops": {
+    "en": "Bear cuscus",
+    "fa": "کوسکوس خرسی"
+  },
+  "Akodon": {
+    "fa": "آکادون"
+  },
+  "Alces": {
+    "en": "Elk"
+  },
+  "Alionycteris": {
+    "en": "Mindanao Pygmy Fruit Bat"
+  },
+  "Allactaga": {
+    "fa": "موشهای دوپای بیابانی"
+  },
+  "Allenopithecus": {
+    "en": "Allen's Swamp Monkey"
+  },
+  "Alouatta": {
+    "fa": "میمون جیغ زن"
+  },
+  "Amblysomus": {
+    "fa": "طلاییموشهای آفریقای جنوبی"
+  },
+  "Ammospermophilus": {
+    "en": "Antelope squirrel genus",
+    "fa": "سنجابهای بیابانی"
+  },
+  "Amorphochilus": {
+    "en": "Smoky Bat."
+  },
+  "Anathana": {
+    "en": "Madras Treeshrew"
+  },
+  "Anoura": {
+    "fa": "خفاشهای دماغدراز جفروی"
+  },
+  "Anourosorex": {
+    "fa": "حشرهخوارهای کور"
+  },
+  "Antechinus": {
+    "fa": "موشهای کیسهدار پاپهن"
+  },
+  "Anthops": {
+    "en": "Flower-faced Bat"
+  },
+  "Antidorcas": {
+    "en": "Springbok",
+    "fa": "غزالهای جهنده"
+  },
+  "Antilocapra": {
+    "fa": "شاخچنگالها"
+  },
+  "Antilope": {
+    "en": "Blackbuck",
+    "fa": "شاخپیچها"
+  },
+  "Aotus": {
+    "fa": "آئوتوس"
+  },
+  "Aplodontia": {
+    "en": "Mountain Beaver"
+  },
+  "Apodemus": {
+    "fa": "موشهای کشتزار"
+  },
+  "Apomys": {
+    "en": "Earthworm mice",
+    "fa": "موشهای جنگلی فیلیپین"
+  },
+  "Arborimus": {
+    "en": "Tree vole"
+  },
+  "Archaeolemur": {
+    "fa": "باستانلمور"
+  },
+  "Archboldomys": {
+    "fa": "موشهای حشرهخوارشکل کوه ایساروگ"
+  },
+  "Arctocebus": {
+    "en": "Angwantibo",
+    "fa": "انگوان تیبو"
+  },
+  "Arctocephalus": {
+    "fa": "خرسسرها"
+  },
+  "Ardops": {
+    "en": "Tree Bat."
+  },
+  "Ariteus": {
+    "en": "Jamaican Fig-eating Bat."
+  },
+  "Artibeus": {
+    "en": "Neotropical fruit bats",
+    "fa": "خفاشهای میوهخوار نوگرمسیری"
+  },
+  "Arvicola": {
+    "fa": "ولهای آبدوست"
+  },
+  "Atelerix": {
+    "fa": "جوجهتیغیهای آفریقایی"
+  },
+  "Ateles": {
+    "en": "Spider monkey",
+    "fa": "میمون عنکبوتی"
+  },
+  "Atherurus": {
+    "en": "Brush-tailed porcupine",
+    "fa": "تشی دمفرچهای"
+  },
+  "Atlantoxerus": {
+    "en": "Barbary Ground Squirrel"
+  },
+  "Avahi": {
+    "en": "Woolly lemur",
+    "fa": "لمور پشمالو"
+  },
+  "Axis": {
+    "fa": "چیتال"
+  },
+  "Babyrousa": {
+    "en": "Babirusa",
+    "fa": "خوکآهو"
+  },
+  "Baiomys": {
+    "fa": "موشهای کوتوله"
+  },
+  "Balaena": {
+    "fa": "نهنگهای سرکمانی"
+  },
+  "Balaenoptera": {
+    "en": "Rorquals",
+    "fa": "تیغبالهها"
+  },
+  "Balantiopteryx": {
+    "en": "Sac-winged bats"
+  },
+  "Balionycteris": {
+    "en": "Spotted-winged Fruit Bat"
+  },
+  "Bassaricyon": {
+    "en": "Olingos",
+    "fa": "باریکخرس"
+  },
+  "Bassariscus": {
+    "fa": "گربهراسو"
+  },
+  "Batomys": {
+    "fa": "موشهای دمپشمی"
+  },
+  "Bdeogale": {
+    "fa": "پاسیاهها"
+  },
+  "Berardius": {
+    "fa": "نوکنهنگ بزرگ"
+  },
+  "Berylmys": {
+    "en": "White-toothed rat",
+    "fa": "موشهای دندانسفید"
+  },
+  "Bettongia": {
+    "fa": "کانگوروی دمقلمویی"
+  },
+  "Bibimys": {
+    "fa": "موشهای بینیزرشکی"
+  },
+  "Blarina": {
+    "en": "American short-tailed shrew",
+    "fa": "حشرهخوار دمکوتاه آمریکایی"
+  },
+  "Blarinella": {
+    "fa": "حشرهخوار دمکوتاه آسیایی (سرده)"
+  },
+  "Bos": {
+    "fa": "گاو"
+  },
+  "Brachyphylla": {
+    "fa": "خفاشهای میوهخوار کارائیب"
+  },
+  "Brachyteles": {
+    "en": "Muriqui",
+    "fa": "میمون عنکبوتی پشمالو"
+  },
+  "Bradypus": {
+    "en": "Three-toed sloth",
+    "fa": "تنبل سهپنجه"
+  },
+  "Bubalus": {
+    "fa": "گاومیشهای آسیایی"
+  },
+  "Bunolagus": {
+    "en": "Riverine Rabbit"
+  },
+  "Cabassous": {
+    "fa": "دمبرهنهها"
+  },
+  "Cacajao": {
+    "en": "Uakari",
+    "fa": "یوآکاری"
+  },
+  "Caenolestes": {
+    "fa": "صاریغهای موشی معمولی"
+  },
+  "Calcochloris": {
+    "fa": "طلاییموشهای آفریقای میانه"
+  },
+  "Callicebus": {
+    "fa": "تیتی"
+  },
+  "Callithrix": {
+    "en": "Marmoset",
+    "fa": "مارموست"
+  },
+  "Callosciurus": {
+    "fa": "زیباسنجابها"
+  },
+  "Callospermophilus": {
+    "fa": "سنجابهای زمینی زرینپوش"
+  },
+  "Calomys": {
+    "en": "Vesper mouse"
+  },
+  "Calomyscus": {
+    "en": "Mouse-like hamster",
+    "fa": "هامسترهای دمدراز"
+  },
+  "Caluromys": {
+    "fa": "صاریغ پشمالو"
+  },
+  "Camelus": {
+    "fa": "شتر"
+  },
+  "Canis": {
+    "en": "Dogs",
+    "fa": "سگ"
+  },
+  "Cannomys": {
+    "en": "Lesser Bamboo Rat"
+  },
+  "Cansumys": {
+    "en": "Gansu Hamster"
+  },
+  "Capra": {
+    "fa": "بز کوهی"
+  },
+  "Capreolus": {
+    "en": "Roe Deer",
+    "fa": "شوکا"
+  },
+  "Capricornis": {
+    "en": "Serow",
+    "fa": "سرو"
+  },
+  "Caprolagus": {
+    "en": "Hispid Hare"
+  },
+  "Caracal": {
+    "fa": "کاراکال"
+  },
+  "Cardiocranius": {
+    "en": "Five-toed Pygmy Jerboa"
+  },
+  "Cardioderma": {
+    "en": "Heart-nosed Bat"
+  },
+  "Carollia": {
+    "fa": "خفاشهای برگبینی دمکوتاه"
+  },
+  "Carpomys": {
+    "fa": "موشهای درختی لوزان"
+  },
+  "Castor": {
+    "en": "Beaver",
+    "fa": "سگ آبی"
+  },
+  "Catopuma": {
+    "en": "Golden cat",
+    "fa": "زرینگربهها"
+  },
+  "Cavia": {
+    "en": "Guinea pig",
+    "fa": "خوکچه هندی"
+  },
+  "Cebus": {
+    "fa": "میمون کپوچین نازکاندام"
+  },
+  "Centurio": {
+    "en": "Wrinkle-faced Bat."
+  },
+  "Cephalorhynchus": {
+    "fa": "سیاهسفیدها"
+  },
+  "Cercartetus": {
+    "fa": "خوابالوصاریغها"
+  },
+  "Cercopithecus": {
+    "en": "Guenon"
+  },
+  "Cervus": {
+    "fa": "آهوها"
+  },
+  "Chaeropus": {
+    "fa": "باندیکوتهای خوکپا"
+  },
+  "Chaetodipus": {
+    "fa": "دوپافرچهایها"
+  },
+  "Chaetophractus": {
+    "fa": "پشمینپوستهها"
+  },
+  "Chalinolobus": {
+    "en": "Pied bats; Wattled bats."
+  },
+  "Cheirogaleus": {
+    "en": "Dwarf lemur",
+    "fa": "لمور کوتوله"
+  },
+  "Chimarrogale": {
+    "en": "Asiatic water shrew",
+    "fa": "حشرهخوارهای آبی آسیایی"
+  },
+  "Chinchilla": {
+    "fa": "چینچیلا"
+  },
+  "Chiroderma": {
+    "fa": "خفاشهای چشمبزرگ"
+  },
+  "Chironax": {
+    "en": "Black-capped Fruit Bat"
+  },
+  "Chiropodomys": {
+    "en": "Pencil-tailed tree mouse"
+  },
+  "Chiropotes": {
+    "fa": "ساکی ریشو"
+  },
+  "Chlorocebus": {
+    "en": "Green monkeys",
+    "fa": "کلروسبوس"
+  },
+  "Choeroniscus": {
+    "en": "Long-tailed Bats."
+  },
+  "Choeronycteris": {
+    "en": "Mexican Long-tongued Bat."
+  },
+  "Choloepus": {
+    "fa": "تنبل دوپنجه"
+  },
+  "Chrotomys": {
+    "fa": "خرموشهای راهراه لوزان"
+  },
+  "Chrotopterus": {
+    "en": "Big-eared Wooly Bat."
+  },
+  "Chrysochloris": {
+    "fa": "زرینسبزها"
+  },
+  "Chrysocyon": {
+    "en": "Maned Wolf"
+  },
+  "Chrysospalax": {
+    "fa": "طلاییموشهای بزرگ"
+  },
+  "Civettictis": {
+    "fa": "گربهزبادهای آفریقایی"
+  },
+  "Cloeotis": {
+    "en": "Percival's Trident Bat"
+  },
+  "Colobus": {
+    "fa": "میمون بیشست سیاه و سفید"
+  },
+  "Condylura": {
+    "en": "Star-nosed Mole"
+  },
+  "Conepatus": {
+    "en": "Hog-nosed skunks",
+    "fa": "گندراسوی خوکبینی"
+  },
+  "Congosorex": {
+    "en": "Congo shrew"
+  },
+  "Conilurus": {
+    "en": "Rabbit rat",
+    "fa": "موشهای خرگوشی"
+  },
+  "Connochaetes": {
+    "en": "Wildebeest",
+    "fa": "گاو وحشی"
+  },
+  "Cormura": {
+    "en": "Sac-winged bats."
+  },
+  "Coryphomys": {
+    "fa": "فرقموش"
+  },
+  "Craseonycteris": {
+    "en": "Kitti's Hog-nosed Bat."
+  },
+  "Crateromys": {
+    "fa": "موشهای ابری"
+  },
+  "Crocidura": {
+    "fa": "حشرهخوارهای سفیددندان"
+  },
+  "Crocuta": {
+    "en": "Spotted Hyena"
+  },
+  "Crossarchus": {
+    "fa": "خدنگک"
+  },
+  "Cryptochloris": {
+    "en": "Golden moles"
+  },
+  "Cryptonanus": {
+    "fa": "نهانکوتولهها"
+  },
+  "Cryptoprocta": {
+    "en": "Fossa (animal)"
+  },
+  "Cryptotis": {
+    "fa": "حشرهخوار گوشکوچک (سرده)"
+  },
+  "Ctenodactylus": {
+    "fa": "شانهموشها"
+  },
+  "Ctenomys": {
+    "fa": "شانهموش"
+  },
+  "Cuniculus": {
+    "en": "Paca",
+    "fa": "پاکا"
+  },
+  "Cuscomys": {
+    "fa": "موش چینچیلای درختی"
+  },
+  "Cynocephalus": {
+    "en": "Colugo"
+  },
+  "Cynomys": {
+    "fa": "سگ دشتی"
+  },
+  "Cynopterus": {
+    "fa": "خفاشهای میوهخوار سگصورت"
+  },
+  "Cystophora": {
+    "en": "Cystophore"
+  },
+  "Cyttarops": {
+    "en": "Short-eared Bat."
+  },
+  "Dactylomys": {
+    "fa": "موشهای انگشتدراز"
+  },
+  "Dactylopsila": {
+    "fa": "صاریغهای راهراه"
+  },
+  "Dama": {
+    "fa": "گوزنهای زرد"
+  },
+  "Damaliscus": {
+    "fa": "شاخچنگی"
+  },
+  "Dasycercus": {
+    "en": "Mulgara",
+    "fa": "مولگارا"
+  },
+  "Dasyprocta": {
+    "en": "Common agouti",
+    "fa": "آگوتی"
+  },
+  "Dasypus": {
+    "fa": "پشمینهپاها"
+  },
+  "Dasyurus": {
+    "en": "Quoll",
+    "fa": "راسوی کیسهدار"
+  },
+  "Delanymys": {
+    "en": "Delany's Swamp Mouse"
+  },
+  "Delphinus": {
+    "fa": "دلفین معمولی"
+  },
+  "Dendrogale": {
+    "fa": "نرمدمها"
+  },
+  "Dendrohyrax": {
+    "en": "Tree hyrax",
+    "fa": "خرگوشهای کوهی درختی"
+  },
+  "Dendrolagus": {
+    "en": "Tree-kangaroo",
+    "fa": "کانگوروی درختی"
+  },
+  "Dendromus": {
+    "fa": "موشهای درختی"
+  },
+  "Desmana": {
+    "en": "Russian Desman"
+  },
+  "Diaemus": {
+    "en": "White-winged Vampire Bat"
+  },
+  "Diceros": {
+    "fa": "دوشاخها"
+  },
+  "Dicrostonyx": {
+    "en": "Collared lemming",
+    "fa": "موش قطبی یقهدار"
+  },
+  "Didelphis": {
+    "fa": "دوزهدانها"
+  },
+  "Diphylla": {
+    "en": "Hairy-legged Vampire Bat."
+  },
+  "Diplomys": {
+    "fa": "دوگانهموش"
+  },
+  "Dipodomys": {
+    "en": "Kangaroo rat",
+    "fa": "خرموش کانگورویی"
+  },
+  "Dipus": {
+    "fa": "دوپاها"
+  },
+  "Dolichotis": {
+    "fa": "گوشبلند"
+  },
+  "Dorcatragus": {
+    "en": "Beira"
+  },
+  "Dremomys": {
+    "en": "Red-cheeked squirrel",
+    "fa": "سنجاب گونهسرخ"
+  },
+  "Echinops": {
+    "en": "Globethistle",
+    "fa": "شکرتیغال"
+  },
+  "Echymipera": {
+    "fa": "باندیکوت خاردار گینه نو"
+  },
+  "Ectophylla": {
+    "en": "Honduran White Bat."
+  },
+  "Eidolon": {
+    "fa": "خفاشهای میوهخوار کاهیرنگ"
+  },
+  "Eira": {
+    "en": "Tayra"
+  },
+  "Elephantulus": {
+    "fa": "حشرهخوارهای فیلچهای"
+  },
+  "Elephas": {
+    "fa": "آسیافیل"
+  },
+  "Eliomys": {
+    "fa": "الیومیس"
+  },
+  "Emballonura": {
+    "en": "Sheath-Tailed Bats"
+  },
+  "Enchisthenes": {
+    "en": "Velvety Fruit-eating Bat."
+  },
+  "Eothenomys": {
+    "en": "Chinese voles"
+  },
+  "Episoriculus": {
+    "fa": "حشرهخوار دندانقهوهای (سرده)"
+  },
+  "Epomophorus": {
+    "en": "Epauletted Fruit Bat"
+  },
+  "Epomops": {
+    "en": "Epauletted Fruit Bat"
+  },
+  "Equus": {
+    "fa": "ستوران"
+  },
+  "Erinaceus": {
+    "fa": "جوجهتیغیهای گوشکوچک"
+  },
+  "Erythrocebus": {
+    "en": "Patas Monkey"
+  },
+  "Eschrichtius": {
+    "en": "Gray Whale",
+    "fa": "خاکسترینهنگها"
+  },
+  "Eubalaena": {
+    "en": "Right whale",
+    "fa": "نهنگ شکار"
+  },
+  "Euderma": {
+    "en": "Spotted Bat."
+  },
+  "Eudiscopus": {
+    "en": "Disk-footed Bat."
+  },
+  "Eudorcas": {
+    "fa": "خوششاخها"
+  },
+  "Euoticus": {
+    "fa": "شبدوست پنجهسوزنی"
+  },
+  "Eupleres": {
+    "fa": "فالانوکها"
+  },
+  "Eutamias": {
+    "fa": "هوسمورچهها"
+  },
+  "Exilisciurus": {
+    "fa": "سنجاب کوتوله آسیایی"
+  },
+  "Felis": {
+    "fa": "گربهها"
+  },
+  "Funambulus": {
+    "en": "Palm Squirrels",
+    "fa": "سنجاب نخلی"
+  },
+  "Funisciurus": {
+    "en": "African striped squirrel",
+    "fa": "سنجاب نواری آفریقایی"
+  },
+  "Furipterus": {
+    "en": "Thumbless Bat."
+  },
+  "Galago": {
+    "fa": "شبدوست کوچک"
+  },
+  "Galea": {
+    "fa": "خوکچه دندانزرد"
+  },
+  "Galictis": {
+    "fa": "دیزهراسو"
+  },
+  "Galidia": {
+    "en": "Ring-tailed Mongoose"
+  },
+  "Galidictis": {
+    "fa": "راسوزبادها"
+  },
+  "Gazella": {
+    "en": "Gazella Pallas, 1769",
+    "fa": "آهو"
+  },
+  "Genetta": {
+    "en": "Genet",
+    "fa": "مشکینگربه"
+  },
+  "Geocapromys": {
+    "fa": "هوتیاهای زمینی"
+  },
+  "Geosciurus": {
+    "fa": "سنجابهای زمینی آفریقای جنوبی"
+  },
+  "Gerbilliscus": {
+    "fa": "جربیلهای پابرهنه"
+  },
+  "Giraffa": {
+    "en": "Giraffe",
+    "fa": "زرافه"
+  },
+  "Glaucomys": {
+    "en": "American Flying Squirrels",
+    "fa": "سنجاب پرنده جهان جدید"
+  },
+  "Glossophaga": {
+    "en": "Long-tongued Bats.",
+    "fa": "زبانخوارها"
+  },
+  "Gorilla": {
+    "fa": "گوریل"
+  },
+  "Gracilinanus": {
+    "fa": "صاریغهای باریکاندام"
+  },
+  "Grammomys": {
+    "fa": "موشهای نقشدار"
+  },
+  "Graomys": {
+    "en": "Leaf-Eared Mice"
+  },
+  "Graphiurus": {
+    "fa": "موش زمستانخواب آفریقایی"
+  },
+  "Habromys": {
+    "fa": "موشهای آهویی مکزیکی"
+  },
+  "Haplonycteris": {
+    "en": "Philippine Pygmy Fruit Bat"
+  },
+  "Heliosciurus": {
+    "en": "Sun squirrel",
+    "fa": "سنجاب آفتاب"
+  },
+  "Helogale": {
+    "fa": "کوتولهخدنگ"
+  },
+  "Hemicentetes": {
+    "fa": "تیغپشتهای نواری"
+  },
+  "Hemiechinus": {
+    "en": "Steppe Hedgehogs",
+    "fa": "جوجهتیغیهای گوشدراز"
+  },
+  "Herpestes": {
+    "fa": "خدنگ"
+  },
+  "Heteromys": {
+    "fa": "دیگرموشها"
+  },
+  "Hippopotamus": {
+    "fa": "اسبهای آبی"
+  },
+  "Hippotragus": {
+    "fa": "بزاسبیها"
+  },
+  "Homo": {
+    "fa": "انسان"
+  },
+  "Hoolock": {
+    "fa": "هولوک"
+  },
+  "Hyaena": {
+    "fa": "کفتار"
+  },
+  "Hydropotes": {
+    "en": "Water deer"
+  },
+  "Hylobates": {
+    "fa": "هیلوبات"
+  },
+  "Hylomys": {
+    "fa": "چوبموشها"
+  },
+  "Hylonycteris": {
+    "en": "Underwood's Long-tongued Bat."
+  },
+  "Hylopetes": {
+    "fa": "جنگلپر"
+  },
+  "Hyomys": {
+    "en": "White-eared giant rat",
+    "fa": "موشهای بزرگ گوشسفید"
+  },
+  "Hyosciurus": {
+    "fa": "سنجاب بینیدراز"
+  },
+  "Hyperoodon": {
+    "fa": "نهنگ پوزهبطری"
+  },
+  "Hypsignathus": {
+    "en": "Hammer-headed Fruit bat"
+  },
+  "Hypsiprymnodon": {
+    "en": "Musky rat kangaroo"
+  },
+  "Hypsugo": {
+    "en": "Asian pipistrelles."
+  },
+  "Hystrix": {
+    "fa": "تشی"
+  },
+  "Ia": {
+    "en": "Great Evening Bat."
+  },
+  "Ichthyomys": {
+    "fa": "موشهای خرچنگخوار"
+  },
+  "Ictidomys": {
+    "fa": "راسوموش"
+  },
+  "Ictonyx": {
+    "fa": "قاقمهای دورنگ راهراه"
+  },
+  "Idionycteris": {
+    "en": "Allen's Big-eared Bat."
+  },
+  "Idiurus": {
+    "en": "Flying mouse",
+    "fa": "موش پرنده"
+  },
+  "Inia": {
+    "fa": "دلفینهای رودخانهای آمریکای جنوبی"
+  },
+  "Iomys": {
+    "fa": "سنجابهای پرنده اندونزی"
+  },
+  "Isoodon": {
+    "en": "Short-nosed bandicoot",
+    "fa": "باندیکوت پوزهکوتاه"
+  },
+  "Isothrix": {
+    "fa": "موشهای دمفرچهای"
+  },
+  "Isthmomys": {
+    "fa": "موشهای برزخ"
+  },
+  "Jaculus": {
+    "fa": "پامسواکی"
+  },
+  "Juscelinomys": {
+    "fa": "موشهای کاونده"
+  },
+  "Kerivoula": {
+    "en": "Vesper bats.",
+    "fa": "خفاشهای پشمین"
+  },
+  "Kerodon": {
+    "fa": "خوکچه صخره"
+  },
+  "Kobus": {
+    "fa": "کلهای آفریقایی"
+  },
+  "Kunsia": {
+    "fa": "موشهای بزرگجثه"
+  },
+  "Lagenorhynchus": {
+    "fa": "پهلوسفیدها"
+  },
+  "Lagorchestes": {
+    "fa": "والابیهای خرگوشی"
+  },
+  "Lagothrix": {
+    "en": "Woolly monkey",
+    "fa": "میمون پشمالو"
+  },
+  "Lagurus": {
+    "en": "Harestail grass"
+  },
+  "Lama": {
+    "fa": "لاما"
+  },
+  "Lampronycteris": {
+    "en": "Orange-throated Bat."
+  },
+  "Lariscus": {
+    "fa": "سنجاب زمینی نواری"
+  },
+  "Lasiorhinus": {
+    "fa": "وامبت بینیمودار"
+  },
+  "Lasiurus": {
+    "en": "Hairy-tailed Bats.",
+    "fa": "خفاشهای دمپشمی"
+  },
+  "Latidens": {
+    "en": "Salim Ali's fruit bat"
+  },
+  "Leimacomys": {
+    "en": "Togo Mouse"
+  },
+  "Lemmus": {
+    "en": "True lemming"
+  },
+  "Lemniscomys": {
+    "en": "Striped grass mouse"
+  },
+  "Leontopithecus": {
+    "en": "Lion tamarin"
+  },
+  "Leopardus": {
+    "fa": "یوزگربهها"
+  },
+  "Lepilemur": {
+    "fa": "لمورهای ورزشکار"
+  },
+  "Leporillus": {
+    "fa": "موشهای لانهچوبی"
+  },
+  "Leptomys": {
+    "fa": "باریکموش"
+  },
+  "Leptonycteris": {
+    "en": "Saussure's long-nosed bat",
+    "fa": "خفاشهای دماغدراز سوسور"
+  },
+  "Lepus": {
+    "en": "Hare",
+    "fa": "خرگوشها"
+  },
+  "Liberiictis": {
+    "en": "Liberian Mongoose"
+  },
+  "Lionycteris": {
+    "en": "Chestnut Long-tongued Bat."
+  },
+  "Lipotes": {
+    "en": "Chinese River Dolphin"
+  },
+  "Lissodelphis": {
+    "en": "Right whale dolphin",
+    "fa": "دلفین صاف"
+  },
+  "Lonchophylla": {
+    "en": "Nectar Bats."
+  },
+  "Lonchorhina": {
+    "en": "Sword-nosed Bats.",
+    "fa": "خفاشهای دماغشمشیری"
+  },
+  "Lontra": {
+    "fa": "رودسمورها"
+  },
+  "Lophostoma": {
+    "fa": "کاکلیدهانها"
+  },
+  "Loris": {
+    "en": "Slender loris",
+    "fa": "چشمگرد لاغر"
+  },
+  "Loxodonta": {
+    "en": "African elephant",
+    "fa": "فیل آفریقایی"
+  },
+  "Lupulella": {
+    "fa": "کوچک گرگیها"
+  },
+  "Lutra": {
+    "fa": "شنگها"
+  },
+  "Lycalopex": {
+    "en": "South American foxes",
+    "fa": "روباههای آمریکای جنوبی"
+  },
+  "Lynx": {
+    "fa": "لینکس (وشق)"
+  },
+  "Macaca": {
+    "en": "Macaques",
+    "fa": "ماکاک"
+  },
+  "Macroglossus": {
+    "fa": "خفاشهای زباندراز"
+  },
+  "Macrophyllum": {
+    "en": "Long-legged Bat."
+  },
+  "Macropus": {
+    "fa": "درازپاها"
+  },
+  "Macroscelides": {
+    "fa": "حشرهخوارهای گوشگرد"
+  },
+  "Macrotarsomys": {
+    "en": "Big-footed Mice"
+  },
+  "Macrotis": {
+    "fa": "بزرگگوشها"
+  },
+  "Macrotus": {
+    "fa": "خفاشهای گوشبزرگ"
+  },
+  "Madoqua": {
+    "fa": "دیکدیک"
+  },
+  "Malacothrix": {
+    "en": "Desertdandelion"
+  },
+  "Mammelomys": {
+    "fa": "موشهای دمچهارخانهای بزرگ"
+  },
+  "Manis": {
+    "fa": "پانگولین"
+  },
+  "Margaretamys": {
+    "fa": "موشهای مارگارتا"
+  },
+  "Marmosa": {
+    "en": "Mouse opossum",
+    "fa": "موشصاریغها"
+  },
+  "Marmosops": {
+    "fa": "صاریغهای قلمی"
+  },
+  "Marmota": {
+    "en": "Marmot",
+    "fa": "مارموت"
+  },
+  "Martes": {
+    "en": "Marten",
+    "fa": "راسوهای دکه"
+  },
+  "Mazama": {
+    "en": "Brocket deer",
+    "fa": "آهوچه"
+  },
+  "Megadontomys": {
+    "en": "Giant Deer Mice",
+    "fa": "موشهای آهویی بزرگ"
+  },
+  "Megaladapis": {
+    "fa": "لمور کوآلایی"
+  },
+  "Megaloglossus": {
+    "en": "Long-tongued Fruit Bats"
+  },
+  "Megaptera": {
+    "en": "Humpback Whales"
+  },
+  "Meles": {
+    "en": "European Badgers",
+    "fa": "رودک (سرده)"
+  },
+  "Melogale": {
+    "en": "Ferret-badger",
+    "fa": "سرنواری"
+  },
+  "Melomys": {
+    "fa": "موشهای موزخوار"
+  },
+  "Melonycteris": {
+    "fa": "خفاشهای سلیمان"
+  },
+  "Mephitis": {
+    "fa": "گندراسو"
+  },
+  "Mesechinus": {
+    "en": "Steppe Hedgehogs",
+    "fa": "جوجهتیغیهای دشتی"
+  },
+  "Mesocapromys": {
+    "fa": "هوتیاهای میانه"
+  },
+  "Mesophylla": {
+    "en": "MacConnell's Bat."
+  },
+  "Mesoplodon": {
+    "fa": "نهنگ میاندندان"
+  },
+  "Microcavia": {
+    "fa": "خوکچه کوهی"
+  },
+  "Microcebus": {
+    "fa": "موش لمور"
+  },
+  "Microdipodops": {
+    "en": "Kangaroo mouse",
+    "fa": "موش کانگورویی"
+  },
+  "Microgale": {
+    "fa": "سموریهای کوچک"
+  },
+  "Micromys": {
+    "fa": "موشچه"
+  },
+  "Micronycteris": {
+    "fa": "خفاشهای گوشبزرگ کوچک"
+  },
+  "Microperoryctes": {
+    "en": "New Guinean mouse bandicoot",
+    "fa": "باندیکوت موشی گینه نو"
+  },
+  "Micropotamogale": {
+    "fa": "سموریهای رودخانهای کوچک"
+  },
+  "Microsciurus": {
+    "fa": "سنجاب کوتوله"
+  },
+  "Microtus": {
+    "fa": "ولهای ریزگوش"
+  },
+  "Mimetillus": {
+    "en": "Narrow-winged Bats"
+  },
+  "Mimon": {
+    "fa": "خفاشهای دماغنیزهای گری"
+  },
+  "Miniopterus": {
+    "fa": "خفاشهای بالخمیده"
+  },
+  "Miopithecus": {
+    "en": "Talapoin",
+    "fa": "تالاپوین"
+  },
+  "Mirounga": {
+    "en": "Elephant seal",
+    "fa": "فیل دریایی"
+  },
+  "Mirza": {
+    "en": "Giant mouse lemur",
+    "fa": "لمور موشی بزرگ"
+  },
+  "Mogera": {
+    "fa": "موش کورهای ژاپنی"
+  },
+  "Monachus": {
+    "fa": "موناکوس"
+  },
+  "Monodelphis": {
+    "en": "Short-tailed opossum",
+    "fa": "تکزهدانها"
+  },
+  "Monophyllus": {
+    "en": "Single Leaf Bats."
+  },
+  "Moschiola": {
+    "fa": "موشآهوی خالدار"
+  },
+  "Moschus": {
+    "fa": "آهوی ختن"
+  },
+  "Mosia": {
+    "en": "Dark Sheath-tailed Bat"
+  },
+  "Mungos": {
+    "fa": "راهراهخدنگ"
+  },
+  "Muntiacus": {
+    "fa": "گوزن فریادکش"
+  },
+  "Murina": {
+    "en": "Hairy-Winged Bats."
+  },
+  "Mus": {
+    "en": "Mus (hayvan)",
+    "fa": "موش"
+  },
+  "Musonycteris": {
+    "en": "Banana Bat."
+  },
+  "Mustela": {
+    "en": "Weasel",
+    "fa": "راسو"
+  },
+  "Mydaus": {
+    "fa": "گورکن بدبو"
+  },
+  "Myoictis": {
+    "fa": "ستبردمهای سهنواره"
+  },
+  "Myomimus": {
+    "fa": "میومیموس"
+  },
+  "Myoprocta": {
+    "en": "Acouchi",
+    "fa": "آکوچی"
+  },
+  "Myopterus": {
+    "en": "Free-tailed Bats."
+  },
+  "Myotis": {
+    "fa": "خفاش گوشموشی"
+  },
+  "Myrmecobius": {
+    "en": "Myrmecobius Mello-Leitão, 1923"
+  },
+  "Myrmecophaga": {
+    "en": "Giant anteater"
+  },
+  "Mystacina": {
+    "fa": "خفاش دمکوتاه"
+  },
+  "Myzopoda": {
+    "fa": "مکندهپایان"
+  },
+  "Naemorhedus": {
+    "en": "Goral",
+    "fa": "گورال"
+  },
+  "Nannosciurus": {
+    "en": "Black-eared Pygmy Squirrel"
+  },
+  "Nanonycteris": {
+    "en": "Veldkamp's Dwarf Epauletted Fruit Bat"
+  },
+  "Nasua": {
+    "en": "Coati",
+    "fa": "بینیخرسها"
+  },
+  "Necromys": {
+    "en": "Bolo Mouse"
+  },
+  "Nectomys": {
+    "en": "Water Rats"
+  },
+  "Nelsonia": {
+    "en": "Nelsonia Parent (1933) non Merriam (1897)",
+    "fa": "موشهای جنگلی ریز"
+  },
+  "Neofelis": {
+    "fa": "نوگربهها"
+  },
+  "Neomonachus": {
+    "fa": "نوفکهای راهب"
+  },
+  "Neomys": {
+    "fa": "حشرهخوارهای آبی اوراسیایی"
+  },
+  "Neonycteris": {
+    "en": "Least Big-eared Bat."
+  },
+  "Neophocaena": {
+    "en": "Finless Porpoise",
+    "fa": "گرازماهیهای نو"
+  },
+  "Neopteryx": {
+    "en": "Small-toothed Fruit Bat"
+  },
+  "Neotamias": {
+    "fa": "سمورچه غربی"
+  },
+  "Neotoma": {
+    "en": "Neotoma (Neotoma)",
+    "fa": "موش کپهساز"
+  },
+  "Neotragus": {
+    "fa": "کلچهها"
+  },
+  "Nesolagus": {
+    "fa": "خرگوشکهای نواردار"
+  },
+  "Nesophontes": {
+    "fa": "حشرهخوارهای هند غربی"
+  },
+  "Neusticomys": {
+    "en": "Fish-eating rats",
+    "fa": "موشهای ماهیخوار"
+  },
+  "Ningaui": {
+    "fa": "نینگوی"
+  },
+  "Noctilio": {
+    "en": "Noctilio (Noctilio)",
+    "fa": "خفاش بولداگ"
+  },
+  "Nomascus": {
+    "fa": "نوماسکوس"
+  },
+  "Notiomys": {
+    "en": "Edward's Long-clawed Mouse"
+  },
+  "Notiosorex": {
+    "en": "Gray Shrew",
+    "fa": "حشرهخوار خاکستری (سرده)"
+  },
+  "Notocitellus": {
+    "fa": "سنجابهای زمینی گرمسیری"
+  },
+  "Notomys": {
+    "en": "Hopping mouse",
+    "fa": "موش جهنده"
+  },
+  "Notopteris": {
+    "fa": "خفاشهای میوهخوار دمدراز"
+  },
+  "Notoryctes": {
+    "fa": "موش کور کیسهدار"
+  },
+  "Nyctalus": {
+    "fa": "خفاشهای جنگلی"
+  },
+  "Nyctereutes": {
+    "en": "Raccoon dog",
+    "fa": "شبنوردها"
+  },
+  "Nycticebus": {
+    "fa": "لوریس تنبل"
+  },
+  "Nyctiellus": {
+    "en": "Gervais's Funnel-eared Bat."
+  },
+  "Nyctimene": {
+    "fa": "خفاشهای میوهخوار بینیلولهای"
+  },
+  "Nyctomys": {
+    "en": "Sumichrast's Vesper Rats"
+  },
+  "Ochotona": {
+    "fa": "پیکا"
+  },
+  "Odocoileus": {
+    "fa": "دندانتهی"
+  },
+  "Oenomys": {
+    "fa": "موشهای دماغحنایی"
+  },
+  "Onychogalea": {
+    "fa": "والابی دمسوزنی"
+  },
+  "Onychomys": {
+    "en": "Grasshopper mouse",
+    "fa": "موش ملخخوار"
+  },
+  "Orcaella": {
+    "en": "Snubfin Dolphins",
+    "fa": "پخبالهها"
+  },
+  "Orcinus": {
+    "fa": "قاتلها"
+  },
+  "Oreamnos": {
+    "fa": "بز کوهی آمریکای شمالی"
+  },
+  "Oreotragus": {
+    "en": "Klipspringer"
+  },
+  "Orycteropus": {
+    "fa": "خوکخاکیان"
+  },
+  "Oryctolagus": {
+    "en": "European Rabbit",
+    "fa": "خرگوشکهای اروپایی"
+  },
+  "Oryx": {
+    "fa": "اوریکس"
+  },
+  "Oryzomys": {
+    "fa": "موش برنج"
+  },
+  "Oryzorictes": {
+    "fa": "تیغپشت برنجی"
+  },
+  "Osgoodomys": {
+    "en": "Michoacan Deer Mouse"
+  },
+  "Otolemur": {
+    "en": "Greater galago",
+    "fa": "شبدوست بزرگ"
+  },
+  "Otomys": {
+    "fa": "موشهای مانداب"
+  },
+  "Otonyctomys": {
+    "en": "Hatt's Vesper Rat"
+  },
+  "Otospermophilus": {
+    "fa": "سنجابهای زمینی صخرهای"
+  },
+  "Ototylomys": {
+    "en": "Big-Eared Climbing Rats"
+  },
+  "Ovis": {
+    "fa": "قوچومیش"
+  },
+  "Oxymycterus": {
+    "fa": "موشهای بینیدراز"
+  },
+  "Pachyuromys": {
+    "en": "Fat-tailed Gerbil"
+  },
+  "Pan": {
+    "fa": "شمپانزه"
+  },
+  "Panthera": {
+    "en": "Big cats",
+    "fa": "پلنگیان"
+  },
+  "Papio": {
+    "en": "Baboon",
+    "fa": "انتر"
+  },
+  "Paracrocidura": {
+    "en": "Large-headed shrew"
+  },
+  "Paradoxurus": {
+    "fa": "ناسازنماها"
+  },
+  "Paraechinus": {
+    "fa": "خارپشتهای بیابانی"
+  },
+  "Paramelomys": {
+    "fa": "موشهای موزخوار متفاوت"
+  },
+  "Paranyctimene": {
+    "fa": "خفاشهای میوهخوار بینیلولهای فرعی"
+  },
+  "Paraxerus": {
+    "en": "African bush squirrel",
+    "fa": "سنجاب بوتهای آفریقایی"
+  },
+  "Pardofelis": {
+    "fa": "پلنگگربهها"
+  },
+  "Pattonomys": {
+    "fa": "موش پتون"
+  },
+  "Pedetes": {
+    "fa": "خرگوشهای جهنده"
+  },
+  "Pentalagus": {
+    "en": "Amami Rabbit"
+  },
+  "Peponocephala": {
+    "en": "Melon-headed Whale"
+  },
+  "Perameles": {
+    "fa": "باندیکوتهای پوزهبلند"
+  },
+  "Perodicticus": {
+    "en": "Potto"
+  },
+  "Perognathus": {
+    "fa": "کیسهآروارهها"
+  },
+  "Peromyscus": {
+    "en": "Deer Mice",
+    "fa": "موشهای آهویی"
+  },
+  "Peropteryx": {
+    "en": "Dog-like Bats."
+  },
+  "Peroryctes": {
+    "en": "New Guinean long-nosed bandicoot",
+    "fa": "باندیکوت پوزهبلند گینه نو"
+  },
+  "Petaurillus": {
+    "en": "Pygmy flying squirrel",
+    "fa": "سنجاب پرنده کوتوله"
+  },
+  "Petaurista": {
+    "en": "Giant Flying Squirrels",
+    "fa": "سنجابهای بندباز"
+  },
+  "Petaurus": {
+    "en": "Flying phalangers",
+    "fa": "بادپرکیسهدارها"
+  },
+  "Petinomys": {
+    "fa": "موش پروازی"
+  },
+  "Petrogale": {
+    "en": "Rock-wallaby",
+    "fa": "والابی صخره"
+  },
+  "Phacochoerus": {
+    "fa": "زگیلداران"
+  },
+  "Phaenomys": {
+    "en": "Rio de Janeiro Arboreal Rat"
+  },
+  "Phalanger": {
+    "en": "Common Cuscuses",
+    "fa": "پرهکیسهدارها"
+  },
+  "Phaner": {
+    "en": "Fork-marked lemur",
+    "fa": "لمور چنگالنشان"
+  },
+  "Pharotis": {
+    "en": "Thomas's Big-eared Bat."
+  },
+  "Phascogale": {
+    "fa": "راسوی کیسهدار"
+  },
+  "Phascolarctos": {
+    "fa": "کیسهخرس"
+  },
+  "Phascolosorex": {
+    "en": "Marsupial shrew",
+    "fa": "حشرهخوار کیسهدار"
+  },
+  "Phenacomys": {
+    "en": "Heather vole"
+  },
+  "Philander": {
+    "en": "Gray and black four-eyed opossum",
+    "fa": "صاریغهای چهارچشم"
+  },
+  "Phloeomys": {
+    "fa": "موشهای ابری دمباریک"
+  },
+  "Phoca": {
+    "fa": "بیگوشفکها"
+  },
+  "Phocoena": {
+    "en": "Common porpoises"
+  },
+  "Phylloderma": {
+    "en": "Pale-faced Bat."
+  },
+  "Phyllonycteris": {
+    "en": "Flower Bats."
+  },
+  "Phyllops": {
+    "en": "Cuban Fig-eating Bat."
+  },
+  "Phyllostomus": {
+    "en": "Spear-nosed Bats.",
+    "fa": "خفاشهای دماغنیزهای"
+  },
+  "Piliocolobus": {
+    "en": "Red Colobus",
+    "fa": "میمون سرخ"
+  },
+  "Pipanacoctomys": {
+    "en": "Golden Vizcacha Rat"
+  },
+  "Pipistrellus": {
+    "en": "Pipistrellus (Pipistrellus)",
+    "fa": "شبپرکها"
+  },
+  "Pithecheir": {
+    "fa": "موشهای پامیمونی"
+  },
+  "Pithecia": {
+    "fa": "ساکی (میمون)"
+  },
+  "Plagiodontia": {
+    "fa": "اریبدندانها"
+  },
+  "Planigale": {
+    "fa": "کیسهموشها"
+  },
+  "Platalina": {
+    "en": "Long-snouted Bat."
+  },
+  "Platanista": {
+    "fa": "دلفین رودخانهای جنوب آسیا"
+  },
+  "Platymops": {
+    "en": "Peters's Flat-headed Bat."
+  },
+  "Plerotes": {
+    "en": "Anchieta's Broad-faced Fruit Bat"
+  },
+  "Podogymnura": {
+    "en": "Phillipine Gymnures",
+    "fa": "پاموشتیغیها"
+  },
+  "Podomys": {
+    "en": "Florida Mouse"
+  },
+  "Podoxymys": {
+    "en": "Roraima Mouse"
+  },
+  "Poecilogale": {
+    "en": "African Striped Weasel"
+  },
+  "Poiana": {
+    "fa": "دندانارهایهای آفریقا"
+  },
+  "Pongo": {
+    "en": "Orangutan",
+    "fa": "اورانگوتان"
+  },
+  "Potamochoerus": {
+    "fa": "رودخوکها"
+  },
+  "Potorous": {
+    "fa": "کانگوروی خرگوشی"
+  },
+  "Potos": {
+    "en": "Kinkajou"
+  },
+  "Presbytis": {
+    "en": "Surili",
+    "fa": "میمونکاکلی"
+  },
+  "Prionailurus": {
+    "fa": "پلنگگربههای آسیایی"
+  },
+  "Prionodon": {
+    "fa": "ارهدندان آسیایی"
+  },
+  "Prionomys": {
+    "en": "Dollman's Tree Mouse"
+  },
+  "Procapra": {
+    "fa": "پیشبزها"
+  },
+  "Procavia": {
+    "fa": "خرگوشهای کوهی صخره"
+  },
+  "Procyon": {
+    "en": "Raccoons",
+    "fa": "خرسکیها"
+  },
+  "Prolagus": {
+    "fa": "پیشخرگوش"
+  },
+  "Pronolagus": {
+    "en": "Red rock hare",
+    "fa": "خرگوش سنگ سرخ"
+  },
+  "Propithecus": {
+    "en": "Sifaka",
+    "fa": "شیفاک"
+  },
+  "Prosciurillus": {
+    "fa": "سنجاب درختی سولاوسی"
+  },
+  "Protoxerus": {
+    "en": "Protoxerus (Protoxerus)",
+    "fa": "سنجاب غولپیکر آفریقایی"
+  },
+  "Pseudantechinus": {
+    "en": "False antechinus",
+    "fa": "موش کیسهدار ناراستین"
+  },
+  "Pseudois": {
+    "en": "Blue Sheep",
+    "fa": "گوسفندهای آبی"
+  },
+  "Pseudomys": {
+    "fa": "شبهموشها"
+  },
+  "Pseudoryzomys": {
+    "en": "Brazilian False Rice Rat"
+  },
+  "Pteromys": {
+    "en": "Old World flying squirrel",
+    "fa": "سنجاب پرنده جهان قدیم"
+  },
+  "Pteromyscus": {
+    "en": "Smoky Flying Squirrels"
+  },
+  "Pteronura": {
+    "en": "Giant otter"
+  },
+  "Pteropus": {
+    "en": "Fruit Bats",
+    "fa": "روباه پرنده"
+  },
+  "Pudu": {
+    "en": "Pudú",
+    "fa": "آهوریزه"
+  },
+  "Puma": {
+    "fa": "شیر کوهی"
+  },
+  "Punomys": {
+    "fa": "پوناموشها"
+  },
+  "Pusa": {
+    "fa": "فکهای خزرقطبی"
+  },
+  "Pygathrix": {
+    "en": "Doucs",
+    "fa": "رختپوش"
+  },
+  "Pygoderma": {
+    "en": "Ipanema Broad-nosed Bat."
+  },
+  "Raphicerus": {
+    "fa": "سوزنیشاخها"
+  },
+  "Rattus": {
+    "en": "Rat",
+    "fa": "موش صحرایی"
+  },
+  "Ratufa": {
+    "en": "Oriental giant squirrel",
+    "fa": "سنجاب غولپیکر"
+  },
+  "Redunca": {
+    "en": "Reedbuck",
+    "fa": "کل نیزار"
+  },
+  "Reithrodontomys": {
+    "en": "Reithrodontomys (Reithrodontomys)",
+    "fa": "موشهای خرمن جهان جدید"
+  },
+  "Rhabdomys": {
+    "fa": "موش چهارخطه"
+  },
+  "Rheomys": {
+    "fa": "موشهای آبی"
+  },
+  "Rhinoceros": {
+    "fa": "کرگدن"
+  },
+  "Rhinophylla": {
+    "fa": "خفاشهای دماغی"
+  },
+  "Rhinopithecus": {
+    "fa": "میمون دماغسربالا"
+  },
+  "Rhipidomys": {
+    "en": "Climbing Mice"
+  },
+  "Rhynchocyon": {
+    "fa": "حشرهخوارهای خرطومی"
+  },
+  "Rhynchogale": {
+    "en": "Meller's Mongoose"
+  },
+  "Rhynchomys": {
+    "en": "Shrewlike rat",
+    "fa": "خرموشهای حشرهخوارشکل"
+  },
+  "Rhynchonycteris": {
+    "en": "Proboscis Bat"
+  },
+  "Romerolagus": {
+    "en": "Volcano Rabbit"
+  },
+  "Rousettus": {
+    "en": "Rousette Bats"
+  },
+  "Rucervus": {
+    "fa": "گوزنهای هندوچین"
+  },
+  "Rungwecebus": {
+    "en": "Kipunji"
+  },
+  "Rupicapra": {
+    "en": "Chamois",
+    "fa": "بزهای کوهی آمریکایی"
+  },
+  "Rusa": {
+    "fa": "آهوی قهوهای"
+  },
+  "Saguinus": {
+    "fa": "تامارین"
+  },
+  "Saimiri": {
+    "fa": "خزمیمون"
+  },
+  "Salanoia": {
+    "fa": "خدنگوارها"
+  },
+  "Sapajus": {
+    "fa": "میمون کپوچین ستبر"
+  },
+  "Sarcophilus": {
+    "fa": "ستبردمان گوشتخوار"
+  },
+  "Scapteromys": {
+    "en": "Swamp Rat"
+  },
+  "Sciurocheirus": {
+    "en": "Squirrel galago"
+  },
+  "Sciurotamias": {
+    "fa": "سنجاب صخرهای چینی"
+  },
+  "Sciurus": {
+    "fa": "سنجاب"
+  },
+  "Scleronycteris": {
+    "en": "Ega Long-tongued Bat."
+  },
+  "Scotinomys": {
+    "fa": "موشهای قهوهای"
+  },
+  "Scotomanes": {
+    "en": "Harlequin Bat."
+  },
+  "Scotonycteris": {
+    "fa": "خفاشهای تیرگی"
+  },
+  "Scotophilus": {
+    "fa": "خفاشهای زرد"
+  },
+  "Selevinia": {
+    "en": "Desert Dormouse"
+  },
+  "Semnopithecus": {
+    "fa": "دمبلند خاکستری"
+  },
+  "Setonix": {
+    "en": "Quokka"
+  },
+  "Sicista": {
+    "en": "Birch mouse"
+  },
+  "Sigmodon": {
+    "fa": "موش پنبه"
+  },
+  "Sminthopsis": {
+    "en": "Dunnart",
+    "fa": "موش کیسهدار پاکوچک"
+  },
+  "Solenodon": {
+    "fa": "سولنودون"
+  },
+  "Sorex": {
+    "fa": "حشرهخوارهای دمدراز"
+  },
+  "Soriculus": {
+    "en": "Himalayan Mountain Shrews"
+  },
+  "Sotalia": {
+    "en": "Tucuxi"
+  },
+  "Sousa": {
+    "en": "Humpback dolphin",
+    "fa": "دلفین گوژپشت"
+  }
+}

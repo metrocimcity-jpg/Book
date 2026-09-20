@@ -57,3 +57,26 @@ Append-only log of resolved versions, API quirks, and decisions.
   (plates, watercolours, Audubon/Gould/Martinet/Naumann/Brehm) over PhyloPic
   silhouettes. Commons is tried first; silhouettes and photos are fallbacks.
   Existing silhouettes are treated as upgradeable. Licence filters unchanged.
+
+## Image fetch — Wikipedia (orders + families)
+
+- User asked to use **Wikipedia article images** for birds. Painting vs
+  photograph does not matter. Primary lookup is the English Wikipedia
+  lead image (`pageimages`), then Commons `imageinfo` for licence metadata.
+  Fair use / NC / ND still rejected. Commons, Openverse, PhyloPic, and
+  iNaturalist remain fallbacks. Any non-Wikipedia credit is upgradeable.
+  The 70% illustration target is not applied to this harvest.
+- Harvest 2026-09-20 (`--rank=order,family`): **46/46 orders, 252/252 families**,
+  0 missing. 291 photographs, 2.3% illustrations, 50 inherited from a type
+  species or parent. Licence filters unchanged.
+
+## Names — Latin / English / فارسی
+
+- Chart, panel, breadcrumbs, search, and the text tree share a Names control.
+  Latin is the scientific name (identity and hash path). English prefers AviList
+  `common` then Wikidata. Persian is Wikidata only (`P225` + `rdfs:label` /
+  `P1843` in `fa`), written to `data/vernacular.json` by `scripts/fetch-names.mjs`.
+  Missing vernaculars fall back to Latin; nothing is invented. Hash may include
+  `?names=en` or `?names=fa`. Persian sets `lang=fa`; the document stays LTR.
+- Requiring the full name to fit the arc hid almost every root label. Labels
+  now hide only on needle-thin slices (Bostock area ≤ 0.03 or mid-arc < ~32px).

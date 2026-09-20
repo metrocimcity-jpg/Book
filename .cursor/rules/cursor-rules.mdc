@@ -1,48 +1,75 @@
 ---
-description: Rules for the mammals zoomable-sunburst project
-globs: ["mammals/**"]
+description: Rules for the Mammals and Birds zoomable-sunburst apps
+globs: ["Mammals/**", "Birds/**", "mammals/**", "birds/**"]
 alwaysApply: true
 ---
 
-# Project rules — mammals/
+# Project rules — Mammals/ and Birds/
 
 ## Scope
-- Never modify files outside `mammals/` unless explicitly asked.
-- Read `mammals/NOTES.md` before changing any script; it records resolved data versions,
-  API quirks, and decisions already made. Append to it, never rewrite it.
+- The repo has two sibling apps: `Mammals/` (ASM Mammal Diversity Database) and
+  `Birds/` (AviList). Same stack and UI. Change both when the user asks for a
+  chart/UI behaviour; otherwise stay in the folder they named.
+- Never modify files outside those apps unless explicitly asked (root `README.md`
+  and `.cursor/rules/` are fair game when asked to update docs or prompts).
+- Read `NOTES.md` in the app you are changing before editing any script. Append
+  to it, never rewrite it.
 
 ## Stack
-- Vanilla ES modules, D3 v7 vendored at `mammals/vendor/d3.v7.min.js`. No React, no Vue,
+- Vanilla ES modules, D3 v7 vendored at `vendor/d3.v7.min.js`. No React, no Vue,
   no bundler requirement, no CSS framework.
-- Zero runtime dependencies. Build-time dependencies in `scripts/` must be asked about
-  before installing.
-- No runtime network requests to third-party origins. Everything ships as static files.
+- Zero runtime dependencies. Build-time dependencies in `scripts/` must be asked
+  about before installing.
+- No runtime network requests to third-party origins. Everything ships as static
+  files.
 
 ## Images
-- Images are **gathered from free-licence sources, never generated**. No image model, no
-  `dall-e`, no `stable-diffusion`, no placeholder services that synthesise pictures.
-- Prefer illustrations (plates, drawings, vector silhouettes) over photographs.
-- Reject NC and ND licences and anything with unclear rights.
-- Every image must have an entry in `assets/credits.json` with creator, licence, licence
-  URL and source URL, and must appear in `CREDITS.md`. An image on disk without a credit
-  entry is a bug.
+- Images are **gathered from free-licence sources, never generated**. No image
+  model, no `dall-e`, no `stable-diffusion`, no placeholder services that
+  synthesise pictures.
+- Reject NC and ND licences and anything with unclear rights. Fair use is
+  rejected.
+- Every image must have an entry in `assets/credits.json` with creator, licence,
+  licence URL and source URL, and must appear in `CREDITS.md`. An image on disk
+  without a credit entry is a bug.
+- **Mammals:** prefer illustrations (plates, drawings, vector silhouettes) over
+  photographs.
+- **Birds:** Wikipedia article lead images are the primary source for order and
+  family. Painting vs photograph does not matter. Commons / Openverse / PhyloPic /
+  iNaturalist remain fallbacks. Non-Wikipedia credits are upgradeable.
 
 ## Data
-- The taxonomy comes from the Mammal Diversity Database (ASM). Do not hand-edit
+- Mammals taxonomy: Mammal Diversity Database. Do not hand-edit
   `data/mammals.json` — fix `scripts/build-taxonomy.mjs` and regenerate.
-- Never invent taxa, species counts, or common names to fill a gap. Missing data is
-  rendered as missing.
+- Birds taxonomy: AviList. Do not hand-edit `data/birds.json` — fix
+  `scripts/build-taxonomy.mjs` and regenerate.
+- Never invent taxa, species counts, or common names to fill a gap. Missing data
+  is rendered as missing (fall back to the scientific name).
+- English/Persian vernaculars live in `data/vernacular.json`, harvested from
+  Wikidata (`P225` + labels / `P1843`) by `scripts/fetch-names.mjs`. Do not
+  invent Persian (or English) names. Species English names come from AviList /
+  MDD `common` fields.
 
 ## Chart
 - The zoom mechanics follow Mike Bostock's Zoomable Sunburst (ISC). Keep the
-  `d.current` / `d.target` interpolation model and the `arcVisible` / `labelVisible`
-  predicates intact; restyle freely around them.
+  `d.current` / `d.target` interpolation model and the `arcVisible` /
+  `labelVisible` predicates intact; restyle freely around them.
+- Hidden labels must also zero `stroke-opacity` so dark-mode halos do not leave
+  black blobs. Tiny needle slices stay unlabelled; do not hide a name just
+  because the full string is longer than the arc.
+- Mouse clicks on arcs/centre blur the target so the UA rectangular focus ring
+  does not appear; keyboard `:focus-visible` keeps a circular stroke.
 - `sunburst.js` emits events and knows nothing about the panel, search, or URL.
+  Name-language is a display option (`setNames`); identity keys stay scientific.
+- A Names control switches Latin / English / فارسی. URL hash may include
+  `?names=en` or `?names=fa`. Persian sets `lang=fa` and a `names-fa` font; the
+  document stays LTR so English chrome does not flip.
 
 ## Quality
-- Do not report a stage complete without running its verification command and pasting
-  real output.
-- If a target in a prompt cannot be met, say so with the actual number and the reason.
-  Do not relax the target, widen a licence filter, or stub a test to make it pass.
-- Accessibility is not optional: keyboard paths, focus rings, ARIA on the combobox,
-  a text alternative for the chart, `prefers-reduced-motion` honoured.
+- Do not report a stage complete without running its verification command and
+  pasting real output.
+- If a target in a prompt cannot be met, say so with the actual number and the
+  reason. Do not relax the target, widen a licence filter, or stub a test to
+  make it pass.
+- Accessibility is not optional: keyboard paths, focus rings, ARIA on the
+  combobox, a text alternative for the chart, `prefers-reduced-motion` honoured.
