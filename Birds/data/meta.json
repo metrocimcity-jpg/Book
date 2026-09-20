@@ -1,0 +1,16 @@
+{
+  "source": "AviList: The Global Avian Checklist",
+  "version": "v2025b",
+  "doi": "10.2173/avilist.v2025b",
+  "recordId": "local-cache",
+  "url": "file:AviList-v2025b-10Jun2026-short.xlsx",
+  "filename": "AviList-v2025b-10Jun2026-short.xlsx",
+  "retrievedAt": "2026-09-19",
+  "note": "Using already-downloaded AviList workbook",
+  "counts": {
+    "orders": 46,
+    "families": 252,
+    "genera": 2376,
+    "species": 11131
+  }
+}

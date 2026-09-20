@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" fill="none" aria-hidden="true">
+  <path
+    fill="currentColor"
+    d="M28 78c0-16 10-30 28-36 4-12 16-22 30-22 10 0 18 4 24 10 8-4 16-4 24 2 6 4 8 12 6 20 10 8 16 18 16 30 0 14-16 22-40 22H62c-20 0-34-8-34-26zm86-28c3 0 6 2 6 6s-3 6-6 6-6-2-6-6 3-6 6-6zM48 86c-4 10-4 16 2 20 8 4 18 2 22-6"
+  />
+  <circle cx="118" cy="52" r="2.2" fill="var(--paper, #f3eee2)"/>
+</svg>

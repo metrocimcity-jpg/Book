@@ -1,0 +1,16 @@
+{
+  "source": "ASM Mammal Diversity Database",
+  "version": "v2.4",
+  "doi": "10.5281/zenodo.4139722",
+  "recordId": "local-cache",
+  "url": "file:MDD_v2.4_6871species.csv",
+  "filename": "MDD_v2.4_6871species.csv",
+  "retrievedAt": "2026-09-19",
+  "note": "Using already-downloaded MDD species CSV",
+  "counts": {
+    "orders": 27,
+    "families": 167,
+    "genera": 1360,
+    "species": 6871
+  }
+}

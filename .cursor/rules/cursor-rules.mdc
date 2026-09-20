@@ -1,0 +1,48 @@
+---
+description: Rules for the mammals zoomable-sunburst project
+globs: ["mammals/**"]
+alwaysApply: true
+---
+
+# Project rules — mammals/
+
+## Scope
+- Never modify files outside `mammals/` unless explicitly asked.
+- Read `mammals/NOTES.md` before changing any script; it records resolved data versions,
+  API quirks, and decisions already made. Append to it, never rewrite it.
+
+## Stack
+- Vanilla ES modules, D3 v7 vendored at `mammals/vendor/d3.v7.min.js`. No React, no Vue,
+  no bundler requirement, no CSS framework.
+- Zero runtime dependencies. Build-time dependencies in `scripts/` must be asked about
+  before installing.
+- No runtime network requests to third-party origins. Everything ships as static files.
+
+## Images
+- Images are **gathered from free-licence sources, never generated**. No image model, no
+  `dall-e`, no `stable-diffusion`, no placeholder services that synthesise pictures.
+- Prefer illustrations (plates, drawings, vector silhouettes) over photographs.
+- Reject NC and ND licences and anything with unclear rights.
+- Every image must have an entry in `assets/credits.json` with creator, licence, licence
+  URL and source URL, and must appear in `CREDITS.md`. An image on disk without a credit
+  entry is a bug.
+
+## Data
+- The taxonomy comes from the Mammal Diversity Database (ASM). Do not hand-edit
+  `data/mammals.json` — fix `scripts/build-taxonomy.mjs` and regenerate.
+- Never invent taxa, species counts, or common names to fill a gap. Missing data is
+  rendered as missing.
+
+## Chart
+- The zoom mechanics follow Mike Bostock's Zoomable Sunburst (ISC). Keep the
+  `d.current` / `d.target` interpolation model and the `arcVisible` / `labelVisible`
+  predicates intact; restyle freely around them.
+- `sunburst.js` emits events and knows nothing about the panel, search, or URL.
+
+## Quality
+- Do not report a stage complete without running its verification command and pasting
+  real output.
+- If a target in a prompt cannot be met, say so with the actual number and the reason.
+  Do not relax the target, widen a licence filter, or stub a test to make it pass.
+- Accessibility is not optional: keyboard paths, focus rings, ARIA on the combobox,
+  a text alternative for the chart, `prefers-reduced-motion` honoured.
