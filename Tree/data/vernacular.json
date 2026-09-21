@@ -1,7 +1,16 @@
 {
+  "Abarema": {
+    "fa": "آبارما"
+  },
+  "Abies": {
+    "fa": "نراد"
+  },
   "Abutilon": {
     "en": "Indian mallow",
     "fa": "ابوتیلون"
+  },
+  "Acacia": {
+    "fa": "اقاقیا"
   },
   "Acalypha": {
     "en": "Copperleaf",
@@ -10,9 +19,21 @@
   "Acanthaceae": {
     "fa": "پاخرسیان"
   },
+  "Acer": {
+    "fa": "افرا"
+  },
   "Achyranthes": {
     "en": "Chaff flower",
     "fa": "اشیرانت"
+  },
+  "Acnistus": {
+    "fa": "بادنجانیان آکنیستوس"
+  },
+  "Acridocarpus": {
+    "fa": "ملخمیوهها"
+  },
+  "Acrocarpus": {
+    "en": "Acrocarpus Kützing, 1843"
   },
   "Acrocomia": {
     "fa": "نخلهای ژولیده"
@@ -21,20 +42,71 @@
     "en": "Kiwi-fruit Family",
     "fa": "کیویان"
   },
+  "Adansonia": {
+    "fa": "آدانسونیا"
+  },
   "Adenia": {
     "fa": "آدنیا"
+  },
+  "Adenium": {
+    "fa": "آدنیوم"
+  },
+  "Adenocalymma": {
+    "en": "Adenocalymna"
   },
   "Aeschynomene": {
     "en": "Jointvetch"
   },
+  "Aesculus": {
+    "fa": "شاهبلوط"
+  },
+  "Afrocarpus": {
+    "fa": "آفریقامیوهها"
+  },
+  "Agathis": {
+    "fa": "درختان کائوری"
+  },
   "Ageratina": {
     "en": "Snakeroot"
+  },
+  "Agonis": {
+    "fa": "مورتهای آگونیس"
+  },
+  "Ailanthus": {
+    "fa": "عرعر"
+  },
+  "Albizia": {
+    "fa": "البیزیا"
+  },
+  "Alchornea": {
+    "fa": "فرفیونیان آلکورنئا"
+  },
+  "Alectryon": {
+    "fa": "آلکتریون (سرده)"
   },
   "Allagoptera": {
     "fa": "نخلهای ساقکوتاه"
   },
+  "Allamanda": {
+    "fa": "آلاماندا"
+  },
+  "Allocasuarina": {
+    "fa": "مادهبلوطها"
+  },
+  "Alloxylon": {
+    "fa": "آلوکسیلون"
+  },
+  "Alluaudia": {
+    "fa": "آلوآدیا"
+  },
+  "Alnus": {
+    "fa": "توسکا"
+  },
   "Aloe": {
     "fa": "سگلها"
+  },
+  "Alphitonia": {
+    "fa": "خاکستردرختان"
   },
   "Alternanthera": {
     "en": "Joyweed",
@@ -50,6 +122,15 @@
   },
   "Amborellaceae": {
     "en": "Amborella family"
+  },
+  "Amelanchier": {
+    "fa": "املانکیر"
+  },
+  "Amherstia": {
+    "fa": "سرافرازی برمه (درخت)"
+  },
+  "Ammodendron": {
+    "fa": "گرگ خار"
   },
   "Anacardiaceae": {
     "en": "Cashew family",
@@ -69,7 +150,7 @@
     "fa": "خرزهرهایان"
   },
   "Aquifoliales": {
-    "fa": "خاس‌سانان"
+    "fa": "خاسسانان"
   },
   "Aralia": {
     "en": "Spikenard",
@@ -131,7 +212,7 @@
     "en": "Attalea palm"
   },
   "Austrobaileyales": {
-    "fa": "جنوب‌ویره‌ای‌سانان"
+    "fa": "جنوبویرهایسانان"
   },
   "Baccharis": {
     "en": "Chilean romerillo"
@@ -151,10 +232,13 @@
     "fa": "زرشکیان"
   },
   "Berberidopsidales": {
-    "fa": "سرخ‌آویزسانان"
+    "fa": "سرخآویزسانان"
   },
   "Bernardia": {
     "en": "Myrtlecroton"
+  },
+  "Betulaceae": {
+    "fa": "توسکایان"
   },
   "Bidens": {
     "en": "Beggarticks",
@@ -179,6 +263,9 @@
   "Boraginales": {
     "fa": "گاوزبانسانان"
   },
+  "Bouvardia": {
+    "fa": "بوواردیا"
+  },
   "Brassicaceae": {
     "en": "Crucifers",
     "fa": "شببویان"
@@ -186,15 +273,34 @@
   "Brassicales": {
     "fa": "کلمسانان"
   },
+  "Burseraceae": {
+    "fa": "روشنکان"
+  },
+  "Butia": {
+    "fa": "نخلهای پرسان"
+  },
   "Buxaceae": {
     "fa": "شمشادیان"
   },
   "Cactaceae": {
     "fa": "کاکتوس"
   },
+  "Calliandra": {
+    "en": "Stickpea",
+    "fa": "گردافشانها"
+  },
+  "Calophyllaceae": {
+    "fa": "زیبابرگان"
+  },
+  "Calycanthaceae": {
+    "fa": "گلشرابیان"
+  },
   "Campanulaceae": {
     "en": "Bellflowers",
     "fa": "گلاستکانیان"
+  },
+  "Canellaceae": {
+    "fa": "کانلاسی"
   },
   "Canellales": {
     "fa": "مگنولیان کانلال"
@@ -216,6 +322,9 @@
   "Caryophyllales": {
     "fa": "میخکسانان"
   },
+  "Casuarinaceae": {
+    "fa": "دماسبدرختیان"
+  },
   "Celastraceae": {
     "en": "Staff Vine Family",
     "fa": "گوشوارکیان"
@@ -223,13 +332,16 @@
   "Celastrales": {
     "fa": "گوشوارکسانان"
   },
+  "Celosia": {
+    "en": "Cockscombs",
+    "fa": "تاج خروسی"
+  },
   "Cestrum": {
     "en": "Jessamine",
     "fa": "محبوبه شب"
   },
-  "Chenopodium": {
-    "en": "Goosefoot",
-    "fa": "سلمک"
+  "Chamaecrista": {
+    "en": "Sensitive pea"
   },
   "Chrysobalanaceae": {
     "fa": "کریزوبالاناسه"
@@ -237,6 +349,12 @@
   "Cistaceae": {
     "en": "Rock Rose family",
     "fa": "گلآفتابیان"
+  },
+  "Clusiaceae": {
+    "fa": "کلازیاسه"
+  },
+  "Columelliaceae": {
+    "fa": "کولوملایان"
   },
   "Combretaceae": {
     "fa": "گارومزنگیان"
@@ -260,6 +378,12 @@
   "Cucurbitales": {
     "fa": "کدوسانان"
   },
+  "Cunoniaceae": {
+    "fa": "چمچمهئیان"
+  },
+  "Cupressaceae": {
+    "fa": "سرویان"
+  },
   "Cyatheaceae": {
     "en": "Scaly tree ferns",
     "fa": "فنجانکیان"
@@ -277,19 +401,23 @@
   "Dasypogonaceae": {
     "fa": "ریشپشمیان"
   },
+  "Didiereaceae": {
+    "fa": "خارپولکیان"
+  },
   "Dipsacales": {
     "fa": "خواجهباشیسانان"
   },
+  "Dipterocarpaceae": {
+    "fa": "دوبالمیوهگان"
+  },
   "Ebenaceae": {
-    "en": "Ebony Family",
     "fa": "خرمالوئیان"
   },
   "Elaeagnaceae": {
-    "en": "Oleaster family",
     "fa": "سنجدیان"
   },
   "Elaeocarpaceae": {
-    "fa": "زیتون‌وشان"
+    "fa": "زیتونوشان"
   },
   "Eremophila": {
     "en": "Emu Bush",
@@ -302,7 +430,6 @@
     "fa": "خلنگسانان"
   },
   "Erythroxylaceae": {
-    "en": "Coca family",
     "fa": "اریتروکسیلاسه"
   },
   "Euphorbiaceae": {
@@ -316,17 +443,16 @@
     "fa": "باقلاسانان"
   },
   "Fagaceae": {
-    "en": "Beech family",
     "fa": "فاگاسه"
   },
   "Fagales": {
-    "fa": "راش‌سانان"
+    "fa": "راشسانان"
   },
   "Garryaceae": {
-    "fa": "ابریشم‌آویزان"
+    "fa": "ابریشمآویزان"
   },
   "Garryales": {
-    "fa": "ابریشم‌آویزسانان"
+    "fa": "ابریشمآویزسانان"
   },
   "Gentianaceae": {
     "en": "Gentian family",
@@ -347,10 +473,10 @@
     "fa": "جسنریان"
   },
   "Ginkgoaceae": {
-    "fa": "کهن‌داریان"
+    "fa": "کهنداریان"
   },
   "Ginkgoales": {
-    "fa": "کهن‌دارسانان"
+    "fa": "کهندارسانان"
   },
   "Goodeniaceae": {
     "fa": "پنجهبازان"
@@ -408,9 +534,15 @@
   "Lophostoma": {
     "fa": "کاکلیدهانها"
   },
+  "Loranthaceae": {
+    "fa": "موخوریان"
+  },
   "Lythraceae": {
     "en": "Loosestrife family",
     "fa": "حناییان"
+  },
+  "Magnoliaceae": {
+    "fa": "مگنولیان"
   },
   "Magnoliales": {
     "fa": "مگنولی"
@@ -446,6 +578,9 @@
     "en": "Mulberry or Fig Family",
     "fa": "موراسه"
   },
+  "Myristicaceae": {
+    "fa": "جوزهندیان"
+  },
   "Myrtaceae": {
     "fa": "مورت"
   },
@@ -455,6 +590,9 @@
   "Nyctaginaceae": {
     "en": "Four O'Clock Family",
     "fa": "گلکاغذیان"
+  },
+  "Nyssaceae": {
+    "fa": "زغالاختههای ماچین"
   },
   "Ochnaceae": {
     "fa": "چشمکبوتریان"
@@ -488,6 +626,9 @@
     "en": "Çarkıfelekgiller",
     "fa": "گلساعتیان"
   },
+  "Paulowniaceae": {
+    "fa": "پالونیاییان"
+  },
   "Pedaliaceae": {
     "en": "Sesame family",
     "fa": "کنجدیان"
@@ -500,6 +641,9 @@
     "en": "Pokeweed Family",
     "fa": "سرخابکولیان"
   },
+  "Pinaceae": {
+    "fa": "کاجیان"
+  },
   "Pinales": {
     "en": "Conifers",
     "fa": "کاج‌سانان"
@@ -511,13 +655,22 @@
   "Piperales": {
     "fa": "فلفلسیاهسانان"
   },
+  "Pittosporaceae": {
+    "fa": "میخکدرختیان"
+  },
   "Plantaginaceae": {
     "en": "Plantain Family",
     "fa": "بارهنگیان"
   },
+  "Platanaceae": {
+    "fa": "چناریان"
+  },
   "Plumbaginaceae": {
     "en": "Leadwort Family",
     "fa": "بهمنیان"
+  },
+  "Podocarpaceae": {
+    "fa": "بوداکاجیان"
   },
   "Polemoniaceae": {
     "fa": "گلآتشیان"
@@ -551,6 +704,9 @@
     "en": "Buckthorn family",
     "fa": "عنابیان"
   },
+  "Rhizophoraceae": {
+    "fa": "چندلیان"
+  },
   "Rosaceae": {
     "fa": "گلسرخیان"
   },
@@ -568,6 +724,9 @@
   "Salicaceae": {
     "en": "Willow family",
     "fa": "بیدیان"
+  },
+  "Salvadoraceae": {
+    "fa": "مسواکیان"
   },
   "Santalaceae": {
     "fa": "صندلیان"
@@ -587,9 +746,18 @@
   "Saxifragales": {
     "fa": "خاراشکنسانان"
   },
+  "Schisandraceae": {
+    "fa": "بادیانهای ستارهای"
+  },
+  "Sciadopityaceae": {
+    "fa": "کاجهای چتری"
+  },
   "Scrophulariaceae": {
     "en": "Figwort family",
     "fa": "گلمیمونیان"
+  },
+  "Simaroubaceae": {
+    "fa": "عرعریان"
   },
   "Solanaceae": {
     "en": "Nightshades",
@@ -598,15 +766,33 @@
   "Solanales": {
     "fa": "بادنجانسانان"
   },
+  "Stachyuraceae": {
+    "fa": "استاکیوراسه"
+  },
+  "Staphyleaceae": {
+    "fa": "خوشهانگوریان"
+  },
   "Strelitziaceae": {
     "fa": "گلبهشتیان"
+  },
+  "Styracaceae": {
+    "fa": "حسنلبگان"
   },
   "Tamaricaceae": {
     "fa": "گزیان"
   },
+  "Taxaceae": {
+    "fa": "سرخداریان"
+  },
+  "Theaceae": {
+    "fa": "چاییان"
+  },
   "Thymelaeaceae": {
     "en": "Mezereum family",
     "fa": "مازریونیان"
+  },
+  "Ulmaceae": {
+    "fa": "نارونیان"
   },
   "Urticaceae": {
     "en": "Nettle family",
@@ -625,6 +811,9 @@
   },
   "Vitaceae": {
     "fa": "انگوریان"
+  },
+  "Zamiaceae": {
+    "fa": "سرخسهای نخلی کاجمیوه"
   },
   "Zingiberales": {
     "fa": "زنجبیلسانان"

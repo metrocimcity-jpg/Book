@@ -3,63 +3,181 @@
     "en": "Painted frogs",
     "fa": "قورباغه‌های نگارین"
   },
+  "Amazophrynella": {
+    "fa": "قورباغههای آمازون"
+  },
+  "Ambystoma": {
+    "fa": "سمندر زیرزمینی"
+  },
+  "Amietia": {
+    "fa": "قورباغههای رودخانه"
+  },
   "Amphibia": {
-    "en": "Amphibians",
     "fa": "دوزیستان"
   },
   "Amphiumidae": {
     "en": "Amphiumas"
   },
   "Anura": {
-    "en": "Frog",
     "fa": "قورباغه"
   },
   "Arthroleptidae": {
     "fa": "قورباغههای جیرجیری"
   },
+  "Bombinatoridae": {
+    "fa": "آتشدلان"
+  },
+  "Brevicipitidae": {
+    "fa": "قورباغههای باران"
+  },
+  "Bufonidae": {
+    "fa": "وزغهای راستین"
+  },
+  "Caeciliidae": {
+    "fa": "کورسمندران"
+  },
   "Caudata": {
-    "en": "Salamanders",
     "fa": "سمندر"
+  },
+  "Centrolenidae": {
+    "fa": "قورباغه شیشهای"
+  },
+  "Ceratobatrachidae": {
+    "fa": "شاخغوکان"
+  },
+  "Chikilidae": {
+    "fa": "کورسمندرهای هندی"
+  },
+  "Craugastoridae": {
+    "fa": "خشکدلان"
+  },
+  "Cryptobranchidae": {
+    "fa": "سمندر بزرگ"
   },
   "Dendrobatidae": {
     "fa": "قورباغه زهرآگین"
   },
   "Dermophiidae": {
-    "fa": "کورسمندرهای زنده‌زا"
+    "fa": "کورسمندرهای زندهزا"
+  },
+  "Dicamptodontidae": {
+    "fa": "سمندر بزرگ آرام"
+  },
+  "Dicroglossidae": {
+    "fa": "قورباغههای زبانچنگالی"
   },
   "Eleutherodactylidae": {
     "fa": "آزادانگشتان"
   },
-  "Grandisoniidae": {
-    "en": "Indo-African caecilians"
-  },
   "Gymnophiona": {
     "en": "Caecilian",
-    "fa": "بی‌پائیان"
+    "fa": "بیپائیان"
   },
   "Heleophrynidae": {
     "fa": "قورباغه شبح"
   },
   "Hemiphractidae": {
-    "fa": "شاخک‌غوکان"
+    "fa": "شاخکغوکان"
   },
-  "Hemisotidae": {
-    "en": "Shovelnose Frogs"
+  "Herpelidae": {
+    "fa": "کورسمندرهای آفریقایی"
   },
   "Hylidae": {
-    "fa": "قورباغه‌های درختی راستین"
+    "fa": "قورباغههای درختی راستین"
   },
   "Hylodidae": {
-    "fa": "قورباغه‌های هیلودیدائه"
+    "fa": "قورباغههای هیلودیدائه"
   },
   "Hynobiidae": {
     "fa": "سمندرهای آسیایی"
   },
   "Hyperoliidae": {
-    "fa": "قورباغه‌های جگن"
+    "fa": "قورباغههای جگن"
   },
   "Ichthyophiidae": {
-    "en": "Fish Caecilians",
-    "fa": "کورسمندرهای دم‌دار آسیایی"
+    "fa": "کورسمندرهای دمدار آسیایی"
+  },
+  "Leiopelmatidae": {
+    "fa": "قورباغههای بدوی نیوزیلند"
+  },
+  "Leptodactylidae": {
+    "fa": "قورباغههای جنوبی"
+  },
+  "Mantellidae": {
+    "fa": "قورباغههای ماداگاسکاری"
+  },
+  "Megophryidae": {
+    "fa": "قورباغههای خاشاک"
+  },
+  "Microhylidae": {
+    "fa": "قورباغههای دهانباریک"
+  },
+  "Myobatrachidae": {
+    "fa": "قورباغههای زمینی استرالیا"
+  },
+  "Nyctibatrachidae": {
+    "fa": "شبغوکان"
+  },
+  "Pelobatidae": {
+    "fa": "وزغ بیلپای اروپایی"
+  },
+  "Petropedetidae": {
+    "fa": "قورباغههای تندابه آفریقایی"
+  },
+  "Pipidae": {
+    "fa": "قورباغههای بیزبان"
+  },
+  "Plethodontidae": {
+    "fa": "سمندر بیشش"
+  },
+  "Proteidae": {
+    "en": "Mudpuppy",
+    "fa": "پروتیدائه"
+  },
+  "Ptychadenidae": {
+    "fa": "قورباغگان علفزار"
+  },
+  "Pyxicephalidae": {
+    "fa": "قورباغههای سرجعبهای"
+  },
+  "Ranidae": {
+    "fa": "قورباغههای اصلی"
+  },
+  "Ranixalidae": {
+    "fa": "قورباغههای پرشی"
+  },
+  "Rhacophoridae": {
+    "fa": "قورباغههای بوتهزار"
+  },
+  "Rhinatrematidae": {
+    "fa": "کورسمندرهای دمدار آمریکایی"
+  },
+  "Rhinodermatidae": {
+    "fa": "قورباغههای دهانپرور"
+  },
+  "Rhinophrynidae": {
+    "fa": "وزغهای کاوشگر"
+  },
+  "Salamandridae": {
+    "fa": "سمندران"
+  },
+  "Scaphiopodidae": {
+    "en": "American spadefoot toads",
+    "fa": "وزغ بیلپای آمریکایی"
+  },
+  "Scolecomorphidae": {
+    "fa": "کورسمندرهای گرمسیری"
+  },
+  "Siphonopidae": {
+    "fa": "کورسمندرهای حلقوی"
+  },
+  "Sirenidae": {
+    "fa": "سمندرهای بیپا"
+  },
+  "Sooglossidae": {
+    "fa": "قورباغههای سیشل"
+  },
+  "Typhlonectidae": {
+    "fa": "بیپائیان آبی"
   }
 }
