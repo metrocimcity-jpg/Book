@@ -80,3 +80,23 @@ Append-only log of resolved versions, API quirks, and decisions.
   `?names=en` or `?names=fa`. Persian sets `lang=fa`; the document stays LTR.
 - Requiring the full name to fit the arc hid almost every root label. Labels
   now hide only on needle-thin slices (Bostock area ≤ 0.03 or mid-arc < ~32px).
+
+## Hub pack (2026-09-20)
+
+- Standalone shell removed (`index.html`, `src/`, `styles/app.css`, `vendor/`,
+  `package.json`). This folder is a data pack for the root hub (`/?group=birds`).
+  Chart UI lives in `shared/`. Harvest scripts and `tests/taxonomy.test.mjs` stay.
+
+## Names — Latin / English / فارسی (2026-09-20)
+
+- Wikidata harvest via `scripts/fetch-names.mjs` (`P225` + `rdfs:label` in `en`/`fa`).
+- Missing vernaculars fall back to Latin; nothing is invented. Species English still prefers checklist `common` when present.
+- Mammals/data/vernacular.json: 718 taxa, 334 English, 559 Persian (8426 names in tree)
+- Birds/data/vernacular.json: 908 taxa, 202 English, 852 Persian (13806 names in tree)
+- Fishes/data/vernacular.json: 637 taxa, 170 English, 588 Persian (53371 names in tree)
+- Tree/data/vernacular.json: 188 taxa, 84 English, 176 Persian (62085 names in tree)
+- Bushes/data/vernacular.json: 327 taxa, 185 English, 279 Persian (47127 names in tree)
+- Shrubs/data/vernacular.json: 271 taxa, 134 English, 239 Persian (62160 names in tree)
+- Flowers/data/vernacular.json: 595 taxa, 366 English, 450 Persian (112168 names in tree)
+- Amphibians/data/vernacular.json: 14 taxa, 3 English, 13 Persian (9700 names in tree)
+- Insects/data/vernacular.json: 151 taxa, 32 English, 140 Persian (2156 names in tree)

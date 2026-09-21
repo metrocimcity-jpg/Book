@@ -1,0 +1,14 @@
+{
+  "source": "World Checklist of Vascular Plants (WCVP / POWO, RBG Kew)",
+  "version": "wcvp.zip from sftp.kew.org",
+  "doi": "10.1093/botlinnean/boab007",
+  "url": "https://sftp.kew.org/pub/data-repositories/WCVP/",
+  "retrievedAt": "2026-09-20",
+  "note": "Accepted WCVP species whose lifeform_description maps to this group. Species without a lifeform or without a GBIF order for their family are omitted, not invented.",
+  "counts": {
+    "orders": 66,
+    "families": 301,
+    "genera": 4471,
+    "species": 57321
+  }
+}

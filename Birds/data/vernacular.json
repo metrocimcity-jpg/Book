@@ -1,138 +1,150 @@
 {
-  "Aves": {
-    "en": "Bird",
-    "fa": "پرنده"
+  "Abroscopus": {
+    "fa": "خوشنگاهها"
   },
-  "Accipitriformes": {
-    "fa": "بازسانان"
+  "Acanthagenys": {
+    "en": "Spiny-cheeked Honeyeater"
   },
-  "Aegotheliformes": {
-    "fa": "بوفچه-شبگرد"
+  "Acanthis": {
+    "fa": "زلفقرمزی"
   },
-  "Anseriformes": {
-    "fa": "غازسانان"
-  },
-  "Apodiformes": {
-    "fa": "بادخورکسانان"
-  },
-  "Apterygiformes": {
-    "en": "Kiwis",
-    "fa": "کیویسانان"
-  },
-  "Bucerotiformes": {
-    "fa": "نوکشاخسانان"
-  },
-  "Caprimulgiformes": {
-    "fa": "شبگردسانان"
-  },
-  "Cariamiformes": {
-    "fa": "کاکلیان"
-  },
-  "Casuariiformes": {
-    "fa": "کاسوآریسانان"
-  },
-  "Cathartiformes": {
-    "fa": "لاشخورسانان"
-  },
-  "Charadriiformes": {
-    "fa": "سلیمسانان"
-  },
-  "Ciconiiformes": {
-    "fa": "لکلکسانان"
-  },
-  "Columbiformes": {
-    "fa": "کبوترسانان"
-  },
-  "Coraciiformes": {
-    "fa": "سبزقباسانان"
-  },
-  "Cuculiformes": {
-    "en": "Cuckoos",
-    "fa": "کوکوسانان"
-  },
-  "Eurypygiformes": {
-    "fa": "آفتاببوتیمارسانان"
-  },
-  "Falconiformes": {
-    "fa": "شاهینسانان"
-  },
-  "Galliformes": {
-    "fa": "ماکیانسانان"
-  },
-  "Gaviiformes": {
-    "fa": "غواصسانان"
-  },
-  "Gruiformes": {
-    "fa": "کلنگسانان"
-  },
-  "Passeriformes": {
-    "en": "Passerines",
-    "fa": "گنجشکسانان"
-  },
-  "Pelecaniformes": {
-    "fa": "مرغسقاسانان"
-  },
-  "Phaethontiformes": {
-    "fa": "نوکسرخسانان"
-  },
-  "Phoenicopteriformes": {
-    "fa": "بالآتشیسانان"
-  },
-  "Piciformes": {
-    "fa": "دارکوبسانان"
-  },
-  "Procellariiformes": {
-    "fa": "کبوتردریاییسانان"
-  },
-  "Psittaciformes": {
-    "en": "Parrot",
-    "fa": "طوطیسانان"
-  },
-  "Pterocliformes": {
-    "en": "Sandgrouse"
-  },
-  "Rheiformes": {
-    "en": "Rheas",
-    "fa": "شترمرغسانان آمریکایی"
-  },
-  "Sphenisciformes": {
-    "en": "Penguins",
-    "fa": "پنگوئن"
-  },
-  "Strigiformes": {
-    "fa": "جغدسانان"
-  },
-  "Struthioniformes": {
-    "fa": "بیتیغهها"
-  },
-  "Suliformes": {
-    "fa": "بوبیسانان"
-  },
-  "Tinamiformes": {
-    "en": "Tinamous"
+  "Acanthisitta": {
+    "en": "Rifleman"
   },
   "Acanthisittidae": {
     "fa": "الیکایی نیوزلندی"
   },
+  "Acanthiza": {
+    "fa": "نوکخاری"
+  },
   "Acanthizidae": {
     "fa": "چکاوکان اقیانوسیه"
+  },
+  "Acanthorhynchus": {
+    "en": "Spinebill",
+    "fa": "تیغنوکها"
+  },
+  "Accipiter": {
+    "fa": "باز شکاری"
   },
   "Accipitridae": {
     "fa": "بازان (تیره)"
   },
+  "Accipitriformes": {
+    "fa": "بازسانان"
+  },
+  "Achaetops": {
+    "en": "Rockrunner"
+  },
+  "Acridotheres": {
+    "en": "Myna",
+    "fa": "میناهای معمولی"
+  },
   "Acrocephalidae": {
     "fa": "چکاوک درخت و مرداب"
+  },
+  "Acrocephalus": {
+    "fa": "مگسگیر سردراز"
+  },
+  "Actinodura": {
+    "fa": "بالخطخطی"
+  },
+  "Actitis": {
+    "fa": "اکتیتیس"
+  },
+  "Aechmophorus": {
+    "fa": "کشیمهای نوکنیزهای"
   },
   "Aegithalidae": {
     "en": "Long-tailed Tits, Bushtits",
     "fa": "چرخریسکان دمدراز"
   },
+  "Aegithalos": {
+    "fa": "چرخریسکهای دمدراز"
+  },
+  "Aegithina": {
+    "en": "Iora"
+  },
   "Aegithinidae": {
     "en": "Iora",
     "fa": "لیموقبا"
   },
+  "Aegolius": {
+    "fa": "جغد جیغارهای"
+  },
+  "Aegotheles": {
+    "fa": "شبگرد بوفچهای"
+  },
   "Aegothelidae": {
     "en": "Owlet-nightjars"
+  },
+  "Aegotheliformes": {
+    "fa": "بوفچه-شبگرد"
+  },
+  "Aegypius": {
+    "fa": "دالهای سیاه"
+  },
+  "Aerodramus": {
+    "fa": "بادخورکهای گرمسیری"
+  },
+  "Aerospiza": {
+    "fa": "بازهای آفریقایی"
+  },
+  "Aethia": {
+    "fa": "ماهیگیرک کوچک"
+  },
+  "Aethomyias": {
+    "fa": "خسنشینهای گینه نو"
+  },
+  "Aethopyga": {
+    "fa": "شهد خواران درخشان"
+  },
+  "Afrotis": {
+    "fa": "هوبرههای آفریقا"
+  },
+  "Agapornis": {
+    "fa": "طوطی عشق"
+  },
+  "Agelaioides": {
+    "en": "Bay-winged Cowbird",
+    "fa": "مرغ کهر"
+  },
+  "Agelaius": {
+    "fa": "سیاهمرغهای معمولی آمریکایی"
+  },
+  "Agelasticus": {
+    "fa": "سیاهمرغهای لاغر"
+  },
+  "Aglaeactis": {
+    "fa": "خورشیدپرتوها"
+  },
+  "Aglaiocercus": {
+    "fa": "پریها"
+  },
+  "Agricola": {
+    "fa": "مگسگیرهای کشاورزی"
+  },
+  "Agriornis": {
+    "en": "Shrike-Tyrants",
+    "fa": "ژیانمرغ-سنگچشم"
+  },
+  "Agropsar": {
+    "fa": "سارهای آسیایی"
+  },
+  "Ailuroedus": {
+    "fa": "گربهخوانها"
+  },
+  "Aix": {
+    "fa": "اردکهای زیبا"
+  },
+  "Alaemon": {
+    "fa": "چکاوکهای هدهد"
+  },
+  "Alauda": {
+    "fa": "چکاوکهای آسمانی"
+  },
+  "Alaudala": {
+    "fa": "چکاوکهای پنجهکوتاه"
   },
   "Alaudidae": {
     "fa": "چکاوک"
@@ -143,78 +155,558 @@
   "Alcidae": {
     "fa": "ماهیگیرک"
   },
+  "Alcippe": {
+    "fa": "چغکچینی"
+  },
+  "Alectoris": {
+    "fa": "کبکهای صخره"
+  },
+  "Alectroenas": {
+    "en": "Blue pigeon",
+    "fa": "کبوتر آبی"
+  },
+  "Alectrurus": {
+    "fa": "شبهژیانمرغ"
+  },
+  "Alectura": {
+    "en": "Australian Brush-turkey"
+  },
+  "Alethe": {
+    "fa": "کهنخویشها"
+  },
+  "Alisterus": {
+    "fa": "طوطیهای شاهی"
+  },
+  "Alophoixus": {
+    "fa": "بلبلهای کاکلی"
+  },
+  "Alopochen": {
+    "fa": "تنجههای آفریقایی"
+  },
+  "Amadina": {
+    "fa": "سهرههای رخسرخ"
+  },
+  "Amalocichla": {
+    "fa": "سینهسرخهای زمینی"
+  },
+  "Amandava": {
+    "fa": "احمدآبادیها"
+  },
+  "Amaurornis": {
+    "fa": "طاووسکهای بوتهای"
+  },
+  "Amaurospiza": {
+    "fa": "دانهخوارهای آبی"
+  },
+  "Amazilia": {
+    "fa": "آمازیلیا"
+  },
+  "Amazona": {
+    "fa": "طوطی آمازون"
+  },
+  "Amblyornis": {
+    "fa": "کودنمرغ"
+  },
+  "Ammodramus": {
+    "fa": "گنجشکهای علفزار"
+  },
+  "Ammomanes": {
+    "fa": "خاکخسپه"
+  },
+  "Ammoperdix": {
+    "fa": "تیهوها"
+  },
+  "Ampelion": {
+    "fa": "گوهرمرغهای کاکلی"
+  },
+  "Amphispiza": {
+    "fa": "پیرامونسهره"
+  },
+  "Amytornis": {
+    "fa": "الیکایی چمنی"
+  },
+  "Anabacerthia": {
+    "fa": "برگچینها"
+  },
+  "Anairetes": {
+    "en": "Tit-Tyrant"
+  },
+  "Anarhynchus": {
+    "fa": "سلیمهای طوقدار"
+  },
+  "Anas": {
+    "fa": "انس"
+  },
+  "Anastomus": {
+    "en": "Openbill stork",
+    "fa": "بازمنقاران"
+  },
   "Anatidae": {
     "fa": "مرغابیان"
+  },
+  "Andigena": {
+    "en": "Mountain toucan",
+    "fa": "توکان کوهستانی"
   },
   "Anhimidae": {
     "fa": "swift"
   },
+  "Anhinga": {
+    "fa": "مارگردن"
+  },
   "Anhingidae": {
     "fa": "مارگردن"
+  },
+  "Anodorhynchus": {
+    "fa": "بیدندانمنقارها"
+  },
+  "Anous": {
+    "fa": "چلچله دریایی"
+  },
+  "Anser": {
+    "fa": "غاز کبود"
   },
   "Anseranatidae": {
     "fa": "غازهای پیسه"
   },
+  "Anseriformes": {
+    "fa": "غازسانان"
+  },
+  "Anthocephala": {
+    "fa": "تاجشکوفهای"
+  },
+  "Anthochaera": {
+    "fa": "مرغ غبغبکدار"
+  },
+  "Anthornis": {
+    "fa": "زنگمرغهای عسلخوار"
+  },
+  "Anthoscopus": {
+    "fa": "تابلانههای آفریقایی"
+  },
+  "Anthracothorax": {
+    "fa": "سینهزغالی"
+  },
+  "Anthus": {
+    "fa": "پپت"
+  },
+  "Antigone": {
+    "fa": "درناهای آنتیگون"
+  },
+  "Antrostomus": {
+    "fa": "شبگردهای غاردهان"
+  },
+  "Anurolimnas": {
+    "fa": "یلوههای دمکوتاه"
+  },
+  "Apalharpactes": {
+    "fa": "لانهکنهای پشتسبز"
+  },
+  "Apalis": {
+    "fa": "آپالیس"
+  },
+  "Apaloderma": {
+    "fa": "دلپذیرپوستها"
+  },
+  "Aphelocephala": {
+    "fa": "رخسفیدها"
+  },
+  "Aphelocoma": {
+    "fa": "جیجاقهای خاشاک"
+  },
+  "Aphrastura": {
+    "fa": "آتشیها"
+  },
+  "Aplopelia": {
+    "en": "Lemon Dove"
+  },
   "Apodidae": {
     "fa": "بادخورکان"
+  },
+  "Apodiformes": {
+    "fa": "بادخورکسانان"
+  },
+  "Aprosmictus": {
+    "fa": "طوطیهای بالسرخ"
+  },
+  "Aptenodytes": {
+    "fa": "پنگوئنهای بیبال"
+  },
+  "Apterygiformes": {
+    "en": "Kiwis",
+    "fa": "کیویسانان"
+  },
+  "Apteryx": {
+    "fa": "کیوی"
+  },
+  "Apus": {
+    "fa": "بادقپکها"
+  },
+  "Aquila": {
+    "fa": "عقاب"
+  },
+  "Ara": {
+    "fa": "طوطیان آرا"
+  },
+  "Arachnothera": {
+    "fa": "کارتنهخورک"
   },
   "Aramidae": {
     "en": "Limpkin",
     "fa": "آرامروان"
   },
+  "Aramides": {
+    "fa": "یلوههای جنگلی آمریکایی"
+  },
+  "Aramus": {
+    "fa": "آرامروها"
+  },
+  "Aratinga": {
+    "fa": "دمقیفیها"
+  },
+  "Arborophila": {
+    "fa": "کبکهای تپه"
+  },
+  "Archboldia": {
+    "fa": "آرچبالدیها"
+  },
+  "Ardea": {
+    "fa": "حواصیل حقیقی"
+  },
   "Ardeidae": {
     "en": "Heron",
     "fa": "حواصیل"
   },
+  "Ardenna": {
+    "fa": "کبوتردریاییهای تیره"
+  },
+  "Ardeola": {
+    "fa": "حواصیل برکهنشین"
+  },
+  "Ardeotis": {
+    "fa": "هوبرههای بیابان"
+  },
+  "Arenaria": {
+    "en": "Sandwort",
+    "fa": "مرجانی"
+  },
+  "Argya": {
+    "fa": "لیکوهای پرسروصدا"
+  },
+  "Arizelocichla": {
+    "fa": "بوبرهای آفریقایی"
+  },
+  "Arremon": {
+    "fa": "خاشاکیهای آمریکای جنوبی"
+  },
+  "Arremonops": {
+    "fa": "گنجشکهای زیتونی"
+  },
+  "Arses": {
+    "fa": "شهریارکهای طوقی"
+  },
   "Artamidae": {
     "fa": "پرستوجنگلیان"
+  },
+  "Artamus": {
+    "fa": "پرستوی جنگلی"
+  },
+  "Artemisiospiza": {
+    "en": "Sagebrush Sparrow",
+    "fa": "گنجشکهای درمنه"
+  },
+  "Asarcornis": {
+    "en": "White-winged ducks"
+  },
+  "Asio": {
+    "fa": "جغد گوشبهسر"
+  },
+  "Asthenes": {
+    "en": "Canastero",
+    "fa": "مرغ سبدساز"
+  },
+  "Astrapia": {
+    "fa": "دمدراز بهشتی"
+  },
+  "Astur": {
+    "fa": "شهبازها (سرده)"
+  },
+  "Atelornis": {
+    "fa": "ناکاملپرنده"
+  },
+  "Athene": {
+    "fa": "جغدهای سنگی"
+  },
+  "Atlapetes": {
+    "fa": "سهرههای خاشاک"
+  },
+  "Atrichornis": {
+    "en": "Scrubbird",
+    "fa": "بوتهمرغ"
   },
   "Atrichornithidae": {
     "en": "Scrub-bird"
   },
+  "Atticora": {
+    "fa": "پرستوهای آمریکای جنوبی"
+  },
+  "Attila": {
+    "fa": "آتیلاها"
+  },
+  "Augastes": {
+    "fa": "آفتابگیرها"
+  },
+  "Aulacorhynchus": {
+    "fa": "توکانچه سبز"
+  },
+  "Aves": {
+    "en": "Bird",
+    "fa": "پرنده"
+  },
+  "Aviceda": {
+    "fa": "باز-کوکوها"
+  },
+  "Aythya": {
+    "fa": "دریانشین"
+  },
+  "Baeolophus": {
+    "fa": "چرخریسوکها"
+  },
+  "Baeopogon": {
+    "fa": "بوبرهای ریشکوتاه"
+  },
   "Balaenicipitidae": {
     "fa": "نیللکلکان"
+  },
+  "Balearica": {
+    "fa": "درناهای تاجدار"
+  },
+  "Bambusicola": {
+    "en": "Bamboo-partridges",
+    "fa": "کبک خیزرانی"
+  },
+  "Bangsia": {
+    "fa": "فرخندههای زرین"
+  },
+  "Bartramia": {
+    "en": "Bartramia moss",
+    "fa": "آبچلیکهای زوزهگرگی"
+  },
+  "Baryphthengus": {
+    "fa": "دمدرازهای حنایی"
+  },
+  "Batis": {
+    "en": "Saltwort",
+    "fa": "باتیس"
+  },
+  "Batrachostomus": {
+    "fa": "دهانقورباغهایها"
   },
   "Bernieridae": {
     "fa": "سسک مالاگاسی"
   },
+  "Bias": {
+    "en": "Black-and-white Shrike-flycatcher"
+  },
+  "Biziura": {
+    "fa": "اردکهای مشک"
+  },
+  "Bleda": {
+    "fa": "نوکفرچهای"
+  },
+  "Blythipicus": {
+    "fa": "دارکوبهای بلوطی"
+  },
+  "Boissonneaua": {
+    "fa": "تاجکها"
+  },
+  "Bombycilla": {
+    "fa": "باللاکی"
+  },
   "Bombycillidae": {
     "en": "Waxwings"
+  },
+  "Bostrychia": {
+    "fa": "نوکخمیدهها"
+  },
+  "Botaurus": {
+    "fa": "بوتیمارهای بزرگ"
+  },
+  "Brachygalba": {
+    "fa": "رنگینتابهای کوتاه"
   },
   "Brachypteraciidae": {
     "en": "Ground roller",
     "fa": "سبزقبای زمینی"
   },
+  "Brachypteryx": {
+    "fa": "بالکوتاهها"
+  },
+  "Brachyramphus": {
+    "fa": "ماهیگیرک کوتوله"
+  },
+  "Bradypterus": {
+    "fa": "سسکهای بیشه آفریقایی"
+  },
+  "Branta": {
+    "fa": "غازهای سیاه"
+  },
+  "Brunhilda": {
+    "fa": "نوکمومیهای گونهسیاه"
+  },
+  "Bubalornis": {
+    "fa": "جولاهای گاومیشی"
+  },
+  "Bubo": {
+    "en": "Eagle-owls",
+    "fa": "جغد عقابی"
+  },
+  "Bucco": {
+    "fa": "پفیها"
+  },
   "Bucconidae": {
     "fa": "مرغ پفی"
+  },
+  "Bucephala": {
+    "fa": "اردکهای چشمطلایی"
+  },
+  "Buceros": {
+    "fa": "نوکشاخهای بزرگ"
   },
   "Bucerotidae": {
     "en": "Hornbill",
     "fa": "منقارشاخی"
   },
+  "Bucerotiformes": {
+    "fa": "نوکشاخسانان"
+  },
+  "Bucorvus": {
+    "en": "Ground Hornbill",
+    "fa": "نوکشاخ زمینی"
+  },
+  "Bulweria": {
+    "fa": "بولوریا"
+  },
   "Buphagidae": {
     "en": "Oxpeckers"
+  },
+  "Buphagus": {
+    "fa": "کنهخوار"
   },
   "Burhinidae": {
     "en": "Thick-knees",
     "fa": "چاخلقان"
   },
+  "Busarellus": {
+    "en": "Black-collared Hawk"
+  },
+  "Butastur": {
+    "fa": "سارگپههای قوشی"
+  },
+  "Buteo": {
+    "fa": "سارگپه"
+  },
+  "Buteogallus": {
+    "fa": "سارگپههای خروسی"
+  },
+  "Buthraupis": {
+    "fa": "فرخندههای بزرگ"
+  },
+  "Butorides": {
+    "fa": "حواصیل سبز"
+  },
+  "Cacatua": {
+    "fa": "طوطیکاکلیهای سفید"
+  },
   "Cacatuidae": {
     "en": "Cockatoos",
     "fa": "طوطی کاکل سفید"
+  },
+  "Cacicus": {
+    "fa": "لانهآویز"
+  },
+  "Calamanthus": {
+    "fa": "الیکاییهای دشتی"
+  },
+  "Calandrella": {
+    "fa": "چکاوکچهها"
   },
   "Calcariidae": {
     "en": "Calcariid buntings",
     "fa": "پنجهبلندان"
   },
+  "Calcarius": {
+    "fa": "پنجهبلند"
+  },
+  "Calendulauda": {
+    "fa": "خجوها"
+  },
+  "Calicalicus": {
+    "fa": "وانگاهای سرخ"
+  },
+  "Calidris": {
+    "fa": "تلیله"
+  },
+  "Callaeas": {
+    "fa": "کوکاکو"
+  },
   "Callaeidae": {
     "fa": "غبغبکیهای نیوزیلند"
+  },
+  "Calliope": {
+    "fa": "خوشآواز"
+  },
+  "Callipepla": {
+    "fa": "زیباپوش"
+  },
+  "Caloenas": {
+    "fa": "کبوترهای یالدار"
+  },
+  "Calonectris": {
+    "fa": "کبوتردریاییهای بزرگ"
+  },
+  "Calyptomena": {
+    "fa": "پهننوکهای سبز"
   },
   "Calyptomenidae": {
     "fa": "پهننوکان سبزوآفریقایی"
   },
+  "Calyptophilus": {
+    "fa": "چکفرخندهها"
+  },
+  "Calyptorhynchus": {
+    "fa": "کالیپتورینکوس"
+  },
+  "Camarhynchus": {
+    "fa": "سهرههای درختی"
+  },
   "Campephagidae": {
     "fa": "سنگچشمکوکویان"
+  },
+  "Campephilus": {
+    "fa": "نوکعاجیها"
+  },
+  "Campethera": {
+    "en": "African Green Woodpeckers",
+    "fa": "دارکوبهای سبز سرسرخ"
+  },
+  "Camptostoma": {
+    "fa": "ژیانمرغکهای بیریش"
+  },
+  "Campylopterus": {
+    "fa": "دمشمشیری"
+  },
+  "Campylorhamphus": {
+    "fa": "داسنوکها"
+  },
+  "Campylorhynchus": {
+    "fa": "خمیدهمنقارها"
+  },
+  "Canirallus": {
+    "fa": "یلوههای نمزی"
+  },
+  "Cantorchilus": {
+    "fa": "کنارخوانها"
   },
   "Capitonidae": {
     "fa": "ریشمرغان آمریکایی"
@@ -222,214 +714,1755 @@
   "Caprimulgidae": {
     "fa": "شبگردان"
   },
+  "Caprimulgiformes": {
+    "fa": "شبگردسانان"
+  },
+  "Caprimulgus": {
+    "fa": "شبگردهای نمادین"
+  },
   "Cardinalidae": {
     "fa": "کاردینال"
+  },
+  "Cardinalis": {
+    "fa": "کاردینالها"
+  },
+  "Carduelis": {
+    "fa": "کاردوئلیس"
   },
   "Cariamidae": {
     "fa": "کاکلپیشانی"
   },
+  "Cariamiformes": {
+    "fa": "کاکلیان"
+  },
+  "Carpococcyx": {
+    "fa": "کوکوهای زمینی آسیایی"
+  },
+  "Carpodacus": {
+    "fa": "سهره گلی"
+  },
+  "Carpornis": {
+    "en": "Berryeater"
+  },
+  "Carterornis": {
+    "fa": "مرغ کارتر"
+  },
+  "Casiornis": {
+    "fa": "کاسیورنیسها"
+  },
   "Casuariidae": {
     "fa": "شترمرغان شاخدار"
+  },
+  "Casuariiformes": {
+    "fa": "کاسوآریسانان"
+  },
+  "Casuarius": {
+    "fa": "کاسوآری"
+  },
+  "Catamenia": {
+    "fa": "دانهخوارهای ناهمگون"
+  },
+  "Cathartes": {
+    "fa": "پاکیزهگرها"
   },
   "Cathartidae": {
     "en": "New World vulture",
     "fa": "کرکسهای جهان جدید"
   },
+  "Cathartiformes": {
+    "fa": "لاشخورسانان"
+  },
+  "Catharus": {
+    "fa": "توکای کاثاروس"
+  },
+  "Cecropis": {
+    "fa": "پرستوی سکروپ"
+  },
+  "Celeus": {
+    "fa": "دارکوبهای خوشمو"
+  },
+  "Centrocercus": {
+    "fa": "تیغدم"
+  },
+  "Centropus": {
+    "fa": "کوکال"
+  },
+  "Cephalopterus": {
+    "en": "Umbrellabird",
+    "fa": "چترمرغ"
+  },
+  "Cepphus": {
+    "fa": "گیلهماتهای حقیقی"
+  },
+  "Ceratopipra": {
+    "fa": "رنگینکهای شاخی"
+  },
+  "Cercococcyx": {
+    "fa": "کوکوهای دمدراز"
+  },
+  "Cercomacra": {
+    "fa": "دمبلندها"
+  },
+  "Cercotrichas": {
+    "fa": "دمچتری"
+  },
+  "Certhia": {
+    "fa": "دارخزکها"
+  },
+  "Certhiaxis": {
+    "fa": "دمخاریهای دارخزکی"
+  },
+  "Certhidea": {
+    "en": "Warbler-finch",
+    "fa": "سهرهسسکی"
+  },
   "Certhiidae": {
     "en": "Treecreeper",
     "fa": "دارخزک"
   },
+  "Certhilauda": {
+    "fa": "درازمنقارها"
+  },
+  "Cettia": {
+    "fa": "سسک بیشه"
+  },
   "Cettiidae": {
     "fa": "سسکهای بیشه"
+  },
+  "Ceyx": {
+    "fa": "ماهیخورکهای کوتوله"
   },
   "Chaetopidae": {
     "fa": "صخرهپر (پرنده)"
   },
+  "Chaetops": {
+    "fa": "سنگپر"
+  },
+  "Chaetura": {
+    "fa": "بادخورکهای پردراز"
+  },
+  "Chalcophaps": {
+    "en": "Emerald Dove",
+    "fa": "کبوتر زمردی"
+  },
+  "Chalcopsitta": {
+    "fa": "برنزهطوطیها"
+  },
+  "Chalcostigma": {
+    "fa": "لکهبرنزهایها"
+  },
+  "Chalybura": {
+    "fa": "پرگزیده"
+  },
+  "Chamaepetes": {
+    "fa": "شبخروشهای زمینی"
+  },
+  "Chamaetylas": {
+    "fa": "کهنخویشنماها"
+  },
+  "Chamaeza": {
+    "fa": "مورچهگیرهای آمریکای جنوبی"
+  },
   "Charadriidae": {
     "fa": "سلیمان"
+  },
+  "Charadriiformes": {
+    "fa": "سلیمسانان"
+  },
+  "Charadrius": {
+    "fa": "سلیمهای سینهنواری"
+  },
+  "Chasiempis": {
+    "en": "‘Elepaio",
+    "fa": "شهریارکهای خوشخوان"
+  },
+  "Chauna": {
+    "fa": "فریادکشهای بزرگ"
+  },
+  "Chelictinia": {
+    "en": "African Swallow-tailed Kite"
+  },
+  "Chenonetta": {
+    "fa": "مرغابیهای یالدار"
+  },
+  "Chersomanes": {
+    "fa": "مانورک"
+  },
+  "Chionis": {
+    "fa": "نیامنوک"
+  },
+  "Chionomesa": {
+    "fa": "زمردیهای شکمبرفی"
+  },
+  "Chiroxiphia": {
+    "fa": "رنگینکهای رقاص"
+  },
+  "Chlamydera": {
+    "fa": "رداگردنها"
+  },
+  "Chlamydotis": {
+    "en": "Houbaras",
+    "fa": "هوبرههای اصلی"
+  },
+  "Chlidonias": {
+    "fa": "پرستوی دریایی مراب"
+  },
+  "Chloephaga": {
+    "fa": "غازهای علفخوار"
+  },
+  "Chloridops": {
+    "fa": "نوکبزرگهای سبز"
+  },
+  "Chloris": {
+    "en": "Windmill grass",
+    "fa": "چمن مقدس"
+  },
+  "Chloroceryle": {
+    "en": "American green kingfishers",
+    "fa": "ماهیخورک سبز آمریکایی"
+  },
+  "Chlorocichla": {
+    "fa": "بوبرهای رنگین"
+  },
+  "Chlorophanes": {
+    "en": "Chlorophanes Matthews (1992) non Reichenbach (1853)"
+  },
+  "Chlorophoneus": {
+    "fa": "سنگچشمهای بیشه پشتسبز"
+  },
+  "Chlorophonia": {
+    "fa": "سهرههای رنگینخوان"
+  },
+  "Chloropicus": {
+    "fa": "دارکوبهای سبز آفریقایی"
+  },
+  "Chloropipo": {
+    "fa": "رنگینکهای سبزفام"
   },
   "Chloropseidae": {
     "en": "Leafbird",
     "fa": "برگنشین"
   },
+  "Chloropsis": {
+    "en": "Leafbird",
+    "fa": "برگنشین"
+  },
+  "Chlorospingus": {
+    "fa": "فرخندههای بیشه"
+  },
+  "Chlorostilbon": {
+    "fa": "زمردیها"
+  },
+  "Chondrohierax": {
+    "fa": "کورکورهای نوکچنگکی"
+  },
+  "Chordeiles": {
+    "fa": "عصررقصکنانها"
+  },
+  "Chroicocephalus": {
+    "en": "Hooded gulls",
+    "fa": "کاکاییهای رنگینسر"
+  },
+  "Chrysococcyx": {
+    "fa": "کوکوهای زمردی"
+  },
+  "Chrysocolaptes": {
+    "fa": "پشتآتشیهای خاوریتر"
+  },
+  "Chrysocorythus": {
+    "fa": "سهرههای دمگاهزرد زرینسر"
+  },
+  "Chrysolampis": {
+    "en": "Ruby-topaz Hummingbird"
+  },
+  "Chrysolophus": {
+    "fa": "قرقاولهای طلایی"
+  },
+  "Chrysomus": {
+    "fa": "سیاهمرغهای زرین"
+  },
+  "Chrysophlegma": {
+    "fa": "دارکوبهای زرین"
+  },
+  "Chunga": {
+    "fa": "کاکلی آمریکای جنوبی"
+  },
+  "Cichladusa": {
+    "fa": "توکاهای نخلی"
+  },
+  "Cicinnurus": {
+    "fa": "دمداسیها"
+  },
+  "Ciconia": {
+    "fa": "لکلکها"
+  },
   "Ciconiidae": {
     "en": "Stork",
     "fa": "لکلک"
   },
+  "Ciconiiformes": {
+    "fa": "لکلکسانان"
+  },
   "Cinclidae": {
     "en": "Dippers"
+  },
+  "Cinclidium": {
+    "en": "Cinclidium moss"
+  },
+  "Cinclocerthia": {
+    "fa": "لرزانک"
+  },
+  "Cinclodes": {
+    "fa": "آبجوها"
+  },
+  "Cincloramphus": {
+    "fa": "چکاوکهای آوازهخوان"
+  },
+  "Cinclosoma": {
+    "fa": "توکا-بلدرچین"
   },
   "Cinclosomatidae": {
     "fa": "توکا-لیکویان"
   },
+  "Cinclus": {
+    "fa": "زیر آبروک"
+  },
+  "Cinnycerthia": {
+    "fa": "الیکاییهای آند"
+  },
+  "Cinnyris": {
+    "fa": "ریزهشهدخوارها"
+  },
+  "Circaetus": {
+    "fa": "عقاب مارخور"
+  },
+  "Circus": {
+    "fa": "سنقر"
+  },
+  "Cissa": {
+    "fa": "زاغیهای دمکوتاه"
+  },
+  "Cisticola": {
+    "fa": "سبدنشین"
+  },
   "Cisticolidae": {
     "fa": "سبدنشینان"
+  },
+  "Cistothorus": {
+    "fa": "سینهچنبریها"
+  },
+  "Clamator": {
+    "fa": "کوکوهای کاکلی"
+  },
+  "Clanga": {
+    "fa": "عقابهای خالدار"
+  },
+  "Claravis": {
+    "fa": "کبوتر خاکی"
+  },
+  "Clibanornis": {
+    "fa": "برگپاککنها"
   },
   "Climacteridae": {
     "en": "Australasian treecreeper",
     "fa": "دارخزک استرالزی"
   },
+  "Climacteris": {
+    "fa": "دارخزکهای استرالزی"
+  },
+  "Clytoctantes": {
+    "fa": "بیشهمرغها"
+  },
+  "Clytorhynchus": {
+    "en": "Shrikebill",
+    "fa": "سنگیننوک"
+  },
   "Cnemophilidae": {
     "fa": "مرغان براق"
+  },
+  "Cnemophilus": {
+    "fa": "مرغ براق"
+  },
+  "Cnipodectes": {
+    "en": "Twistwing",
+    "fa": "تابیدهبال"
+  },
+  "Coccopygia": {
+    "fa": "نوکمومیهای دورنگنوک"
+  },
+  "Coenocorypha": {
+    "en": "Snipe",
+    "fa": "پاشلک استرالیایی"
+  },
+  "Colaptes": {
+    "fa": "دارکوبهای آمریکایی"
+  },
+  "Colibri": {
+    "en": "Violetear",
+    "fa": "گوشبنفش"
   },
   "Coliidae": {
     "en": "Mousebird",
     "fa": "موشمرغسانان"
   },
+  "Colinus": {
+    "fa": "بلدرچینهای تپهای"
+  },
+  "Colius": {
+    "fa": "دمششپره"
+  },
+  "Collocalia": {
+    "fa": "بادخورکهای لانهچسبی"
+  },
+  "Colluricincla": {
+    "fa": "سنگچشمباسترک"
+  },
+  "Coloeus": {
+    "en": "Jackdaw",
+    "fa": "زاغچگان"
+  },
+  "Columba": {
+    "fa": "کبوتر"
+  },
   "Columbidae": {
     "en": "Pigeons and doves",
     "fa": "کبوتر"
+  },
+  "Columbiformes": {
+    "fa": "کبوترسانان"
+  },
+  "Columbina": {
+    "fa": "قمریهای زمینی آمریکایی"
+  },
+  "Conirostrum": {
+    "fa": "نوکقیفی"
+  },
+  "Conopophaga": {
+    "fa": "پشهخوارها"
   },
   "Conopophagidae": {
     "en": "Gnateaters",
     "fa": "پشهخوار"
   },
+  "Contopus": {
+    "fa": "پامیلهای"
+  },
+  "Copsychus": {
+    "fa": "سینهسرخ پیسه"
+  },
+  "Coracias": {
+    "fa": "سبزقباهای رنگین"
+  },
   "Coraciidae": {
     "fa": "سبزقبا"
+  },
+  "Coraciiformes": {
+    "fa": "سبزقباسانان"
+  },
+  "Coracina": {
+    "en": "Coracina (Coracina)"
+  },
+  "Coracopsis": {
+    "fa": "طوطی وازا"
+  },
+  "Coracornis": {
+    "fa": "سوتزنهای غرابی"
+  },
+  "Coragyps": {
+    "en": "American Black Vulture",
+    "fa": "کرکس سیاه"
+  },
+  "Corapipo": {
+    "fa": "رنگینکهای پرشی"
   },
   "Corcoracidae": {
     "en": "Australian mudnester",
     "fa": "گلآشیان"
   },
+  "Corcorax": {
+    "en": "White-winged Choughs"
+  },
   "Corvidae": {
     "en": "Corvid",
     "fa": "کلاغیان"
   },
+  "Corvus": {
+    "fa": "کلاغ"
+  },
+  "Corypha": {
+    "fa": "نخل کاکلی"
+  },
+  "Coryphospingus": {
+    "fa": "سهرههای کاکلی"
+  },
+  "Cossypha": {
+    "fa": "چکسینهسرخهای جنگلی"
+  },
+  "Cotinga": {
+    "fa": "گوهرمرغهای فیروزهای"
+  },
   "Cotingidae": {
     "fa": "جواهرمرغ"
+  },
+  "Coturnicops": {
+    "fa": "یلوههای بلدرچینی"
+  },
+  "Coturnix": {
+    "fa": "بلدرچینهای نمادین"
+  },
+  "Coua": {
+    "fa": "کوآ"
   },
   "Cracidae": {
     "fa": "گوشخراشان"
   },
+  "Cracticus": {
+    "fa": "مرغ قصاب"
+  },
+  "Cranioleuca": {
+    "fa": "دمتیزکهای اصلی"
+  },
+  "Crax": {
+    "fa": "کاکلفریهای کرگسان"
+  },
+  "Creurgops": {
+    "fa": "فرخندههای نوکسنگین"
+  },
+  "Crex": {
+    "fa": "یلوههای نوککوتاه"
+  },
+  "Crinifer": {
+    "fa": "سبزموزخوارها"
+  },
+  "Criniger": {
+    "fa": "بوبرهای موبلند"
+  },
+  "Crithagra": {
+    "fa": "سهرههای دمگاهزرد آفریقایی"
+  },
+  "Crossoptilon": {
+    "fa": "قرقاول گوشدار"
+  },
+  "Crotophaga": {
+    "en": "Ani",
+    "fa": "ستبرنوک"
+  },
+  "Crypsirina": {
+    "en": "Treepie",
+    "fa": "زاغهای خاور دور"
+  },
+  "Cryptospiza": {
+    "fa": "بالزرشکی"
+  },
+  "Crypturellus": {
+    "fa": "دمچهپنهانها"
+  },
   "Cuculidae": {
     "fa": "کوکو"
+  },
+  "Cuculiformes": {
+    "en": "Cuckoos",
+    "fa": "کوکوسانان"
+  },
+  "Cuculus": {
+    "fa": "کوکوها"
+  },
+  "Cursorius": {
+    "fa": "دودوکهای نمادین"
+  },
+  "Cutia": {
+    "fa": "کوهیتوکاها"
+  },
+  "Cyanerpes": {
+    "en": "Honeycreeper",
+    "fa": "عسلکش"
+  },
+  "Cyanistes": {
+    "en": "Tit",
+    "fa": "چرخریسکهای سرآبی"
+  },
+  "Cyanocitta": {
+    "fa": "کبودجیجاقهای آبی"
+  },
+  "Cyanocompsa": {
+    "fa": "نوکبزرگهای آبی"
+  },
+  "Cyanocorax": {
+    "fa": "کبودجیجاقهای غرابی"
+  },
+  "Cyanolanius": {
+    "fa": "بانگمرغهای کبود"
+  },
+  "Cyanoloxia": {
+    "fa": "نوکبزرگهای فیروزهای"
+  },
+  "Cyanolyca": {
+    "fa": "کبودجیجاقهای کوچک"
+  },
+  "Cyanopica": {
+    "fa": "کبودکشکرک"
+  },
+  "Cyclarhis": {
+    "en": "Peppershrike",
+    "fa": "فلفلکها"
+  },
+  "Cygnus": {
+    "en": "Swan",
+    "fa": "قو"
+  },
+  "Cymbilaimus": {
+    "fa": "آلاگزنهایهای خنبی"
+  },
+  "Cymbirhynchus": {
+    "en": "Black-and-red Broadbill"
+  },
+  "Cyornis": {
+    "fa": "مگسگیرهای آبی"
+  },
+  "Cyphorhinus": {
+    "fa": "الیکاییهای کجبینی"
+  },
+  "Cypseloides": {
+    "fa": "آوندوارها"
+  },
+  "Cypsiurus": {
+    "en": "Palm swift"
+  },
+  "Cypsnagra": {
+    "en": "White-rumped Tanager"
+  },
+  "Cyrtonyx": {
+    "fa": "خمپنجه"
+  },
+  "Dacelo": {
+    "en": "Kookaburra",
+    "fa": "کوکابورا"
+  },
+  "Dacnis": {
+    "fa": "توتخوار"
+  },
+  "Daphoenositta": {
+    "fa": "کمرکولیچه"
+  },
+  "Dasycrotapha": {
+    "fa": "لیکوهای کوتوله"
+  },
+  "Dasyornis": {
+    "fa": "مرغ فرچهای"
   },
   "Dasyornithidae": {
     "en": "Bristlebirds"
   },
+  "Deconychura": {
+    "fa": "چوبخزکهای دمدراز"
+  },
+  "Delichon": {
+    "fa": "چلچله خانگی"
+  },
+  "Dendragapus": {
+    "fa": "تیرهخروسها"
+  },
+  "Dendrocincla": {
+    "fa": "باسترک درختی"
+  },
+  "Dendrocitta": {
+    "fa": "زاغهای درختی دمدراز"
+  },
+  "Dendrocolaptes": {
+    "fa": "چوبخزکها"
+  },
+  "Dendrocopos": {
+    "fa": "دارکوبهای رنگین"
+  },
+  "Dendrocoptes": {
+    "fa": "دارکوبهای خالدار میانی"
+  },
+  "Dendrocygna": {
+    "fa": "اردک سوتزن"
+  },
+  "Dendropicos": {
+    "fa": "دارکوبهای کوچک آفریقایی"
+  },
+  "Dendroplex": {
+    "fa": "چوبخزکهای نوکراست"
+  },
+  "Dendrortyx": {
+    "fa": "بلدرچینهای درختی"
+  },
+  "Dessonornis": {
+    "fa": "چکسینهسرخهای درختزار"
+  },
   "Dicaeidae": {
     "fa": "گلکوب"
+  },
+  "Dicaeum": {
+    "fa": "گلکوبهای اصلی"
   },
   "Dicruridae": {
     "en": "Drongo",
     "fa": "بوچانگایان"
   },
+  "Dicrurus": {
+    "en": "Drongo"
+  },
+  "Diglossa": {
+    "fa": "گلشکاف"
+  },
+  "Dinopium": {
+    "fa": "پشتآتشیهای خاوری"
+  },
+  "Diomedea": {
+    "fa": "آلباتروسهای بزرگ"
+  },
   "Diomedeidae": {
     "en": "Albatross",
     "fa": "آلباتروس"
   },
+  "Discosura": {
+    "fa": "خاردم"
+  },
+  "Diuca": {
+    "fa": "دیوکا"
+  },
+  "Dives": {
+    "fa": "سیاهمرغهای نغمهساز"
+  },
+  "Doryfera": {
+    "fa": "نوکنیزهایها"
+  },
+  "Drepanis": {
+    "en": "Mamo",
+    "fa": "کژنوک"
+  },
+  "Drepanornis": {
+    "fa": "نوکداسیهای دمکوتاه"
+  },
+  "Dromas": {
+    "en": "Dromassrun"
+  },
+  "Dromococcyx": {
+    "fa": "کوکوهای دمطاووسی"
+  },
+  "Drymodes": {
+    "fa": "خاردشتیها"
+  },
+  "Drymophila": {
+    "fa": "درختچهدوستها"
+  },
+  "Drymornis": {
+    "en": "Scimitar-billed Woodcreeper"
+  },
+  "Dryobates": {
+    "fa": "دارکوبهای خالدار کوچک"
+  },
+  "Dryocopus": {
+    "fa": "دارکوبهای سیاه"
+  },
+  "Dryolimnas": {
+    "fa": "یلوههای تالابی"
+  },
+  "Dryoscopus": {
+    "fa": "پشتپفیها"
+  },
+  "Ducula": {
+    "fa": "کبوتر شاهنشاهی"
+  },
+  "Dysithamnus": {
+    "fa": "سرودخوانهای مورچهخوار"
+  },
+  "Eclectus": {
+    "fa": "گزینطوطیها"
+  },
+  "Egretta": {
+    "fa": "اگرت"
+  },
+  "Elaenia": {
+    "fa": "ابروزردک"
+  },
+  "Elanus": {
+    "fa": "کورکورهای بالسیاه"
+  },
+  "Electron": {
+    "fa": "کهرباییها"
+  },
+  "Emberiza": {
+    "fa": "زردپرههای معمولی"
+  },
   "Emberizidae": {
     "fa": "زردپرهایان"
   },
+  "Emberizoides": {
+    "fa": "سهرههای علفی"
+  },
+  "Embernagra": {
+    "fa": "سهرهنماها"
+  },
+  "Enicurus": {
+    "fa": "دمچنگالی"
+  },
+  "Ensifera": {
+    "fa": "شمشیرکداران"
+  },
+  "Entomodestes": {
+    "fa": "تکپرهای سرسیاه"
+  },
+  "Eophona": {
+    "fa": "نوکبزرگهای خاوری"
+  },
+  "Eopsaltria": {
+    "fa": "سینهسرخهای زرد"
+  },
+  "Ephippiorhynchus": {
+    "fa": "زینمنقاران"
+  },
+  "Epimachus": {
+    "fa": "نوکداسیها"
+  },
+  "Epinecrophylla": {
+    "fa": "مردهبرگنشینها"
+  },
+  "Epthianura": {
+    "fa": "چکهای استرالیایی"
+  },
+  "Eremomela": {
+    "fa": "دشتخوان"
+  },
+  "Eremophila": {
+    "en": "Emu Bush",
+    "fa": "بیابانرست"
+  },
+  "Eremopterix": {
+    "fa": "چکاوکهای گنجشکی"
+  },
+  "Eriocnemis": {
+    "fa": "پاپفیهای گوهرین"
+  },
+  "Erithacus": {
+    "fa": "سینهسرخهای اروآسیایی"
+  },
+  "Erythrocercus": {
+    "fa": "مگسگیرهای دمسرخ"
+  },
+  "Erythropitta": {
+    "fa": "پیتاهای سرخ"
+  },
+  "Erythrotriorchis": {
+    "fa": "شهبازهای سرخ"
+  },
+  "Erythrura": {
+    "fa": "طوطیسهره"
+  },
+  "Estrilda": {
+    "fa": "نوکمومی"
+  },
   "Estrildidae": {
     "fa": "سهره بافنده"
+  },
+  "Euchrepomis": {
+    "fa": "شانهسرخها"
+  },
+  "Eudocimus": {
+    "fa": "اکراسهای باشکوه"
+  },
+  "Eudromia": {
+    "fa": "خوشگریزها"
+  },
+  "Eudynamys": {
+    "en": "Koel",
+    "fa": "جارزن"
+  },
+  "Eudyptes": {
+    "fa": "پنگوئنهای کاکلدار"
+  },
+  "Eudyptula": {
+    "fa": "پنگوئنهای کاکلدار کوچک"
+  },
+  "Eugenes": {
+    "fa": "مگسمرغ باشکوه"
+  },
+  "Eumyias": {
+    "fa": "مگسگیرهای فیروزهای"
+  },
+  "Euodice": {
+    "fa": "نوکسیمینها"
+  },
+  "Euphonia": {
+    "fa": "سهرههای خوشخوان"
+  },
+  "Euplectes": {
+    "fa": "جولاهای چندزنه"
+  },
+  "Eupodotis": {
+    "fa": "هوبرههای ساوانا"
+  },
+  "Eurillas": {
+    "fa": "بوبرهای پهن"
+  },
+  "Eurocephalus": {
+    "fa": "سنگچشمهای تاجسفید"
+  },
+  "Eurostopodus": {
+    "fa": "شبگرد گوشدار"
+  },
+  "Euryceros": {
+    "en": "Helmet Vangas"
   },
   "Eurylaimidae": {
     "en": "Broadbill",
     "fa": "منقارپهن"
   },
+  "Eurypygiformes": {
+    "fa": "آفتاببوتیمارسانان"
+  },
+  "Eurystomus": {
+    "fa": "سبزقبا های دهانپهن"
+  },
+  "Euscarthmus": {
+    "fa": "ژیانمرغهای کوتوله حنایی"
+  },
+  "Euschistospiza": {
+    "fa": "خوشخالسهرهها"
+  },
+  "Eutoxeres": {
+    "fa": "گوشهگیرهای نوکداسی"
+  },
+  "Falcipennis": {
+    "fa": "سیاهخروسان فالسیپنیس"
+  },
+  "Falco": {
+    "en": "Falcon",
+    "fa": "شاهین"
+  },
   "Falconidae": {
     "fa": "شاهینان"
+  },
+  "Falconiformes": {
+    "fa": "شاهینسانان"
   },
   "Falcunculidae": {
     "fa": "چرخریسک-سنگچشم"
   },
+  "Ficedula": {
+    "fa": "مرغان مگسگیر فیسدولا"
+  },
+  "Florisuga": {
+    "fa": "گلآشام"
+  },
   "Formicariidae": {
     "fa": "مورچهگیران"
+  },
+  "Formicarius": {
+    "en": "Anttrushes",
+    "fa": "مورچهگیرها"
+  },
+  "Formicivora": {
+    "fa": "مورچهاوبارها"
+  },
+  "Forpus": {
+    "fa": "طوطیچهها"
+  },
+  "Foudia": {
+    "fa": "فودی (پرنده)"
+  },
+  "Foulehaio": {
+    "en": "Wattled honeyeater"
+  },
+  "Francolinus": {
+    "fa": "دراج"
+  },
+  "Fraseria": {
+    "en": "Forest flycatcher",
+    "fa": "مگسگیرهای جنگلی"
+  },
+  "Fratercula": {
+    "en": "Puffin",
+    "fa": "طوطی دریایی"
+  },
+  "Frederickena": {
+    "fa": "فردریکنا"
+  },
+  "Fregata": {
+    "fa": "ناوچهمرغ"
   },
   "Fregatidae": {
     "en": "Frigatebirds",
     "fa": "مرغ دله"
   },
+  "Fregilupus": {
+    "en": "Reunion Starling"
+  },
+  "Fringilla": {
+    "fa": "سهرههای جنگلی"
+  },
   "Fringillidae": {
     "en": "Finches",
     "fa": "سهره"
   },
+  "Fulica": {
+    "fa": "چنگر"
+  },
+  "Fulmarus": {
+    "en": "Fulmar",
+    "fa": "مرغهای باران بدبو"
+  },
   "Furnariidae": {
     "fa": "مرغان تنورساز"
+  },
+  "Furnarius": {
+    "fa": "هورنرو"
+  },
+  "Galbalcyrhynchus": {
+    "fa": "رنگینتابهای بینیدراز"
+  },
+  "Galbula": {
+    "fa": "رنگینتابهای میانجثه"
   },
   "Galbulidae": {
     "en": "Jacamar",
     "fa": "رنگینتاب"
   },
+  "Galerida": {
+    "fa": "چکاوکهای کاکلی"
+  },
+  "Gallicolumba": {
+    "fa": "کبوترهای دلخون"
+  },
+  "Galliformes": {
+    "fa": "ماکیانسانان"
+  },
+  "Gallinago": {
+    "fa": "گالیناگو"
+  },
+  "Gallinula": {
+    "fa": "چارخو"
+  },
+  "Gallirallus": {
+    "fa": "یلوههای استرالیا-آرام"
+  },
+  "Galloperdix": {
+    "en": "Spurfowl",
+    "fa": "مهمیزدارها"
+  },
+  "Gallus": {
+    "fa": "مرغ جنگلی"
+  },
+  "Garrulus": {
+    "fa": "جیجاقهای جیرجیری"
+  },
+  "Gavia": {
+    "fa": "غواصیان"
+  },
   "Gaviidae": {
     "en": "Loon",
     "fa": "غواص (پرنده)"
   },
+  "Gaviiformes": {
+    "fa": "غواصسانان"
+  },
+  "Gecinulus": {
+    "fa": "دارکوبهای زمینی آسیا"
+  },
+  "Geococcyx": {
+    "en": "Roadrunners",
+    "fa": "کوکو دونده"
+  },
+  "Geoffroyus": {
+    "fa": "طوطیهای گینه نو"
+  },
+  "Geokichla": {
+    "fa": "توکاهای زمینی"
+  },
+  "Geopelia": {
+    "fa": "قمریهای خاکی"
+  },
+  "Geophaps": {
+    "fa": "کبوترهای خاکی"
+  },
+  "Geositta": {
+    "fa": "دالانکنها"
+  },
+  "Geospiza": {
+    "fa": "سهرههای زمینی"
+  },
+  "Geothlypis": {
+    "fa": "گلوزردها"
+  },
+  "Geotrygon": {
+    "fa": "قمریبلدرچینها"
+  },
+  "Geranoaetus": {
+    "fa": "درناییها"
+  },
+  "Geranospiza": {
+    "en": "Crane Hawk"
+  },
+  "Geronticus": {
+    "fa": "اکراسهای کچل"
+  },
+  "Gerygone": {
+    "fa": "خوشنوا"
+  },
+  "Glareola": {
+    "fa": "گلاریول"
+  },
   "Glareolidae": {
     "fa": "چلچلهبیابانیان"
+  },
+  "Glaucestrilda": {
+    "fa": "نوکمومیهای کبود"
+  },
+  "Glaucidium": {
+    "en": "Japanese Wood Poppy",
+    "fa": "جغد کوتوله"
+  },
+  "Glaucis": {
+    "fa": "گوشهگیرهای کبود"
+  },
+  "Goodfellowia": {
+    "en": "Goodfellowia Labeda and Kroppenstedt 2006"
+  },
+  "Gorsachius": {
+    "fa": "حواصیل شب جهان قدیم"
+  },
+  "Goura": {
+    "fa": "کبوتر تاجدار"
+  },
+  "Gracula": {
+    "fa": "میناهای تپهای"
+  },
+  "Grallaria": {
+    "fa": "گنجشکهای مورچهخوار"
+  },
+  "Grallaricula": {
+    "en": "Antpittas"
   },
   "Grallariidae": {
     "en": "Antpitta",
     "fa": "گنجشک مورچهخوار"
   },
+  "Grallina": {
+    "fa": "ساقبلندها"
+  },
+  "Granatina": {
+    "fa": "سهرههای ارغوانی"
+  },
   "Gruidae": {
     "fa": "کلنگان"
+  },
+  "Gruiformes": {
+    "fa": "کلنگسانان"
+  },
+  "Grus": {
+    "fa": "درنا"
+  },
+  "Guira": {
+    "en": "Guira Cuckoo"
+  },
+  "Guttera": {
+    "fa": "مرغهای شاخدار کاکلی"
+  },
+  "Gygis": {
+    "fa": "پرستویهای سفید"
+  },
+  "Gymnocrex": {
+    "fa": "یلوههای رخبرهنه"
+  },
+  "Gymnogyps": {
+    "fa": "برهنهکرکسها"
+  },
+  "Gymnophaps": {
+    "en": "Mountain pigeon",
+    "fa": "کبوتر کوهی"
+  },
+  "Gymnopithys": {
+    "fa": "مورچهقاپهای برهنه"
+  },
+  "Gyps": {
+    "fa": "دال"
+  },
+  "Gypsophila": {
+    "en": "Baby's-breath",
+    "fa": "گچدوست"
+  },
+  "Haematopus": {
+    "fa": "صدفخوار"
+  },
+  "Haemorhous": {
+    "fa": "سهره گلی آمریکایی"
+  },
+  "Halcyon": {
+    "fa": "ماهیخورک درختی هلسین"
+  },
+  "Haliaeetus": {
+    "en": "Sea eagles",
+    "fa": "عقاب دریایی"
+  },
+  "Haliastur": {
+    "fa": "کورکورهای دریایی"
+  },
+  "Haplophaedia": {
+    "en": "Pufflegs",
+    "fa": "پاپفیهای سبزمسی"
+  },
+  "Haplospiza": {
+    "fa": "فرخندههای خیزران"
+  },
+  "Harpactes": {
+    "fa": "لانهکنهای دلربا"
+  },
+  "Harpagus": {
+    "fa": "بازهارپیها"
+  },
+  "Heleia": {
+    "fa": "چشمسفیدهای ناشناس"
+  },
+  "Heliangelus": {
+    "fa": "فرشته خورشید"
+  },
+  "Heliodoxa": {
+    "fa": "آفتابشکوه"
+  },
+  "Heliomaster": {
+    "fa": "اخترگلوها"
   },
   "Heliornithidae": {
     "fa": "بالهپایان"
   },
+  "Helopsaltes": {
+    "fa": "سسکهای ملخی تالابی"
+  },
+  "Hemicircus": {
+    "fa": "دارکوبهای دمکوتاه"
+  },
+  "Hemignathus": {
+    "en": "\"half-jaws\"",
+    "fa": "فرونوککوتاهها"
+  },
+  "Hemiphaga": {
+    "en": "Kererū",
+    "fa": "کبوترهای سینهسبز"
+  },
   "Hemiprocnidae": {
     "fa": "بادخورک درختی"
+  },
+  "Hemipus": {
+    "en": "Flycatcher-shrike",
+    "fa": "مگسگیر-سنگچشم"
+  },
+  "Henicophaps": {
+    "fa": "کبوتر بالبرنزی"
+  },
+  "Henicorhina": {
+    "fa": "الیکاییهای درختی"
+  },
+  "Herpsilochmus": {
+    "fa": "بیشهگردها"
+  },
+  "Hesperiphona": {
+    "fa": "نوکبزرگهای شامگاهی"
+  },
+  "Heterocercus": {
+    "en": "Manakins",
+    "fa": "دگرشاخکیها"
+  },
+  "Heteromirafra": {
+    "fa": "دگرجلها"
+  },
+  "Heteromyias": {
+    "fa": "سینهسرخهای دیگرگون"
+  },
+  "Heterophasia": {
+    "fa": "سیبیا"
+  },
+  "Hieraaetus": {
+    "fa": "قوشعقابها"
+  },
+  "Hierococcyx": {
+    "fa": "کوکو-بازها"
+  },
+  "Himantopus": {
+    "fa": "چوبپا"
+  },
+  "Hippolais": {
+    "fa": "سسکهای درختی بزرگ"
+  },
+  "Hirundapus": {
+    "fa": "دمسوزنی"
   },
   "Hirundinidae": {
     "fa": "پرستو"
   },
+  "Hirundo": {
+    "fa": "چلچلهها"
+  },
+  "Histrionicus": {
+    "en": "Harlequin Ducks"
+  },
+  "Histurgops": {
+    "en": "Rufous-tailed Weaver"
+  },
+  "Horornis": {
+    "fa": "سسکهای بیشه معمولی"
+  },
+  "Hydrobates": {
+    "en": "European Storm-petrel"
+  },
   "Hydrobatidae": {
     "fa": "مرغ توفان"
+  },
+  "Hydrornis": {
+    "fa": "پیتاهای آبدوست"
   },
   "Hyliidae": {
     "fa": "پازیتونیان"
   },
+  "Hyliota": {
+    "fa": "هایلیوتا"
+  },
+  "Hylophilus": {
+    "en": "Greenlets",
+    "fa": "جنگلدوستها"
+  },
+  "Hylorchilus": {
+    "en": "Cave Wrens",
+    "fa": "الیکاییهای نوکباریک"
+  },
+  "Hypargos": {
+    "fa": "خالسهرههای گلوسرخ"
+  },
+  "Hypocnemis": {
+    "fa": "چهچههزنها"
+  },
+  "Hypositta": {
+    "fa": "وانگاهای کمرکولی"
+  },
+  "Hypothymis": {
+    "fa": "شهریارکهای آبی"
+  },
   "Ibidorhynchidae": {
     "en": "Ibisbill"
+  },
+  "Ibycter": {
+    "en": "Red-throated Caracara"
+  },
+  "Ichthyaetus": {
+    "fa": "ماهیآله"
+  },
+  "Icteria": {
+    "en": "Yellow-breasted Chat"
   },
   "Icteridae": {
     "fa": "سیاهپرهایان"
   },
+  "Icterus": {
+    "en": "New World orioles",
+    "fa": "پریشاهرخ جهان جدید"
+  },
+  "Icthyophaga": {
+    "fa": "عقابهای ماهیخوار"
+  },
+  "Ictinia": {
+    "fa": "کورکورهای سربی"
+  },
+  "Iduna": {
+    "fa": "ایدونا"
+  },
+  "Illadopsis": {
+    "fa": "توکانماها"
+  },
+  "Incaspiza": {
+    "en": "Inca-finch",
+    "fa": "سهره اینکا"
+  },
+  "Indicator": {
+    "fa": "عسلیابها"
+  },
   "Indicatoridae": {
     "fa": "عسلیاب"
+  },
+  "Iodopleura": {
+    "en": "Purpletuft",
+    "fa": "شانهارغوانی"
+  },
+  "Irena": {
+    "fa": "پشتآبی"
+  },
+  "Isleria": {
+    "fa": "ایسلریا"
+  },
+  "Ixothraupis": {
+    "fa": "فرخندههای خالدار"
+  },
+  "Jacana": {
+    "fa": "برکهنورد"
   },
   "Jacanidae": {
     "fa": "روآبروک"
   },
+  "Junco": {
+    "fa": "سازونشین"
+  },
+  "Jynx": {
+    "fa": "دارکوبهای قهوهای"
+  },
+  "Kakamega": {
+    "en": "Kakamega Dawidowicz & Wesolowska (2016)"
+  },
+  "Ketupa": {
+    "fa": "جغد ماهیخوار"
+  },
+  "Knipolegus": {
+    "en": "Black-tyrants",
+    "fa": "ژیانمرغهای سیاه"
+  },
+  "Lagonosticta": {
+    "fa": "سهره آتشی"
+  },
+  "Lagopus": {
+    "fa": "باقرقره"
+  },
+  "Lalage": {
+    "en": "Triller",
+    "fa": "پرگوها"
+  },
+  "Lampornis": {
+    "en": "Mountain-gem",
+    "fa": "کوهنگین"
+  },
+  "Lamprolia": {
+    "fa": "ابریشمدم"
+  },
+  "Lamprotornis": {
+    "fa": "سارهای درخشان"
+  },
+  "Laniarius": {
+    "en": "Boubous",
+    "fa": "زنگآواها"
+  },
+  "Laniellus": {
+    "fa": "سنگچشمنماها"
+  },
   "Laniidae": {
     "fa": "سنگچشم"
+  },
+  "Laniisoma": {
+    "fa": "سنگچشمنماها"
+  },
+  "Lanio": {
+    "fa": "فرخنده-سنگچشم"
+  },
+  "Laniocera": {
+    "en": "Mourners",
+    "fa": "مویهگرهای سنگچشمگون"
+  },
+  "Lanius": {
+    "fa": "سنگچشمهای معمولی"
   },
   "Laridae": {
     "fa": "کاکاییان"
   },
+  "Larus": {
+    "fa": "کاکایی"
+  },
+  "Larvivora": {
+    "fa": "کرمینهخوارها"
+  },
+  "Laterallus": {
+    "fa": "یلوههای کوچک"
+  },
   "Leiothrichidae": {
     "fa": "توکایان خندان"
+  },
+  "Leiothrix": {
+    "fa": "توکای خندان"
+  },
+  "Leipoa": {
+    "fa": "لیپوا"
+  },
+  "Lepidocolaptes": {
+    "fa": "چوبخزکهای نوکباریک"
+  },
+  "Lepidothrix": {
+    "en": "Manakins",
+    "fa": "پولکموها"
+  },
+  "Leptasthenura": {
+    "en": "Tit-spinetail",
+    "fa": "خاردم-چرخریسک"
+  },
+  "Leptodon": {
+    "en": "Leptodon moss",
+    "fa": "کورکورهای سرخاکستری"
+  },
+  "Leptopoecile": {
+    "fa": "چرخریسکهای سسکی"
+  },
+  "Leptoptilos": {
+    "fa": "لکلکهای گرمسیری"
+  },
+  "Leptosittaca": {
+    "en": "Golden-plumed Parakeet"
+  },
+  "Leptotila": {
+    "fa": "قمریهای پرناز"
+  },
+  "Lesbia": {
+    "fa": "دمقطاریها"
+  },
+  "Lessonia": {
+    "en": "Negritos",
+    "fa": "سیهچردهها"
+  },
+  "Leucocarbo": {
+    "fa": "باکلانهای سفید"
+  },
+  "Leuconotopicus": {
+    "fa": "دارکوبهای پشتسفید"
+  },
+  "Leucophaeus": {
+    "fa": "کاکاییهای سفید براق"
+  },
+  "Leucopternis": {
+    "fa": "سفیدبازها"
+  },
+  "Leucosticte": {
+    "fa": "سهره کوهستانی"
+  },
+  "Lewinia": {
+    "fa": "یلوههای شکمنواری"
+  },
+  "Limnodromus": {
+    "en": "Dowitcher",
+    "fa": "گلنورد"
+  },
+  "Limosa": {
+    "fa": "گادویت"
+  },
+  "Linaria": {
+    "en": "Linnets",
+    "fa": "کتانی"
+  },
+  "Lipaugus": {
+    "fa": "مرغهای تاریک"
+  },
+  "Lissotis": {
+    "fa": "هوبرههای نرم"
+  },
+  "Lobotos": {
+    "fa": "سنگچشمکوکوهای غبغبکی"
+  },
+  "Locustella": {
+    "fa": "سسکهای ملخی بیشه"
   },
   "Locustellidae": {
     "fa": "گنجشکان لوکوستلیدا"
   },
+  "Loddigesia": {
+    "en": "Loddigesia Luer (2006)"
+  },
+  "Lonchura": {
+    "fa": "نوکنقرهای"
+  },
+  "Lophophanes": {
+    "fa": "چرخ ریسکهای تاجدار"
+  },
+  "Lophophorus": {
+    "en": "Monal",
+    "fa": "کاکلپری"
+  },
+  "Lophorina": {
+    "en": "Superb Bird of Paradise",
+    "fa": "سینهجقهای"
+  },
+  "Lophornis": {
+    "fa": "لوندها"
+  },
+  "Lophospingus": {
+    "fa": "سهرههای کاکلدار"
+  },
+  "Lophospiza": {
+    "fa": "بازهای کاکلدار"
+  },
+  "Lophotis": {
+    "fa": "هوبرههای کاکلی"
+  },
+  "Lophotriccus": {
+    "fa": "ژیانمرغهای کوتوله کاکلی"
+  },
+  "Loriculus": {
+    "fa": "طوطی آویزان"
+  },
+  "Lorius": {
+    "fa": "شهدطوطیها"
+  },
+  "Loxia": {
+    "fa": "سهره نوکقیچی"
+  },
+  "Loxigilla": {
+    "en": "Antillean bullfinches",
+    "fa": "گاوسهرههای آنتیل"
+  },
+  "Loxioides": {
+    "fa": "سهرههای گلفروش"
+  },
+  "Loxops": {
+    "fa": "سهرههای چابک"
+  },
+  "Lullula": {
+    "fa": "چکاوکهای درختی"
+  },
+  "Lurocalis": {
+    "fa": "شبگردبازهای یقهسفید"
+  },
+  "Luscinia": {
+    "fa": "مهسرایندهها"
+  },
   "Lybiidae": {
     "fa": "ریشمرغان آفریقایی"
   },
+  "Lycocorax": {
+    "en": "Paradise Crow"
+  },
+  "Lyncornis": {
+    "fa": "شبگردهای گوشدار"
+  },
+  "Lyrurus": {
+    "fa": "سیاهخروسها"
+  },
+  "Machaerirhynchus": {
+    "fa": "نوکزورقی"
+  },
+  "Machaeropterus": {
+    "fa": "رنگینکهای بالشمشیری"
+  },
+  "Mackenziaena": {
+    "fa": "مکنزیانا"
+  },
+  "Macroagelaius": {
+    "fa": "سیاهپرهای کوهستانی"
+  },
+  "Macrocephalon": {
+    "en": "Maleo"
+  },
+  "Macronectes": {
+    "fa": "مرغ باران بزرگ"
+  },
+  "Macronyx": {
+    "fa": "پنجهدرازها"
+  },
+  "Macropygia": {
+    "fa": "کوکوکبوتر"
+  },
   "Macrosphenidae": {
     "fa": "سسکهای آفریقایی"
+  },
+  "Macrosphenus": {
+    "fa": "سسکهای نوکدراز"
+  },
+  "Magumma": {
+    "en": "Anianiau"
   },
   "Malaconotidae": {
     "en": "Bushshrike",
     "fa": "سنگچشم بیشه"
   },
+  "Malaconotus": {
+    "fa": "سنگچشمهای بیشه زرین"
+  },
+  "Malacoptila": {
+    "fa": "نرمپرها"
+  },
+  "Malacorhynchus": {
+    "fa": "مرغابیهای گوشصورتی"
+  },
+  "Malimbus": {
+    "fa": "مالیمبهها"
+  },
   "Maluridae": {
     "fa": "پریگنجشکان"
   },
+  "Malurus": {
+    "fa": "پریگنجشک"
+  },
+  "Manacus": {
+    "fa": "رنگینکهای بالکوتاه"
+  },
+  "Manorina": {
+    "fa": "میناگونها"
+  },
+  "Manucodia": {
+    "en": "Manucode",
+    "fa": "مرغ ایزدی"
+  },
+  "Mareca": {
+    "fa": "ویگئون"
+  },
+  "Margarornis": {
+    "fa": "دوندههای درختی"
+  },
+  "Masius": {
+    "en": "Golden-winged Manakin"
+  },
+  "Mayrimunia": {
+    "fa": "رنگینکهای سررگهای"
+  },
+  "Mayrornis": {
+    "fa": "مرغ مایر"
+  },
+  "Megaceryle": {
+    "fa": "ماهیخورکهای بزرگ"
+  },
+  "Megadyptes": {
+    "fa": "پنگوئنهای چشمزرد"
+  },
   "Megalaimidae": {
     "fa": "ریشمرغان آسیایی"
+  },
+  "Megalurus": {
+    "fa": "واشمرغهای اصلی"
   },
   "Megapodiidae": {
     "en": "Megapode",
     "fa": "مگاپود"
   },
+  "Megapodius": {
+    "en": "Scrubfowl",
+    "fa": "بوتهمرغ"
+  },
+  "Megascops": {
+    "fa": "جغد جارزن"
+  },
+  "Meiglyptes": {
+    "fa": "دارکوبهای نخودی"
+  },
+  "Melampitta": {
+    "fa": "پیتاهای سیاه"
+  },
   "Melampittidae": {
     "fa": "سیاهپیتایان"
   },
+  "Melanerpes": {
+    "en": "Melanerpes Woodpeckers",
+    "fa": "سیاهخزندهها"
+  },
+  "Melaniparus": {
+    "en": "African Tits"
+  },
+  "Melanitta": {
+    "en": "Scoter",
+    "fa": "پاریلا"
+  },
+  "Melanocharis": {
+    "fa": "شاهتوتکوب"
+  },
   "Melanocharitidae": {
     "fa": "شاهتوتکوبان"
+  },
+  "Melanocorypha": {
+    "fa": "چکاوکهای تنومند"
+  },
+  "Melanodera": {
+    "fa": "سهرههای ریشدار"
   },
   "Melanopareiidae": {
     "en": "Crescentchest"
@@ -544,9 +2577,16 @@
     "en": "Sparrows",
     "fa": "گنجشک"
   },
+  "Passeriformes": {
+    "en": "Passerines",
+    "fa": "گنجشکسانان"
+  },
   "Pelecanidae": {
     "en": "Pelicans",
     "fa": "پلیکانان"
+  },
+  "Pelecaniformes": {
+    "fa": "مرغسقاسانان"
   },
   "Pellorneidae": {
     "en": "Ground Babblers",
@@ -561,6 +2601,9 @@
   "Phaethontidae": {
     "fa": "مرغ گرمسیری"
   },
+  "Phaethontiformes": {
+    "fa": "نوکسرخسانان"
+  },
   "Phalacrocoracidae": {
     "fa": "باکلان"
   },
@@ -574,6 +2617,9 @@
     "en": "Flamingos",
     "fa": "بالآتشیان"
   },
+  "Phoenicopteriformes": {
+    "fa": "بالآتشیسانان"
+  },
   "Phoeniculidae": {
     "en": "Wood Hoopoe",
     "fa": "هدهدهای جنگلی"
@@ -583,6 +2629,9 @@
   },
   "Picidae": {
     "fa": "دارکوب"
+  },
+  "Piciformes": {
+    "fa": "دارکوبسانان"
   },
   "Pipridae": {
     "fa": "رنگینک"
@@ -613,6 +2662,9 @@
   "Procellariidae": {
     "fa": "تندبادان"
   },
+  "Procellariiformes": {
+    "fa": "کبوتردریاییسانان"
+  },
   "Promeropidae": {
     "en": "Sugarbird",
     "fa": "شکرمرغها"
@@ -622,6 +2674,10 @@
   },
   "Psittacidae": {
     "fa": "طوطی"
+  },
+  "Psittaciformes": {
+    "en": "Parrot",
+    "fa": "طوطیسانان"
   },
   "Psittaculidae": {
     "fa": "طوطیکان"
@@ -635,6 +2691,9 @@
   "Pteroclidae": {
     "en": "Sandgrouse",
     "fa": "کوکر (باقرقره)"
+  },
+  "Pterocliformes": {
+    "en": "Sandgrouse"
   },
   "Ptilonorhynchidae": {
     "fa": "مرغ کریچساز"
@@ -661,6 +2720,10 @@
   "Rheidae": {
     "en": "Rheas",
     "fa": "شترمرغان آمریکایی"
+  },
+  "Rheiformes": {
+    "en": "Rheas",
+    "fa": "شترمرغسانان آمریکایی"
   },
   "Rhinocryptidae": {
     "fa": "دمسیخ"
@@ -694,6 +2757,10 @@
     "en": "Penguin",
     "fa": "پنگوئن"
   },
+  "Sphenisciformes": {
+    "en": "Penguins",
+    "fa": "پنگوئن"
+  },
   "Steatornithidae": {
     "fa": "مرغان روغنی"
   },
@@ -708,17 +2775,26 @@
     "en": "True owls",
     "fa": "جغد معمولی"
   },
+  "Strigiformes": {
+    "fa": "جغدسانان"
+  },
   "Strigopidae": {
     "fa": "طوطی نیوزیلندی"
   },
   "Struthionidae": {
     "fa": "شترمرغان"
   },
+  "Struthioniformes": {
+    "fa": "بیتیغهها"
+  },
   "Sturnidae": {
     "fa": "سار"
   },
   "Sulidae": {
     "fa": "بوبیان (تیره)"
+  },
+  "Suliformes": {
+    "fa": "بوبیسانان"
   },
   "Sylviidae": {
     "fa": "سسکان"
@@ -742,6 +2818,9 @@
   },
   "Tinamidae": {
     "fa": "وشم"
+  },
+  "Tinamiformes": {
+    "en": "Tinamous"
   },
   "Tityridae": {
     "fa": "تیتیریدا (پرنده)"
@@ -789,2084 +2868,5 @@
   },
   "Zosteropidae": {
     "fa": "چشمسفید"
-  },
-  "Abroscopus": {
-    "fa": "خوشنگاهها"
-  },
-  "Acanthagenys": {
-    "en": "Spiny-cheeked Honeyeater"
-  },
-  "Acanthis": {
-    "fa": "زلفقرمزی"
-  },
-  "Acanthisitta": {
-    "en": "Rifleman"
-  },
-  "Acanthiza": {
-    "fa": "نوکخاری"
-  },
-  "Acanthorhynchus": {
-    "en": "Spinebill",
-    "fa": "تیغنوکها"
-  },
-  "Accipiter": {
-    "fa": "باز شکاری"
-  },
-  "Achaetops": {
-    "en": "Rockrunner"
-  },
-  "Acridotheres": {
-    "en": "Myna",
-    "fa": "میناهای معمولی"
-  },
-  "Acrocephalus": {
-    "fa": "مگسگیر سردراز"
-  },
-  "Actinodura": {
-    "fa": "بالخطخطی"
-  },
-  "Actitis": {
-    "fa": "اکتیتیس"
-  },
-  "Aechmophorus": {
-    "fa": "کشیمهای نوکنیزهای"
-  },
-  "Aegithalos": {
-    "fa": "چرخریسکهای دمدراز"
-  },
-  "Aegithina": {
-    "en": "Iora"
-  },
-  "Aegolius": {
-    "fa": "جغد جیغارهای"
-  },
-  "Aegotheles": {
-    "fa": "شبگرد بوفچهای"
-  },
-  "Aegypius": {
-    "fa": "دالهای سیاه"
-  },
-  "Aerodramus": {
-    "fa": "بادخورکهای گرمسیری"
-  },
-  "Aerospiza": {
-    "fa": "بازهای آفریقایی"
-  },
-  "Aethia": {
-    "fa": "ماهیگیرک کوچک"
-  },
-  "Aethomyias": {
-    "fa": "خسنشینهای گینه نو"
-  },
-  "Aethopyga": {
-    "fa": "شهد خواران درخشان"
-  },
-  "Afrotis": {
-    "fa": "هوبرههای آفریقا"
-  },
-  "Agapornis": {
-    "fa": "طوطی عشق"
-  },
-  "Agelaioides": {
-    "en": "Bay-winged Cowbird",
-    "fa": "مرغ کهر"
-  },
-  "Agelaius": {
-    "fa": "سیاهمرغهای معمولی آمریکایی"
-  },
-  "Agelasticus": {
-    "fa": "سیاهمرغهای لاغر"
-  },
-  "Aglaeactis": {
-    "fa": "خورشیدپرتوها"
-  },
-  "Aglaiocercus": {
-    "fa": "پریها"
-  },
-  "Agricola": {
-    "fa": "مگسگیرهای کشاورزی"
-  },
-  "Agriornis": {
-    "en": "Shrike-Tyrants",
-    "fa": "ژیانمرغ-سنگچشم"
-  },
-  "Agropsar": {
-    "fa": "سارهای آسیایی"
-  },
-  "Ailuroedus": {
-    "fa": "گربهخوانها"
-  },
-  "Aix": {
-    "fa": "اردکهای زیبا"
-  },
-  "Alaemon": {
-    "fa": "چکاوکهای هدهد"
-  },
-  "Alauda": {
-    "fa": "چکاوکهای آسمانی"
-  },
-  "Alaudala": {
-    "fa": "چکاوکهای پنجهکوتاه"
-  },
-  "Alcippe": {
-    "fa": "چغکچینی"
-  },
-  "Alectoris": {
-    "fa": "کبکهای صخره"
-  },
-  "Alectroenas": {
-    "en": "Blue pigeon",
-    "fa": "کبوتر آبی"
-  },
-  "Alectrurus": {
-    "fa": "شبهژیانمرغ"
-  },
-  "Alectura": {
-    "en": "Australian Brush-turkey"
-  },
-  "Alethe": {
-    "fa": "کهنخویشها"
-  },
-  "Alisterus": {
-    "fa": "طوطیهای شاهی"
-  },
-  "Alophoixus": {
-    "fa": "بلبلهای کاکلی"
-  },
-  "Alopochen": {
-    "fa": "تنجههای آفریقایی"
-  },
-  "Amadina": {
-    "fa": "سهرههای رخسرخ"
-  },
-  "Amalocichla": {
-    "fa": "سینهسرخهای زمینی"
-  },
-  "Amandava": {
-    "fa": "احمدآبادیها"
-  },
-  "Amaurornis": {
-    "fa": "طاووسکهای بوتهای"
-  },
-  "Amaurospiza": {
-    "fa": "دانهخوارهای آبی"
-  },
-  "Amazilia": {
-    "fa": "آمازیلیا"
-  },
-  "Amazona": {
-    "fa": "طوطی آمازون"
-  },
-  "Amblyornis": {
-    "fa": "کودنمرغ"
-  },
-  "Ammodramus": {
-    "fa": "گنجشکهای علفزار"
-  },
-  "Ammomanes": {
-    "fa": "خاکخسپه"
-  },
-  "Ammoperdix": {
-    "fa": "تیهوها"
-  },
-  "Ampelion": {
-    "fa": "گوهرمرغهای کاکلی"
-  },
-  "Amphispiza": {
-    "fa": "پیرامونسهره"
-  },
-  "Amytornis": {
-    "fa": "الیکایی چمنی"
-  },
-  "Anabacerthia": {
-    "fa": "برگچینها"
-  },
-  "Anairetes": {
-    "en": "Tit-Tyrant"
-  },
-  "Anarhynchus": {
-    "fa": "سلیمهای طوقدار"
-  },
-  "Anas": {
-    "fa": "انس"
-  },
-  "Anastomus": {
-    "en": "Openbill stork",
-    "fa": "بازمنقاران"
-  },
-  "Andigena": {
-    "en": "Mountain toucan",
-    "fa": "توکان کوهستانی"
-  },
-  "Anhinga": {
-    "fa": "مارگردن"
-  },
-  "Anodorhynchus": {
-    "fa": "بیدندانمنقارها"
-  },
-  "Anous": {
-    "fa": "چلچله دریایی"
-  },
-  "Anser": {
-    "fa": "غاز کبود"
-  },
-  "Anthocephala": {
-    "fa": "تاجشکوفهای"
-  },
-  "Anthochaera": {
-    "fa": "مرغ غبغبکدار"
-  },
-  "Anthornis": {
-    "fa": "زنگمرغهای عسلخوار"
-  },
-  "Anthoscopus": {
-    "fa": "تابلانههای آفریقایی"
-  },
-  "Anthracothorax": {
-    "fa": "سینهزغالی"
-  },
-  "Anthus": {
-    "fa": "پپت"
-  },
-  "Antigone": {
-    "fa": "درناهای آنتیگون"
-  },
-  "Antrostomus": {
-    "fa": "شبگردهای غاردهان"
-  },
-  "Anurolimnas": {
-    "fa": "یلوههای دمکوتاه"
-  },
-  "Apalharpactes": {
-    "fa": "لانهکنهای پشتسبز"
-  },
-  "Apalis": {
-    "fa": "آپالیس"
-  },
-  "Apaloderma": {
-    "fa": "دلپذیرپوستها"
-  },
-  "Aphelocephala": {
-    "fa": "رخسفیدها"
-  },
-  "Aphelocoma": {
-    "fa": "جیجاقهای خاشاک"
-  },
-  "Aphrastura": {
-    "fa": "آتشیها"
-  },
-  "Aplopelia": {
-    "en": "Lemon Dove"
-  },
-  "Aprosmictus": {
-    "fa": "طوطیهای بالسرخ"
-  },
-  "Aptenodytes": {
-    "fa": "پنگوئنهای بیبال"
-  },
-  "Apteryx": {
-    "fa": "کیوی"
-  },
-  "Apus": {
-    "fa": "بادقپکها"
-  },
-  "Aquila": {
-    "fa": "عقاب"
-  },
-  "Ara": {
-    "fa": "طوطیان آرا"
-  },
-  "Arachnothera": {
-    "fa": "کارتنهخورک"
-  },
-  "Aramides": {
-    "fa": "یلوههای جنگلی آمریکایی"
-  },
-  "Aramus": {
-    "fa": "آرامروها"
-  },
-  "Aratinga": {
-    "fa": "دمقیفیها"
-  },
-  "Arborophila": {
-    "fa": "کبکهای تپه"
-  },
-  "Archboldia": {
-    "fa": "آرچبالدیها"
-  },
-  "Ardea": {
-    "fa": "حواصیل حقیقی"
-  },
-  "Ardenna": {
-    "fa": "کبوتردریاییهای تیره"
-  },
-  "Ardeola": {
-    "fa": "حواصیل برکهنشین"
-  },
-  "Ardeotis": {
-    "fa": "هوبرههای بیابان"
-  },
-  "Arenaria": {
-    "en": "Sandwort",
-    "fa": "مرجانی"
-  },
-  "Argya": {
-    "fa": "لیکوهای پرسروصدا"
-  },
-  "Arizelocichla": {
-    "fa": "بوبرهای آفریقایی"
-  },
-  "Arremon": {
-    "fa": "خاشاکیهای آمریکای جنوبی"
-  },
-  "Arremonops": {
-    "fa": "گنجشکهای زیتونی"
-  },
-  "Arses": {
-    "fa": "شهریارکهای طوقی"
-  },
-  "Artamus": {
-    "fa": "پرستوی جنگلی"
-  },
-  "Artemisiospiza": {
-    "en": "Sagebrush Sparrow",
-    "fa": "گنجشکهای درمنه"
-  },
-  "Asarcornis": {
-    "en": "White-winged ducks"
-  },
-  "Asio": {
-    "fa": "جغد گوشبهسر"
-  },
-  "Asthenes": {
-    "en": "Canastero",
-    "fa": "مرغ سبدساز"
-  },
-  "Astrapia": {
-    "fa": "دمدراز بهشتی"
-  },
-  "Astur": {
-    "fa": "شهبازها (سرده)"
-  },
-  "Atelornis": {
-    "fa": "ناکاملپرنده"
-  },
-  "Athene": {
-    "fa": "جغدهای سنگی"
-  },
-  "Atlapetes": {
-    "fa": "سهرههای خاشاک"
-  },
-  "Atrichornis": {
-    "en": "Scrubbird",
-    "fa": "بوتهمرغ"
-  },
-  "Atticora": {
-    "fa": "پرستوهای آمریکای جنوبی"
-  },
-  "Attila": {
-    "fa": "آتیلاها"
-  },
-  "Augastes": {
-    "fa": "آفتابگیرها"
-  },
-  "Aulacorhynchus": {
-    "fa": "توکانچه سبز"
-  },
-  "Aviceda": {
-    "fa": "باز-کوکوها"
-  },
-  "Aythya": {
-    "fa": "دریانشین"
-  },
-  "Baeolophus": {
-    "fa": "چرخریسوکها"
-  },
-  "Baeopogon": {
-    "fa": "بوبرهای ریشکوتاه"
-  },
-  "Balearica": {
-    "fa": "درناهای تاجدار"
-  },
-  "Bambusicola": {
-    "en": "Bamboo-partridges",
-    "fa": "کبک خیزرانی"
-  },
-  "Bangsia": {
-    "fa": "فرخندههای زرین"
-  },
-  "Bartramia": {
-    "en": "Bartramia moss",
-    "fa": "آبچلیکهای زوزهگرگی"
-  },
-  "Baryphthengus": {
-    "fa": "دمدرازهای حنایی"
-  },
-  "Batis": {
-    "en": "Saltwort",
-    "fa": "باتیس"
-  },
-  "Batrachostomus": {
-    "fa": "دهانقورباغهایها"
-  },
-  "Bias": {
-    "en": "Black-and-white Shrike-flycatcher"
-  },
-  "Biziura": {
-    "fa": "اردکهای مشک"
-  },
-  "Bleda": {
-    "fa": "نوکفرچهای"
-  },
-  "Blythipicus": {
-    "fa": "دارکوبهای بلوطی"
-  },
-  "Boissonneaua": {
-    "fa": "تاجکها"
-  },
-  "Bombycilla": {
-    "fa": "باللاکی"
-  },
-  "Bostrychia": {
-    "fa": "نوکخمیدهها"
-  },
-  "Botaurus": {
-    "fa": "بوتیمارهای بزرگ"
-  },
-  "Brachygalba": {
-    "fa": "رنگینتابهای کوتاه"
-  },
-  "Brachypteryx": {
-    "fa": "بالکوتاهها"
-  },
-  "Brachyramphus": {
-    "fa": "ماهیگیرک کوتوله"
-  },
-  "Bradypterus": {
-    "fa": "سسکهای بیشه آفریقایی"
-  },
-  "Branta": {
-    "fa": "غازهای سیاه"
-  },
-  "Brunhilda": {
-    "fa": "نوکمومیهای گونهسیاه"
-  },
-  "Bubalornis": {
-    "fa": "جولاهای گاومیشی"
-  },
-  "Bubo": {
-    "en": "Eagle-owls",
-    "fa": "جغد عقابی"
-  },
-  "Bucco": {
-    "fa": "پفیها"
-  },
-  "Bucephala": {
-    "fa": "اردکهای چشمطلایی"
-  },
-  "Buceros": {
-    "fa": "نوکشاخهای بزرگ"
-  },
-  "Bucorvus": {
-    "en": "Ground Hornbill",
-    "fa": "نوکشاخ زمینی"
-  },
-  "Bulweria": {
-    "fa": "بولوریا"
-  },
-  "Buphagus": {
-    "fa": "کنهخوار"
-  },
-  "Busarellus": {
-    "en": "Black-collared Hawk"
-  },
-  "Butastur": {
-    "fa": "سارگپههای قوشی"
-  },
-  "Buteo": {
-    "fa": "سارگپه"
-  },
-  "Buteogallus": {
-    "fa": "سارگپههای خروسی"
-  },
-  "Buthraupis": {
-    "fa": "فرخندههای بزرگ"
-  },
-  "Butorides": {
-    "fa": "حواصیل سبز"
-  },
-  "Cacatua": {
-    "fa": "طوطیکاکلیهای سفید"
-  },
-  "Cacicus": {
-    "fa": "لانهآویز"
-  },
-  "Calamanthus": {
-    "fa": "الیکاییهای دشتی"
-  },
-  "Calandrella": {
-    "fa": "چکاوکچهها"
-  },
-  "Calcarius": {
-    "fa": "پنجهبلند"
-  },
-  "Calendulauda": {
-    "fa": "خجوها"
-  },
-  "Calicalicus": {
-    "fa": "وانگاهای سرخ"
-  },
-  "Calidris": {
-    "fa": "تلیله"
-  },
-  "Callaeas": {
-    "fa": "کوکاکو"
-  },
-  "Calliope": {
-    "fa": "خوشآواز"
-  },
-  "Callipepla": {
-    "fa": "زیباپوش"
-  },
-  "Caloenas": {
-    "fa": "کبوترهای یالدار"
-  },
-  "Calonectris": {
-    "fa": "کبوتردریاییهای بزرگ"
-  },
-  "Calyptomena": {
-    "fa": "پهننوکهای سبز"
-  },
-  "Calyptophilus": {
-    "fa": "چکفرخندهها"
-  },
-  "Calyptorhynchus": {
-    "fa": "کالیپتورینکوس"
-  },
-  "Camarhynchus": {
-    "fa": "سهرههای درختی"
-  },
-  "Campephilus": {
-    "fa": "نوکعاجیها"
-  },
-  "Campethera": {
-    "en": "African Green Woodpeckers",
-    "fa": "دارکوبهای سبز سرسرخ"
-  },
-  "Camptostoma": {
-    "fa": "ژیانمرغکهای بیریش"
-  },
-  "Campylopterus": {
-    "fa": "دمشمشیری"
-  },
-  "Campylorhamphus": {
-    "fa": "داسنوکها"
-  },
-  "Campylorhynchus": {
-    "fa": "خمیدهمنقارها"
-  },
-  "Canirallus": {
-    "fa": "یلوههای نمزی"
-  },
-  "Cantorchilus": {
-    "fa": "کنارخوانها"
-  },
-  "Caprimulgus": {
-    "fa": "شبگردهای نمادین"
-  },
-  "Cardinalis": {
-    "fa": "کاردینالها"
-  },
-  "Carduelis": {
-    "fa": "کاردوئلیس"
-  },
-  "Carpococcyx": {
-    "fa": "کوکوهای زمینی آسیایی"
-  },
-  "Carpodacus": {
-    "fa": "سهره گلی"
-  },
-  "Carpornis": {
-    "en": "Berryeater"
-  },
-  "Carterornis": {
-    "fa": "مرغ کارتر"
-  },
-  "Casiornis": {
-    "fa": "کاسیورنیسها"
-  },
-  "Casuarius": {
-    "fa": "کاسوآری"
-  },
-  "Catamenia": {
-    "fa": "دانهخوارهای ناهمگون"
-  },
-  "Cathartes": {
-    "fa": "پاکیزهگرها"
-  },
-  "Catharus": {
-    "fa": "توکای کاثاروس"
-  },
-  "Cecropis": {
-    "fa": "پرستوی سکروپ"
-  },
-  "Celeus": {
-    "fa": "دارکوبهای خوشمو"
-  },
-  "Centrocercus": {
-    "fa": "تیغدم"
-  },
-  "Centropus": {
-    "fa": "کوکال"
-  },
-  "Cephalopterus": {
-    "en": "Umbrellabird",
-    "fa": "چترمرغ"
-  },
-  "Cepphus": {
-    "fa": "گیلهماتهای حقیقی"
-  },
-  "Ceratopipra": {
-    "fa": "رنگینکهای شاخی"
-  },
-  "Cercococcyx": {
-    "fa": "کوکوهای دمدراز"
-  },
-  "Cercomacra": {
-    "fa": "دمبلندها"
-  },
-  "Cercotrichas": {
-    "fa": "دمچتری"
-  },
-  "Certhia": {
-    "fa": "دارخزکها"
-  },
-  "Certhiaxis": {
-    "fa": "دمخاریهای دارخزکی"
-  },
-  "Certhidea": {
-    "en": "Warbler-finch",
-    "fa": "سهرهسسکی"
-  },
-  "Certhilauda": {
-    "fa": "درازمنقارها"
-  },
-  "Cettia": {
-    "fa": "سسک بیشه"
-  },
-  "Ceyx": {
-    "fa": "ماهیخورکهای کوتوله"
-  },
-  "Chaetops": {
-    "fa": "سنگپر"
-  },
-  "Chaetura": {
-    "fa": "بادخورکهای پردراز"
-  },
-  "Chalcophaps": {
-    "en": "Emerald Dove",
-    "fa": "کبوتر زمردی"
-  },
-  "Chalcopsitta": {
-    "fa": "برنزهطوطیها"
-  },
-  "Chalcostigma": {
-    "fa": "لکهبرنزهایها"
-  },
-  "Chalybura": {
-    "fa": "پرگزیده"
-  },
-  "Chamaepetes": {
-    "fa": "شبخروشهای زمینی"
-  },
-  "Chamaetylas": {
-    "fa": "کهنخویشنماها"
-  },
-  "Chamaeza": {
-    "fa": "مورچهگیرهای آمریکای جنوبی"
-  },
-  "Charadrius": {
-    "fa": "سلیمهای سینهنواری"
-  },
-  "Chasiempis": {
-    "en": "‘Elepaio",
-    "fa": "شهریارکهای خوشخوان"
-  },
-  "Chauna": {
-    "fa": "فریادکشهای بزرگ"
-  },
-  "Chelictinia": {
-    "en": "African Swallow-tailed Kite"
-  },
-  "Chenonetta": {
-    "fa": "مرغابیهای یالدار"
-  },
-  "Chersomanes": {
-    "fa": "مانورک"
-  },
-  "Chionis": {
-    "fa": "نیامنوک"
-  },
-  "Chionomesa": {
-    "fa": "زمردیهای شکمبرفی"
-  },
-  "Chiroxiphia": {
-    "fa": "رنگینکهای رقاص"
-  },
-  "Chlamydera": {
-    "fa": "رداگردنها"
-  },
-  "Chlamydotis": {
-    "en": "Houbaras",
-    "fa": "هوبرههای اصلی"
-  },
-  "Chlidonias": {
-    "fa": "پرستوی دریایی مراب"
-  },
-  "Chloephaga": {
-    "fa": "غازهای علفخوار"
-  },
-  "Chloridops": {
-    "fa": "نوکبزرگهای سبز"
-  },
-  "Chloris": {
-    "en": "Windmill grass",
-    "fa": "چمن مقدس"
-  },
-  "Chloroceryle": {
-    "en": "American green kingfishers",
-    "fa": "ماهیخورک سبز آمریکایی"
-  },
-  "Chlorocichla": {
-    "fa": "بوبرهای رنگین"
-  },
-  "Chlorophanes": {
-    "en": "Chlorophanes Matthews (1992) non Reichenbach (1853)"
-  },
-  "Chlorophoneus": {
-    "fa": "سنگچشمهای بیشه پشتسبز"
-  },
-  "Chlorophonia": {
-    "fa": "سهرههای رنگینخوان"
-  },
-  "Chloropicus": {
-    "fa": "دارکوبهای سبز آفریقایی"
-  },
-  "Chloropipo": {
-    "fa": "رنگینکهای سبزفام"
-  },
-  "Chloropsis": {
-    "en": "Leafbird",
-    "fa": "برگنشین"
-  },
-  "Chlorospingus": {
-    "fa": "فرخندههای بیشه"
-  },
-  "Chlorostilbon": {
-    "fa": "زمردیها"
-  },
-  "Chondrohierax": {
-    "fa": "کورکورهای نوکچنگکی"
-  },
-  "Chordeiles": {
-    "fa": "عصررقصکنانها"
-  },
-  "Chroicocephalus": {
-    "en": "Hooded gulls",
-    "fa": "کاکاییهای رنگینسر"
-  },
-  "Chrysococcyx": {
-    "fa": "کوکوهای زمردی"
-  },
-  "Chrysocolaptes": {
-    "fa": "پشتآتشیهای خاوریتر"
-  },
-  "Chrysocorythus": {
-    "fa": "سهرههای دمگاهزرد زرینسر"
-  },
-  "Chrysolampis": {
-    "en": "Ruby-topaz Hummingbird"
-  },
-  "Chrysolophus": {
-    "fa": "قرقاولهای طلایی"
-  },
-  "Chrysomus": {
-    "fa": "سیاهمرغهای زرین"
-  },
-  "Chrysophlegma": {
-    "fa": "دارکوبهای زرین"
-  },
-  "Chunga": {
-    "fa": "کاکلی آمریکای جنوبی"
-  },
-  "Cichladusa": {
-    "fa": "توکاهای نخلی"
-  },
-  "Cicinnurus": {
-    "fa": "دمداسیها"
-  },
-  "Ciconia": {
-    "fa": "لکلکها"
-  },
-  "Cinclidium": {
-    "en": "Cinclidium moss"
-  },
-  "Cinclocerthia": {
-    "fa": "لرزانک"
-  },
-  "Cinclodes": {
-    "fa": "آبجوها"
-  },
-  "Cincloramphus": {
-    "fa": "چکاوکهای آوازهخوان"
-  },
-  "Cinclosoma": {
-    "fa": "توکا-بلدرچین"
-  },
-  "Cinclus": {
-    "fa": "زیر آبروک"
-  },
-  "Cinnycerthia": {
-    "fa": "الیکاییهای آند"
-  },
-  "Cinnyris": {
-    "fa": "ریزهشهدخوارها"
-  },
-  "Circaetus": {
-    "fa": "عقاب مارخور"
-  },
-  "Circus": {
-    "fa": "سنقر"
-  },
-  "Cissa": {
-    "fa": "زاغیهای دمکوتاه"
-  },
-  "Cisticola": {
-    "fa": "سبدنشین"
-  },
-  "Cistothorus": {
-    "fa": "سینهچنبریها"
-  },
-  "Clamator": {
-    "fa": "کوکوهای کاکلی"
-  },
-  "Clanga": {
-    "fa": "عقابهای خالدار"
-  },
-  "Claravis": {
-    "fa": "کبوتر خاکی"
-  },
-  "Clibanornis": {
-    "fa": "برگپاککنها"
-  },
-  "Climacteris": {
-    "fa": "دارخزکهای استرالزی"
-  },
-  "Clytoctantes": {
-    "fa": "بیشهمرغها"
-  },
-  "Clytorhynchus": {
-    "en": "Shrikebill",
-    "fa": "سنگیننوک"
-  },
-  "Cnemophilus": {
-    "fa": "مرغ براق"
-  },
-  "Cnipodectes": {
-    "en": "Twistwing",
-    "fa": "تابیدهبال"
-  },
-  "Coccopygia": {
-    "fa": "نوکمومیهای دورنگنوک"
-  },
-  "Coenocorypha": {
-    "en": "Snipe",
-    "fa": "پاشلک استرالیایی"
-  },
-  "Colaptes": {
-    "fa": "دارکوبهای آمریکایی"
-  },
-  "Colibri": {
-    "en": "Violetear",
-    "fa": "گوشبنفش"
-  },
-  "Colinus": {
-    "fa": "بلدرچینهای تپهای"
-  },
-  "Colius": {
-    "fa": "دمششپره"
-  },
-  "Collocalia": {
-    "fa": "بادخورکهای لانهچسبی"
-  },
-  "Colluricincla": {
-    "fa": "سنگچشمباسترک"
-  },
-  "Coloeus": {
-    "en": "Jackdaw",
-    "fa": "زاغچگان"
-  },
-  "Columba": {
-    "fa": "کبوتر"
-  },
-  "Columbina": {
-    "fa": "قمریهای زمینی آمریکایی"
-  },
-  "Conirostrum": {
-    "fa": "نوکقیفی"
-  },
-  "Conopophaga": {
-    "fa": "پشهخوارها"
-  },
-  "Contopus": {
-    "fa": "پامیلهای"
-  },
-  "Copsychus": {
-    "fa": "سینهسرخ پیسه"
-  },
-  "Coracias": {
-    "fa": "سبزقباهای رنگین"
-  },
-  "Coracina": {
-    "en": "Coracina (Coracina)"
-  },
-  "Coracopsis": {
-    "fa": "طوطی وازا"
-  },
-  "Coracornis": {
-    "fa": "سوتزنهای غرابی"
-  },
-  "Coragyps": {
-    "en": "American Black Vulture",
-    "fa": "کرکس سیاه"
-  },
-  "Corapipo": {
-    "fa": "رنگینکهای پرشی"
-  },
-  "Corcorax": {
-    "en": "White-winged Choughs"
-  },
-  "Corvus": {
-    "fa": "کلاغ"
-  },
-  "Corypha": {
-    "fa": "نخل کاکلی"
-  },
-  "Coryphospingus": {
-    "fa": "سهرههای کاکلی"
-  },
-  "Cossypha": {
-    "fa": "چکسینهسرخهای جنگلی"
-  },
-  "Cotinga": {
-    "fa": "گوهرمرغهای فیروزهای"
-  },
-  "Coturnicops": {
-    "fa": "یلوههای بلدرچینی"
-  },
-  "Coturnix": {
-    "fa": "بلدرچینهای نمادین"
-  },
-  "Coua": {
-    "fa": "کوآ"
-  },
-  "Cracticus": {
-    "fa": "مرغ قصاب"
-  },
-  "Cranioleuca": {
-    "fa": "دمتیزکهای اصلی"
-  },
-  "Crax": {
-    "fa": "کاکلفریهای کرگسان"
-  },
-  "Creurgops": {
-    "fa": "فرخندههای نوکسنگین"
-  },
-  "Crex": {
-    "fa": "یلوههای نوککوتاه"
-  },
-  "Crinifer": {
-    "fa": "سبزموزخوارها"
-  },
-  "Criniger": {
-    "fa": "بوبرهای موبلند"
-  },
-  "Crithagra": {
-    "fa": "سهرههای دمگاهزرد آفریقایی"
-  },
-  "Crossoptilon": {
-    "fa": "قرقاول گوشدار"
-  },
-  "Crotophaga": {
-    "en": "Ani",
-    "fa": "ستبرنوک"
-  },
-  "Crypsirina": {
-    "en": "Treepie",
-    "fa": "زاغهای خاور دور"
-  },
-  "Cryptospiza": {
-    "fa": "بالزرشکی"
-  },
-  "Crypturellus": {
-    "fa": "دمچهپنهانها"
-  },
-  "Cuculus": {
-    "fa": "کوکوها"
-  },
-  "Cursorius": {
-    "fa": "دودوکهای نمادین"
-  },
-  "Cutia": {
-    "fa": "کوهیتوکاها"
-  },
-  "Cyanerpes": {
-    "en": "Honeycreeper",
-    "fa": "عسلکش"
-  },
-  "Cyanistes": {
-    "en": "Tit",
-    "fa": "چرخریسکهای سرآبی"
-  },
-  "Cyanocitta": {
-    "fa": "کبودجیجاقهای آبی"
-  },
-  "Cyanocompsa": {
-    "fa": "نوکبزرگهای آبی"
-  },
-  "Cyanocorax": {
-    "fa": "کبودجیجاقهای غرابی"
-  },
-  "Cyanolanius": {
-    "fa": "بانگمرغهای کبود"
-  },
-  "Cyanoloxia": {
-    "fa": "نوکبزرگهای فیروزهای"
-  },
-  "Cyanolyca": {
-    "fa": "کبودجیجاقهای کوچک"
-  },
-  "Cyanopica": {
-    "fa": "کبودکشکرک"
-  },
-  "Cyclarhis": {
-    "en": "Peppershrike",
-    "fa": "فلفلکها"
-  },
-  "Cygnus": {
-    "en": "Swan",
-    "fa": "قو"
-  },
-  "Cymbilaimus": {
-    "fa": "آلاگزنهایهای خنبی"
-  },
-  "Cymbirhynchus": {
-    "en": "Black-and-red Broadbill"
-  },
-  "Cyornis": {
-    "fa": "مگسگیرهای آبی"
-  },
-  "Cyphorhinus": {
-    "fa": "الیکاییهای کجبینی"
-  },
-  "Cypseloides": {
-    "fa": "آوندوارها"
-  },
-  "Cypsiurus": {
-    "en": "Palm swift"
-  },
-  "Cypsnagra": {
-    "en": "White-rumped Tanager"
-  },
-  "Cyrtonyx": {
-    "fa": "خمپنجه"
-  },
-  "Dacelo": {
-    "en": "Kookaburra",
-    "fa": "کوکابورا"
-  },
-  "Dacnis": {
-    "fa": "توتخوار"
-  },
-  "Daphoenositta": {
-    "fa": "کمرکولیچه"
-  },
-  "Dasycrotapha": {
-    "fa": "لیکوهای کوتوله"
-  },
-  "Dasyornis": {
-    "fa": "مرغ فرچهای"
-  },
-  "Deconychura": {
-    "fa": "چوبخزکهای دمدراز"
-  },
-  "Delichon": {
-    "fa": "چلچله خانگی"
-  },
-  "Dendragapus": {
-    "fa": "تیرهخروسها"
-  },
-  "Dendrocincla": {
-    "fa": "باسترک درختی"
-  },
-  "Dendrocitta": {
-    "fa": "زاغهای درختی دمدراز"
-  },
-  "Dendrocolaptes": {
-    "fa": "چوبخزکها"
-  },
-  "Dendrocopos": {
-    "fa": "دارکوبهای رنگین"
-  },
-  "Dendrocoptes": {
-    "fa": "دارکوبهای خالدار میانی"
-  },
-  "Dendrocygna": {
-    "fa": "اردک سوتزن"
-  },
-  "Dendropicos": {
-    "fa": "دارکوبهای کوچک آفریقایی"
-  },
-  "Dendroplex": {
-    "fa": "چوبخزکهای نوکراست"
-  },
-  "Dendrortyx": {
-    "fa": "بلدرچینهای درختی"
-  },
-  "Dessonornis": {
-    "fa": "چکسینهسرخهای درختزار"
-  },
-  "Dicaeum": {
-    "fa": "گلکوبهای اصلی"
-  },
-  "Dicrurus": {
-    "en": "Drongo"
-  },
-  "Diglossa": {
-    "fa": "گلشکاف"
-  },
-  "Dinopium": {
-    "fa": "پشتآتشیهای خاوری"
-  },
-  "Diomedea": {
-    "fa": "آلباتروسهای بزرگ"
-  },
-  "Discosura": {
-    "fa": "خاردم"
-  },
-  "Diuca": {
-    "fa": "دیوکا"
-  },
-  "Dives": {
-    "fa": "سیاهمرغهای نغمهساز"
-  },
-  "Doryfera": {
-    "fa": "نوکنیزهایها"
-  },
-  "Drepanis": {
-    "en": "Mamo",
-    "fa": "کژنوک"
-  },
-  "Drepanornis": {
-    "fa": "نوکداسیهای دمکوتاه"
-  },
-  "Dromas": {
-    "en": "Dromassrun"
-  },
-  "Dromococcyx": {
-    "fa": "کوکوهای دمطاووسی"
-  },
-  "Drymodes": {
-    "fa": "خاردشتیها"
-  },
-  "Drymophila": {
-    "fa": "درختچهدوستها"
-  },
-  "Drymornis": {
-    "en": "Scimitar-billed Woodcreeper"
-  },
-  "Dryobates": {
-    "fa": "دارکوبهای خالدار کوچک"
-  },
-  "Dryocopus": {
-    "fa": "دارکوبهای سیاه"
-  },
-  "Dryolimnas": {
-    "fa": "یلوههای تالابی"
-  },
-  "Dryoscopus": {
-    "fa": "پشتپفیها"
-  },
-  "Ducula": {
-    "fa": "کبوتر شاهنشاهی"
-  },
-  "Dysithamnus": {
-    "fa": "سرودخوانهای مورچهخوار"
-  },
-  "Eclectus": {
-    "fa": "گزینطوطیها"
-  },
-  "Egretta": {
-    "fa": "اگرت"
-  },
-  "Elaenia": {
-    "fa": "ابروزردک"
-  },
-  "Elanus": {
-    "fa": "کورکورهای بالسیاه"
-  },
-  "Electron": {
-    "fa": "کهرباییها"
-  },
-  "Emberiza": {
-    "fa": "زردپرههای معمولی"
-  },
-  "Emberizoides": {
-    "fa": "سهرههای علفی"
-  },
-  "Embernagra": {
-    "fa": "سهرهنماها"
-  },
-  "Enicurus": {
-    "fa": "دمچنگالی"
-  },
-  "Ensifera": {
-    "fa": "شمشیرکداران"
-  },
-  "Entomodestes": {
-    "fa": "تکپرهای سرسیاه"
-  },
-  "Eophona": {
-    "fa": "نوکبزرگهای خاوری"
-  },
-  "Eopsaltria": {
-    "fa": "سینهسرخهای زرد"
-  },
-  "Ephippiorhynchus": {
-    "fa": "زینمنقاران"
-  },
-  "Epimachus": {
-    "fa": "نوکداسیها"
-  },
-  "Epinecrophylla": {
-    "fa": "مردهبرگنشینها"
-  },
-  "Epthianura": {
-    "fa": "چکهای استرالیایی"
-  },
-  "Eremomela": {
-    "fa": "دشتخوان"
-  },
-  "Eremophila": {
-    "en": "Emu Bush",
-    "fa": "بیابانرست"
-  },
-  "Eremopterix": {
-    "fa": "چکاوکهای گنجشکی"
-  },
-  "Eriocnemis": {
-    "fa": "پاپفیهای گوهرین"
-  },
-  "Erithacus": {
-    "fa": "سینهسرخهای اروآسیایی"
-  },
-  "Erythrocercus": {
-    "fa": "مگسگیرهای دمسرخ"
-  },
-  "Erythropitta": {
-    "fa": "پیتاهای سرخ"
-  },
-  "Erythrotriorchis": {
-    "fa": "شهبازهای سرخ"
-  },
-  "Erythrura": {
-    "fa": "طوطیسهره"
-  },
-  "Estrilda": {
-    "fa": "نوکمومی"
-  },
-  "Euchrepomis": {
-    "fa": "شانهسرخها"
-  },
-  "Eudocimus": {
-    "fa": "اکراسهای باشکوه"
-  },
-  "Eudromia": {
-    "fa": "خوشگریزها"
-  },
-  "Eudynamys": {
-    "en": "Koel",
-    "fa": "جارزن"
-  },
-  "Eudyptes": {
-    "fa": "پنگوئنهای کاکلدار"
-  },
-  "Eudyptula": {
-    "fa": "پنگوئنهای کاکلدار کوچک"
-  },
-  "Eugenes": {
-    "fa": "مگسمرغ باشکوه"
-  },
-  "Eumyias": {
-    "fa": "مگسگیرهای فیروزهای"
-  },
-  "Euodice": {
-    "fa": "نوکسیمینها"
-  },
-  "Euphonia": {
-    "fa": "سهرههای خوشخوان"
-  },
-  "Euplectes": {
-    "fa": "جولاهای چندزنه"
-  },
-  "Eupodotis": {
-    "fa": "هوبرههای ساوانا"
-  },
-  "Eurillas": {
-    "fa": "بوبرهای پهن"
-  },
-  "Eurocephalus": {
-    "fa": "سنگچشمهای تاجسفید"
-  },
-  "Eurostopodus": {
-    "fa": "شبگرد گوشدار"
-  },
-  "Euryceros": {
-    "en": "Helmet Vangas"
-  },
-  "Eurystomus": {
-    "fa": "سبزقبا های دهانپهن"
-  },
-  "Euscarthmus": {
-    "fa": "ژیانمرغهای کوتوله حنایی"
-  },
-  "Euschistospiza": {
-    "fa": "خوشخالسهرهها"
-  },
-  "Eutoxeres": {
-    "fa": "گوشهگیرهای نوکداسی"
-  },
-  "Falcipennis": {
-    "fa": "سیاهخروسان فالسیپنیس"
-  },
-  "Falco": {
-    "en": "Falcon",
-    "fa": "شاهین"
-  },
-  "Ficedula": {
-    "fa": "مرغان مگسگیر فیسدولا"
-  },
-  "Florisuga": {
-    "fa": "گلآشام"
-  },
-  "Formicarius": {
-    "en": "Anttrushes",
-    "fa": "مورچهگیرها"
-  },
-  "Formicivora": {
-    "fa": "مورچهاوبارها"
-  },
-  "Forpus": {
-    "fa": "طوطیچهها"
-  },
-  "Foudia": {
-    "fa": "فودی (پرنده)"
-  },
-  "Foulehaio": {
-    "en": "Wattled honeyeater"
-  },
-  "Francolinus": {
-    "fa": "دراج"
-  },
-  "Fraseria": {
-    "en": "Forest flycatcher",
-    "fa": "مگسگیرهای جنگلی"
-  },
-  "Fratercula": {
-    "en": "Puffin",
-    "fa": "طوطی دریایی"
-  },
-  "Frederickena": {
-    "fa": "فردریکنا"
-  },
-  "Fregata": {
-    "fa": "ناوچهمرغ"
-  },
-  "Fregilupus": {
-    "en": "Reunion Starling"
-  },
-  "Fringilla": {
-    "fa": "سهرههای جنگلی"
-  },
-  "Fulica": {
-    "fa": "چنگر"
-  },
-  "Fulmarus": {
-    "en": "Fulmar",
-    "fa": "مرغهای باران بدبو"
-  },
-  "Furnarius": {
-    "fa": "هورنرو"
-  },
-  "Galbalcyrhynchus": {
-    "fa": "رنگینتابهای بینیدراز"
-  },
-  "Galbula": {
-    "fa": "رنگینتابهای میانجثه"
-  },
-  "Galerida": {
-    "fa": "چکاوکهای کاکلی"
-  },
-  "Gallicolumba": {
-    "fa": "کبوترهای دلخون"
-  },
-  "Gallinago": {
-    "fa": "گالیناگو"
-  },
-  "Gallinula": {
-    "fa": "چارخو"
-  },
-  "Gallirallus": {
-    "fa": "یلوههای استرالیا-آرام"
-  },
-  "Galloperdix": {
-    "en": "Spurfowl",
-    "fa": "مهمیزدارها"
-  },
-  "Gallus": {
-    "fa": "مرغ جنگلی"
-  },
-  "Garrulus": {
-    "fa": "جیجاقهای جیرجیری"
-  },
-  "Gavia": {
-    "fa": "غواصیان"
-  },
-  "Gecinulus": {
-    "fa": "دارکوبهای زمینی آسیا"
-  },
-  "Geococcyx": {
-    "en": "Roadrunners",
-    "fa": "کوکو دونده"
-  },
-  "Geoffroyus": {
-    "fa": "طوطیهای گینه نو"
-  },
-  "Geokichla": {
-    "fa": "توکاهای زمینی"
-  },
-  "Geopelia": {
-    "fa": "قمریهای خاکی"
-  },
-  "Geophaps": {
-    "fa": "کبوترهای خاکی"
-  },
-  "Geositta": {
-    "fa": "دالانکنها"
-  },
-  "Geospiza": {
-    "fa": "سهرههای زمینی"
-  },
-  "Geothlypis": {
-    "fa": "گلوزردها"
-  },
-  "Geotrygon": {
-    "fa": "قمریبلدرچینها"
-  },
-  "Geranoaetus": {
-    "fa": "درناییها"
-  },
-  "Geranospiza": {
-    "en": "Crane Hawk"
-  },
-  "Geronticus": {
-    "fa": "اکراسهای کچل"
-  },
-  "Gerygone": {
-    "fa": "خوشنوا"
-  },
-  "Glareola": {
-    "fa": "گلاریول"
-  },
-  "Glaucestrilda": {
-    "fa": "نوکمومیهای کبود"
-  },
-  "Glaucidium": {
-    "en": "Japanese Wood Poppy",
-    "fa": "جغد کوتوله"
-  },
-  "Glaucis": {
-    "fa": "گوشهگیرهای کبود"
-  },
-  "Goodfellowia": {
-    "en": "Goodfellowia Labeda and Kroppenstedt 2006"
-  },
-  "Gorsachius": {
-    "fa": "حواصیل شب جهان قدیم"
-  },
-  "Goura": {
-    "fa": "کبوتر تاجدار"
-  },
-  "Gracula": {
-    "fa": "میناهای تپهای"
-  },
-  "Grallaria": {
-    "fa": "گنجشکهای مورچهخوار"
-  },
-  "Grallaricula": {
-    "en": "Antpittas"
-  },
-  "Grallina": {
-    "fa": "ساقبلندها"
-  },
-  "Granatina": {
-    "fa": "سهرههای ارغوانی"
-  },
-  "Grus": {
-    "fa": "درنا"
-  },
-  "Guira": {
-    "en": "Guira Cuckoo"
-  },
-  "Guttera": {
-    "fa": "مرغهای شاخدار کاکلی"
-  },
-  "Gygis": {
-    "fa": "پرستویهای سفید"
-  },
-  "Gymnocrex": {
-    "fa": "یلوههای رخبرهنه"
-  },
-  "Gymnogyps": {
-    "fa": "برهنهکرکسها"
-  },
-  "Gymnophaps": {
-    "en": "Mountain pigeon",
-    "fa": "کبوتر کوهی"
-  },
-  "Gymnopithys": {
-    "fa": "مورچهقاپهای برهنه"
-  },
-  "Gyps": {
-    "fa": "دال"
-  },
-  "Gypsophila": {
-    "en": "Baby's-breath",
-    "fa": "گچدوست"
-  },
-  "Haematopus": {
-    "fa": "صدفخوار"
-  },
-  "Haemorhous": {
-    "fa": "سهره گلی آمریکایی"
-  },
-  "Halcyon": {
-    "fa": "ماهیخورک درختی هلسین"
-  },
-  "Haliaeetus": {
-    "en": "Sea eagles",
-    "fa": "عقاب دریایی"
-  },
-  "Haliastur": {
-    "fa": "کورکورهای دریایی"
-  },
-  "Haplophaedia": {
-    "en": "Pufflegs",
-    "fa": "پاپفیهای سبزمسی"
-  },
-  "Haplospiza": {
-    "fa": "فرخندههای خیزران"
-  },
-  "Harpactes": {
-    "fa": "لانهکنهای دلربا"
-  },
-  "Harpagus": {
-    "fa": "بازهارپیها"
-  },
-  "Heleia": {
-    "fa": "چشمسفیدهای ناشناس"
-  },
-  "Heliangelus": {
-    "fa": "فرشته خورشید"
-  },
-  "Heliodoxa": {
-    "fa": "آفتابشکوه"
-  },
-  "Heliomaster": {
-    "fa": "اخترگلوها"
-  },
-  "Helopsaltes": {
-    "fa": "سسکهای ملخی تالابی"
-  },
-  "Hemicircus": {
-    "fa": "دارکوبهای دمکوتاه"
-  },
-  "Hemignathus": {
-    "en": "\"half-jaws\"",
-    "fa": "فرونوککوتاهها"
-  },
-  "Hemiphaga": {
-    "en": "Kererū",
-    "fa": "کبوترهای سینهسبز"
-  },
-  "Hemipus": {
-    "en": "Flycatcher-shrike",
-    "fa": "مگسگیر-سنگچشم"
-  },
-  "Henicophaps": {
-    "fa": "کبوتر بالبرنزی"
-  },
-  "Henicorhina": {
-    "fa": "الیکاییهای درختی"
-  },
-  "Herpsilochmus": {
-    "fa": "بیشهگردها"
-  },
-  "Hesperiphona": {
-    "fa": "نوکبزرگهای شامگاهی"
-  },
-  "Heterocercus": {
-    "en": "Manakins",
-    "fa": "دگرشاخکیها"
-  },
-  "Heteromirafra": {
-    "fa": "دگرجلها"
-  },
-  "Heteromyias": {
-    "fa": "سینهسرخهای دیگرگون"
-  },
-  "Heterophasia": {
-    "fa": "سیبیا"
-  },
-  "Hieraaetus": {
-    "fa": "قوشعقابها"
-  },
-  "Hierococcyx": {
-    "fa": "کوکو-بازها"
-  },
-  "Himantopus": {
-    "fa": "چوبپا"
-  },
-  "Hippolais": {
-    "fa": "سسکهای درختی بزرگ"
-  },
-  "Hirundapus": {
-    "fa": "دمسوزنی"
-  },
-  "Hirundo": {
-    "fa": "چلچلهها"
-  },
-  "Histrionicus": {
-    "en": "Harlequin Ducks"
-  },
-  "Histurgops": {
-    "en": "Rufous-tailed Weaver"
-  },
-  "Horornis": {
-    "fa": "سسکهای بیشه معمولی"
-  },
-  "Hydrobates": {
-    "en": "European Storm-petrel"
-  },
-  "Hydrornis": {
-    "fa": "پیتاهای آبدوست"
-  },
-  "Hyliota": {
-    "fa": "هایلیوتا"
-  },
-  "Hylophilus": {
-    "en": "Greenlets",
-    "fa": "جنگلدوستها"
-  },
-  "Hylorchilus": {
-    "en": "Cave Wrens",
-    "fa": "الیکاییهای نوکباریک"
-  },
-  "Hypargos": {
-    "fa": "خالسهرههای گلوسرخ"
-  },
-  "Hypocnemis": {
-    "fa": "چهچههزنها"
-  },
-  "Hypositta": {
-    "fa": "وانگاهای کمرکولی"
-  },
-  "Hypothymis": {
-    "fa": "شهریارکهای آبی"
-  },
-  "Ibycter": {
-    "en": "Red-throated Caracara"
-  },
-  "Ichthyaetus": {
-    "fa": "ماهیآله"
-  },
-  "Icteria": {
-    "en": "Yellow-breasted Chat"
-  },
-  "Icterus": {
-    "en": "New World orioles",
-    "fa": "پریشاهرخ جهان جدید"
-  },
-  "Icthyophaga": {
-    "fa": "عقابهای ماهیخوار"
-  },
-  "Ictinia": {
-    "fa": "کورکورهای سربی"
-  },
-  "Iduna": {
-    "fa": "ایدونا"
-  },
-  "Illadopsis": {
-    "fa": "توکانماها"
-  },
-  "Incaspiza": {
-    "en": "Inca-finch",
-    "fa": "سهره اینکا"
-  },
-  "Indicator": {
-    "fa": "عسلیابها"
-  },
-  "Iodopleura": {
-    "en": "Purpletuft",
-    "fa": "شانهارغوانی"
-  },
-  "Irena": {
-    "fa": "پشتآبی"
-  },
-  "Isleria": {
-    "fa": "ایسلریا"
-  },
-  "Ixothraupis": {
-    "fa": "فرخندههای خالدار"
-  },
-  "Jacana": {
-    "fa": "برکهنورد"
-  },
-  "Junco": {
-    "fa": "سازونشین"
-  },
-  "Jynx": {
-    "fa": "دارکوبهای قهوهای"
-  },
-  "Kakamega": {
-    "en": "Kakamega Dawidowicz & Wesolowska (2016)"
-  },
-  "Ketupa": {
-    "fa": "جغد ماهیخوار"
-  },
-  "Knipolegus": {
-    "en": "Black-tyrants",
-    "fa": "ژیانمرغهای سیاه"
-  },
-  "Lagonosticta": {
-    "fa": "سهره آتشی"
-  },
-  "Lagopus": {
-    "fa": "باقرقره"
-  },
-  "Lalage": {
-    "en": "Triller",
-    "fa": "پرگوها"
-  },
-  "Lampornis": {
-    "en": "Mountain-gem",
-    "fa": "کوهنگین"
-  },
-  "Lamprolia": {
-    "fa": "ابریشمدم"
-  },
-  "Lamprotornis": {
-    "fa": "سارهای درخشان"
-  },
-  "Laniarius": {
-    "en": "Boubous",
-    "fa": "زنگآواها"
-  },
-  "Laniellus": {
-    "fa": "سنگچشمنماها"
-  },
-  "Laniisoma": {
-    "fa": "سنگچشمنماها"
-  },
-  "Lanio": {
-    "fa": "فرخنده-سنگچشم"
-  },
-  "Laniocera": {
-    "en": "Mourners",
-    "fa": "مویهگرهای سنگچشمگون"
-  },
-  "Lanius": {
-    "fa": "سنگچشمهای معمولی"
-  },
-  "Larus": {
-    "fa": "کاکایی"
-  },
-  "Larvivora": {
-    "fa": "کرمینهخوارها"
-  },
-  "Laterallus": {
-    "fa": "یلوههای کوچک"
-  },
-  "Leiothrix": {
-    "fa": "توکای خندان"
-  },
-  "Leipoa": {
-    "fa": "لیپوا"
-  },
-  "Lepidocolaptes": {
-    "fa": "چوبخزکهای نوکباریک"
-  },
-  "Lepidothrix": {
-    "en": "Manakins",
-    "fa": "پولکموها"
-  },
-  "Leptasthenura": {
-    "en": "Tit-spinetail",
-    "fa": "خاردم-چرخریسک"
-  },
-  "Leptodon": {
-    "en": "Leptodon moss",
-    "fa": "کورکورهای سرخاکستری"
-  },
-  "Leptopoecile": {
-    "fa": "چرخریسکهای سسکی"
-  },
-  "Leptoptilos": {
-    "fa": "لکلکهای گرمسیری"
-  },
-  "Leptosittaca": {
-    "en": "Golden-plumed Parakeet"
-  },
-  "Leptotila": {
-    "fa": "قمریهای پرناز"
-  },
-  "Lesbia": {
-    "fa": "دمقطاریها"
-  },
-  "Lessonia": {
-    "en": "Negritos",
-    "fa": "سیهچردهها"
-  },
-  "Leucocarbo": {
-    "fa": "باکلانهای سفید"
-  },
-  "Leuconotopicus": {
-    "fa": "دارکوبهای پشتسفید"
-  },
-  "Leucophaeus": {
-    "fa": "کاکاییهای سفید براق"
-  },
-  "Leucopternis": {
-    "fa": "سفیدبازها"
-  },
-  "Leucosticte": {
-    "fa": "سهره کوهستانی"
-  },
-  "Lewinia": {
-    "fa": "یلوههای شکمنواری"
-  },
-  "Limnodromus": {
-    "en": "Dowitcher",
-    "fa": "گلنورد"
-  },
-  "Limosa": {
-    "fa": "گادویت"
-  },
-  "Linaria": {
-    "en": "Linnets",
-    "fa": "کتانی"
-  },
-  "Lipaugus": {
-    "fa": "مرغهای تاریک"
-  },
-  "Lissotis": {
-    "fa": "هوبرههای نرم"
-  },
-  "Lobotos": {
-    "fa": "سنگچشمکوکوهای غبغبکی"
-  },
-  "Locustella": {
-    "fa": "سسکهای ملخی بیشه"
-  },
-  "Loddigesia": {
-    "en": "Loddigesia Luer (2006)"
-  },
-  "Lonchura": {
-    "fa": "نوکنقرهای"
-  },
-  "Lophophanes": {
-    "fa": "چرخ ریسکهای تاجدار"
-  },
-  "Lophophorus": {
-    "en": "Monal",
-    "fa": "کاکلپری"
-  },
-  "Lophorina": {
-    "en": "Superb Bird of Paradise",
-    "fa": "سینهجقهای"
-  },
-  "Lophornis": {
-    "fa": "لوندها"
-  },
-  "Lophospingus": {
-    "fa": "سهرههای کاکلدار"
-  },
-  "Lophospiza": {
-    "fa": "بازهای کاکلدار"
-  },
-  "Lophotis": {
-    "fa": "هوبرههای کاکلی"
-  },
-  "Lophotriccus": {
-    "fa": "ژیانمرغهای کوتوله کاکلی"
-  },
-  "Loriculus": {
-    "fa": "طوطی آویزان"
-  },
-  "Lorius": {
-    "fa": "شهدطوطیها"
-  },
-  "Loxia": {
-    "fa": "سهره نوکقیچی"
-  },
-  "Loxigilla": {
-    "en": "Antillean bullfinches",
-    "fa": "گاوسهرههای آنتیل"
-  },
-  "Loxioides": {
-    "fa": "سهرههای گلفروش"
-  },
-  "Loxops": {
-    "fa": "سهرههای چابک"
-  },
-  "Lullula": {
-    "fa": "چکاوکهای درختی"
-  },
-  "Lurocalis": {
-    "fa": "شبگردبازهای یقهسفید"
-  },
-  "Luscinia": {
-    "fa": "مهسرایندهها"
-  },
-  "Lycocorax": {
-    "en": "Paradise Crow"
-  },
-  "Lyncornis": {
-    "fa": "شبگردهای گوشدار"
-  },
-  "Lyrurus": {
-    "fa": "سیاهخروسها"
-  },
-  "Machaerirhynchus": {
-    "fa": "نوکزورقی"
-  },
-  "Machaeropterus": {
-    "fa": "رنگینکهای بالشمشیری"
-  },
-  "Mackenziaena": {
-    "fa": "مکنزیانا"
-  },
-  "Macroagelaius": {
-    "fa": "سیاهپرهای کوهستانی"
-  },
-  "Macrocephalon": {
-    "en": "Maleo"
-  },
-  "Macronectes": {
-    "fa": "مرغ باران بزرگ"
-  },
-  "Macronyx": {
-    "fa": "پنجهدرازها"
-  },
-  "Macropygia": {
-    "fa": "کوکوکبوتر"
-  },
-  "Macrosphenus": {
-    "fa": "سسکهای نوکدراز"
-  },
-  "Magumma": {
-    "en": "Anianiau"
-  },
-  "Malaconotus": {
-    "fa": "سنگچشمهای بیشه زرین"
-  },
-  "Malacoptila": {
-    "fa": "نرمپرها"
-  },
-  "Malacorhynchus": {
-    "fa": "مرغابیهای گوشصورتی"
-  },
-  "Malimbus": {
-    "fa": "مالیمبهها"
-  },
-  "Malurus": {
-    "fa": "پریگنجشک"
-  },
-  "Manacus": {
-    "fa": "رنگینکهای بالکوتاه"
-  },
-  "Manorina": {
-    "fa": "میناگونها"
-  },
-  "Manucodia": {
-    "en": "Manucode",
-    "fa": "مرغ ایزدی"
-  },
-  "Mareca": {
-    "fa": "ویگئون"
-  },
-  "Margarornis": {
-    "fa": "دوندههای درختی"
-  },
-  "Masius": {
-    "en": "Golden-winged Manakin"
-  },
-  "Mayrimunia": {
-    "fa": "رنگینکهای سررگهای"
-  },
-  "Mayrornis": {
-    "fa": "مرغ مایر"
-  },
-  "Megaceryle": {
-    "fa": "ماهیخورکهای بزرگ"
-  },
-  "Megadyptes": {
-    "fa": "پنگوئنهای چشمزرد"
-  },
-  "Megalurus": {
-    "fa": "واشمرغهای اصلی"
-  },
-  "Megapodius": {
-    "en": "Scrubfowl",
-    "fa": "بوتهمرغ"
-  },
-  "Megascops": {
-    "fa": "جغد جارزن"
-  },
-  "Meiglyptes": {
-    "fa": "دارکوبهای نخودی"
-  },
-  "Melampitta": {
-    "fa": "پیتاهای سیاه"
-  },
-  "Melanerpes": {
-    "en": "Melanerpes Woodpeckers",
-    "fa": "سیاهخزندهها"
-  },
-  "Melaniparus": {
-    "en": "African Tits"
-  },
-  "Melanitta": {
-    "en": "Scoter",
-    "fa": "پاریلا"
-  },
-  "Melanocharis": {
-    "fa": "شاهتوتکوب"
-  },
-  "Melanocorypha": {
-    "fa": "چکاوکهای تنومند"
-  },
-  "Melanodera": {
-    "fa": "سهرههای ریشدار"
   }
 }

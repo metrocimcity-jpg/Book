@@ -1,0 +1,13 @@
+{
+  "name": "book-of-life",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zoomable sunbursts of life groups, sharing one UI",
+  "scripts": {
+    "serve": "npx --yes serve . -l 5173",
+    "test": "node --test Mammals/tests/*.test.mjs Birds/tests/*.test.mjs shared/tests/*.test.mjs",
+    "data": "node scripts/build-group.mjs --group=all",
+    "names": "node scripts/fetch-names.mjs --group=all"
+  }
+}

@@ -1,0 +1,59 @@
+:root {
+  --paper: #eef0e4;
+  --paper-raised: #f6f7ee;
+  --ink: #1a1d14;
+  --ink-muted: #55604a;
+  --rule: #c3cbb0;
+  --panel: #f2f4e8;
+  --accent: #3d5a3a;
+  --accent-soft: #d5dec4;
+  --focus: #5a7a38;
+  --shadow: 0 12px 40px rgba(40, 28, 16, 0.12);
+  --font-serif: ui-serif, Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --font-sans: ui-sans-serif, "Segoe UI", system-ui, sans-serif;
+  --font-fa: Tahoma, "Segoe UI", "Noto Naskh Arabic", sans-serif;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2.5rem;
+  --radius: 10px;
+  --motion-duration: 750ms;
+  --iucn-lc: #2d6a4f;
+  --iucn-nt: #52796f;
+  --iucn-vu: #b08900;
+  --iucn-en: #c45c26;
+  --iucn-cr: #9b2226;
+  --iucn-ew: #5c4d7a;
+  --iucn-ex: #3d3d3d;
+  --iucn-dd: #7a7468;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #161810;
+    --paper-raised: #1e2116;
+    --ink: #e8edd8;
+    --ink-muted: #a3ad92;
+    --rule: #3a4030;
+    --panel: #1b1e14;
+    --accent: #a3c48a;
+    --accent-soft: #2a3222;
+    --focus: #9ad05a;
+    --shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-duration: 0ms;
+  }
+}
+
+@media (forced-colors: active) {
+  :root {
+    --focus: Highlight;
+    --rule: CanvasText;
+  }
+}

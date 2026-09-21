@@ -1,88 +1,63 @@
-# Stage 5 — Interaction shell: breadcrumbs, search, detail panel, deep links
+# Interaction shell (`shared/src`)
 
-Build the surrounding UI in `src/main.js`, `src/panel.js`, `src/search.js`. The chart
-module from stage 4 stays unaware of all of it — wire everything through its `on()` events.
+Chart module stays unaware of UI. Wire through `sunburst.on()`. Group metadata
+lives in `shared/src/catalog.js`; `?group=` selects the pack.
 
-## 1. Breadcrumb bar
+## Group switcher
 
-Above the chart: `Mammalia › Carnivora › Felidae › Panthera`. Each crumb is a button that
-calls `sunburst.focus(node)`. Current crumb is `aria-current="location"`, not a link.
-On narrow screens, collapse the middle with an ellipsis menu.
+`#group-nav` links via `groupHref(id)`. Changing group reloads pack JSON, tokens,
+credits. Do not keep a second `index.html` per folder.
 
-## 2. Detail panel
+## Breadcrumbs
 
-Driven by `select` (click) and, when nothing is selected, by `hover`. Contents:
+`Mammalia › Carnivora › Felidae › Panthera` (or the group root). Buttons call
+`sunburst.focus(node)`. Current crumb is `aria-current="location"`. Narrow
+screens: collapse the middle with an ellipsis.
 
-- **Artwork**, `credits.json` entry, rendered at up to 640px with `srcset` for `@2x`.
-  Caption underneath in small type: title, creator, licence with link, and the
-  "representing" note when `resolvedFrom` is set. Label photographs as such.
-- Taxon name (italic serif for genus/species, roman for higher ranks), rank, common name.
-- Counts: families / genera / species beneath this node, plus its share of all mammals
-  as a percentage with one decimal.
-- **When the focus is a genus:** the species list from `species[]` — scientific name,
-  common name, IUCN code as a small coloured chip (`LC` `NT` `VU` `EN` `CR` `EW` `EX` `DD`),
-  authority year. Virtualise or paginate if > 60 entries (Myotis has ~140).
-- A "View on Wikipedia / GBIF / MDD" row of external links built from the name — clearly
-  marked as leaving the page.
-- Empty state before anything is selected: a short orienting sentence and the
-  citation from `data/meta.json`.
+## Detail panel
 
-## 3. Search
+`select` and, when idle, `hover`:
 
-Type-ahead over every node name **and** every species name (~8,400 strings).
+- Artwork from pack `credits.json` (`srcset` `@2x`), caption with creator,
+  licence link, `resolvedFrom`, photo label.
+- Name (italic serif genus/species), rank, vernacular for the current language.
+- Counts via `countsUnder` (must work for insect family leaves with `value`).
+- Genus focus: `species[]` list with IUCN chips; paginate if > 60.
+- External links marked as leaving the page.
+- Empty state: citation from pack `meta.json`.
 
-- Build the index once at load from `mammals.json` + species arrays; a flat array with a
-  lowercased key and a prefix/substring match is plenty — no fuzzy library unless it
-  proves necessary, and ask before adding one.
-- Results grouped by rank, max 8 per group, showing the lineage as dimmed context.
-- Selecting a result focuses the nearest *rendered* ancestor (genus for a species) and
-  opens the panel with that species highlighted in the list.
-- Keyboard: `/` focuses the input, `↑`/`↓` move, `Enter` selects, `Esc` closes.
-  Full combobox ARIA (`role="combobox"`, `aria-expanded`, `aria-activedescendant`,
-  `role="listbox"`/`option`).
+## Search
 
-## 4. Controls
+Index scientific + checklist `common` + vernacular `en`/`fa`. Grouped by rank,
+max 8 per group. Selecting a species focuses the nearest rendered ancestor
+(genus, or family for insects) and highlights the species in the panel.
+Keyboard: `/`, arrows, Enter, Esc. Full combobox ARIA.
 
-A small control cluster:
+## Controls
 
-- **Names:** *Latin* / *English* / *فارسی*. Switches every label (arcs, centre,
-  breadcrumbs, panel, search, text tree). Scientific names stay the identity keys
-  and the hash path. `?names=en` or `?names=fa` on the hash. Persian sets
-  `lang=fa` and a `names-fa` font class; the document stays LTR so English chrome
-  does not flip. Missing vernaculars fall back to Latin — never invent names.
-- **Sizing:** *By species count* / *Equal weight* (chart `sizing` option).
-- **Show species ring:** loads `data/mammals.species.json` and rebuilds with a fourth
-  taxonomic ring. Warn in a tooltip that this is heavier; measure it and if interaction
-  drops below ~30 fps, only enable the toggle once the focus is at or below family level
-  (build the species tree lazily from the focused subtree instead of globally). Explain
-  in `NOTES.md` which approach you ended up with and why.
-- **Include recently extinct** (re-runs nothing; the flag is already in the data —
-  filter client-side and render those arcs with a hatched pattern).
+- **Names:** Latin / English / فارسی. Hash `?names=en` or `?names=fa`. Persian:
+  `lang=fa`, `names-fa` class, document stays LTR. Missing → Latin; never invent.
+- **Sizing:** species count / equal weight.
+- **Show species ring:** only when focus is family or deeper; expand the focused
+  subtree (`expandSpeciesUnder`). Global species ring is too heavy.
+- **Include recently extinct:** client-side filter. Do not drop insect family
+  leaves that have `value` and no children.
 - **Reset view.**
 
-## 5. Deep links and history
+## URL
 
-- Serialise focus as a hash path: `#/Carnivora/Felidae/Panthera`, plus
-  `?species=Panthera+leo` when a species is selected.
-- `pushState` on user-initiated focus changes, `popstate` restores them without animation.
-- Sharing a URL must reproduce the exact view, including panel contents.
+- Group: `?group=birds` on the query string.
+- Taxon: `#/Carnivora/Felidae/Panthera` plus `?species=` and `?names=` on the hash.
+- `pushState` on user focus; `popstate` restores without animation.
 
-## 6. Accessibility and polish
+## Accessibility
 
-- Every interactive element reachable by keyboard with a visible focus ring built from
-  `--focus` token.
-- A visually-hidden live region announcing focus changes:
-  "Focused Felidae, family, 41 species."
-- Provide a text alternative to the whole chart: a `<details>` element containing a
-  nested `<ul>` of the taxonomy (orders → families, genera lazily) so screen-reader and
-  no-JS users get the data.
-- Colour must never be the only signal — rank is always stated in text.
-- Test at 320px width, at 200% browser zoom, and in forced-colors mode.
+Keyboard paths, `--focus` ring, live region for focus changes, `<details>` text
+tree of the taxonomy. Rank always in text, not colour alone. Test 320px, 200%
+zoom, forced-colors.
 
 ## Definition of done
 
-- Search for "Panthera" → selecting it zooms to `Carnivora › Felidae › Panthera` and the
-  panel lists 5 species with IUCN chips.
-- Reloading a copied deep link restores the identical view.
-- Keyboard-only walkthrough from page load to a selected species works; paste the steps.
-- Lighthouse accessibility ≥ 95; paste the score and any remaining flags.
+- Switch Mammals → Birds (and another harvested group) without a second shell.
+- Search a known species; deep link restores view; keyboard-only path works.
+- English uses `common` then Wikidata; Persian uses Wikidata only.

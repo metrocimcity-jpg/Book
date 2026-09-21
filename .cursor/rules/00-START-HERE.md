@@ -1,73 +1,62 @@
-# Mammals & Birds Zoomable Sunburst — Cursor Prompt Pack
+# Book of life — Cursor prompt pack
 
-A multi-file prompt for **Cursor Desktop**. Each file is one prompt. Run them in order,
-in the same chat (Agent mode, "Ask for confirmation on shell commands" on).
+A multi-file prompt for **Cursor Desktop**. Attach one file at a time with `@` when
+changing that area. The hub already exists; do **not** scaffold a second app.
 
-The repository now contains two sibling static apps with the same UI:
+Windows checkouts use capitalised folder names. Paths in HTML/JS are relative.
 
-| Folder | Class | Taxonomy source |
-|---|---|---|
-| `Mammals/` | Mammalia | ASM Mammal Diversity Database |
-| `Birds/` | Aves | AviList: The Global Avian Checklist |
+## Layout
 
-Windows checkouts use those capitalised folder names. Paths in HTML/JS are relative.
+| Path | Role |
+|---|---|
+| `index.html` + `shared/` | The only UI (chart, search, panel, names, group switcher) |
+| `Mammals/` … `Insects/` | Data packs: taxonomy JSON, tokens, images, credits, harvest scripts |
+| `scripts/build-group.mjs` | Taxonomy harvest for fishes, trees, bushes, shrubs, flowers, amphibians, insects |
+| `scripts/fetch-names.mjs` | Wikidata English/Persian vernaculars → each pack’s `data/vernacular.json` |
+| `.cursor/rules/cursor-rules.mdc` | Always-on agent rules |
 
-## How to use
+| Group | Folder | Taxonomy | URL |
+|---|---|---|---|
+| Mammalia | `Mammals/` | ASM Mammal Diversity Database | `/?group=mammals` |
+| Aves | `Birds/` | AviList | `/?group=birds` |
+| Fishes | `Fishes/` | GBIF Backbone (Chordata minus non-fish) | `/?group=fishes` |
+| Trees | `Tree/` | BGCI GlobalTreeSearch | `/?group=tree` |
+| Bushes | `Bushes/` | WCVP lifeform *subshrub* | `/?group=bushes` |
+| Shrubs | `Shrubs/` | WCVP lifeform *shrub* | `/?group=shrubs` |
+| Flowers | `Flowers/` | WCVP herbaceous lifeforms | `/?group=flowers` |
+| Amphibia | `Amphibians/` | AmphibiaWeb | `/?group=amphibians` |
+| Insecta | `Insects/` | GBIF order → family + species counts | `/?group=insects` |
 
-1. Open your project root in Cursor.
-2. Copy `cursor-rules.mdc` into `.cursor/rules/mammals.mdc` (or paste its body into
-   `.cursorrules` if you prefer the legacy file).
-3. In Agent mode, attach one prompt file at a time with `@` and say **"Execute this prompt."**
-4. Do not skip ahead — each stage has a **Definition of done** the next stage depends on.
+`Mammals/` and `Birds/` used to be standalone pages. Those shells are gone. Packs
+must not grow `index.html`, `src/`, `vendor/`, or `styles/app.css`.
 
-| Stage | File | Produces |
-|---|---|---|
-| 0 | `00-START-HERE.md` | this plan |
-| 1 | `01-setup-and-structure.md` | `mammals/` scaffold, dev server |
-| 2 | `02-data-pipeline.md` | `mammals/data/mammals.json` taxonomy tree |
-| 3 | `03-image-harvesting.md` | `mammals/assets/img/**` + `credits.json` |
-| 4 | `04-sunburst-d3.md` | working zoomable sunburst |
-| 5 | `05-interaction-ui.md` | search, breadcrumbs, detail panel, a11y |
-| 6 | `06-qa-acceptance.md` | tests, perf budget, README, sign-off |
+## When to attach which file
 
-## Project goal (read this into context once)
-
-Build a self-contained, static, interactive **zoomable sunburst** of the full mammal
-taxonomy, living in a `Mammals/` subfolder of the current repository, then a matching
-`Birds/` app that swaps only the dataset (AviList) and image harvest.
-
-- Visual and interaction model: **D3 "Zoomable Sunburst"** by Mike Bostock
-  (<https://observablehq.com/@d3/zoomable-sunburst>), ISC-licensed. Reimplement it as
-  plain ES modules — do **not** import the Observable runtime.
-- Hierarchy: `Class → Order → Family → Genus → (Species)`.
-- Every arc a user can focus on shows an image of that taxon in the centre disc
-  and in the detail panel.
-- **Images must be gathered, never generated.** No AI image generation of any kind.
-  Mammals prefer illustrated artwork over photographs. Birds use Wikipedia lead
-  images; painting vs photograph does not matter. Licence filter is unchanged
-  (CC0 / CC-BY / CC-BY-SA / PD only; reject NC, ND, fair use).
-- A **Names** control switches labels between Latin, English, and فارسی. Vernaculars
-  are harvested from Wikidata + the checklist; never invented. Missing names fall
-  back to Latin.
-- Every image carries author + licence + source URL, surfaced in the UI and in
-  `CREDITS.md`.
+| File | Use when |
+|---|---|
+| `01-setup-and-structure.md` | Adding a group pack or changing hub/pack file layout |
+| `02-data-pipeline.md` | Harvesting or reshaping taxonomy JSON |
+| `03-image-harvesting.md` | Gathering taxon artwork |
+| `04-sunburst-d3.md` | Changing zoom, arcs, labels, colour |
+| `05-interaction-ui.md` | Search, panel, breadcrumbs, names, URL, a11y |
+| `06-qa-acceptance.md` | Tests, verify scripts, README, sign-off |
 
 ## Hard constraints
 
-- No build step required to view: opening `index.html` through a local static
-  server must work. A bundler is optional and must not become mandatory.
-- D3 v7, vendored locally in each app's `vendor/` — the page must render offline.
-- No framework (no React/Vue). Vanilla ES modules + CSS.
-- No tracking, no CDN calls at runtime, no external fonts at runtime.
-- Data and image fetching happen **only** in Node scripts under `scripts/`,
-  run manually, with results committed as static files.
+- Visual model: Mike Bostock’s Zoomable Sunburst (ISC). Reimplement as ES modules;
+  do not import the Observable runtime.
+- **Images gathered, never generated.** Mammals prefer illustrations. Birds use
+  Wikipedia lead images. Licence: CC0 / CC-BY / CC-BY-SA / PD only; reject NC, ND,
+  fair use.
+- Names: Latin / English / فارسی. Never invent vernaculars. Missing → scientific name.
+- Never invent taxa or species counts. Insecta has no genus/species name list.
+- Serve from the repo root (`npm run serve`). D3 is vendored at
+  `shared/vendor/d3.v7.min.js`. No runtime network after first load.
 
 ## Ground rules for the agent
 
-- Ask before installing any dependency that is not in the stage's stated list.
-- Write files, then run the stage's verification command and paste real output.
-  Never claim a stage is done from inspection alone.
-- If a remote API's shape differs from what a prompt assumes, trust the live API,
-  fix the script, and note the difference in `mammals/NOTES.md`.
-- Keep functions small and commented where the maths is non-obvious (arc angles,
-  interpolation on zoom).
+- Ask before installing any dependency that is not already in use.
+- Run the verification command and paste real output. Never claim done from inspection.
+- If a remote API differs from a prompt, trust the live API, fix the script, append
+  `NOTES.md` in the pack you changed (never rewrite NOTES).
+- Keep zoom maths commented where non-obvious (`d.current` / `d.target`).

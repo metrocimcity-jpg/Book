@@ -1,0 +1,14 @@
+{
+  "source": "World Checklist of Vascular Plants (WCVP / POWO, RBG Kew)",
+  "version": "wcvp.zip from sftp.kew.org",
+  "doi": "10.1093/botlinnean/boab007",
+  "url": "https://sftp.kew.org/pub/data-repositories/WCVP/",
+  "retrievedAt": "2026-09-20",
+  "note": "Kew has no lifeform token 'bush'. Bushes are accepted species whose WCVP lifeform includes subshrub — the closest published term, not an invented split from shrubs.",
+  "counts": {
+    "orders": 64,
+    "families": 236,
+    "genera": 3428,
+    "species": 43398
+  }
+}

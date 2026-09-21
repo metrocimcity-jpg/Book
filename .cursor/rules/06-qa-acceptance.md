@@ -1,75 +1,58 @@
-# Stage 6 — QA, performance, documentation, sign-off
+# QA, performance, documentation
 
-## 1. Data integrity checks
+Work from the **repository root**. Do not add a per-pack `package.json` or serve
+a deleted `Mammals/index.html`.
 
-Add `scripts/verify.mjs`, run by `npm run verify`. It must fail non-zero on any of:
+## Integrity
 
-- `mammals.json` node counts outside the ranges asserted in stage 2.
-- A genus whose `value` ≠ `species.length`.
-- A `credits.json` entry pointing at a file that does not exist on disk, or missing
-  `license` / `sourceUrl` / `creator` (creator may be "Unknown" only for PD-old works).
-- An image file present on disk with no `credits.json` entry (orphan = licence risk).
-- Any `licenseUrl` containing `nc` or `nd`.
-- Any taxon name appearing twice at the same rank under different parents without the
-  `(unplaced)` marker.
+`Mammals/scripts/verify.mjs` and `Birds/scripts/verify.mjs` must fail on:
 
-## 2. Functional tests
+- Counts outside that pack’s asserted ranges.
+- Genus `value` ≠ `species.length`.
+- Credit pointing at a missing file, or missing `license` / `sourceUrl` /
+  `creator` (creator may be `"Unknown"` only for PD-old).
+- Image on disk with no credit (orphan).
+- `licenseUrl` containing `nc` or `nd`.
+- Duplicate taxon name at the same rank under different parents, except `(unplaced)`.
 
-Plain Node test runner (`node --test`) for the pure logic — tree building, search index,
-hash serialisation, colour derivation, and the Latin/English/Persian display-name
-helper. No DOM framework needed for these.
+## Tests
 
-For the chart, one Playwright spec (ask before installing) covering:
+`npm test` runs `Mammals/tests/*.test.mjs`, `Birds/tests/*.test.mjs`, and
+`shared/tests/*.test.mjs` (`node --test`). Cover tree building, catalog,
+`?group=` parsing, search/hash, palette wrap, Latin/English/Persian
+`displayName`. No DOM framework.
 
-1. Root renders 27 order arcs.
-2. Click Carnivora → breadcrumb depth 2, centre disc shows Carnivora artwork.
-3. Click centre → back to root.
-4. Search "lion" → panel shows *Panthera leo*.
-5. Deep link `#/Rodentia/Muridae` loads focused on Muridae.
-6. `prefers-reduced-motion` emulation → no transitions, state still correct.
+UI changes: exercise the hub in the browser (`npm run serve`) for the groups
+you touched — switcher, zoom, search, names, extinct filter.
 
-## 3. Performance budget
-
-Measure and record in `NOTES.md`:
+## Performance (record in `NOTES.md` if you measure)
 
 | Metric | Budget |
 |---|---|
-| `mammals.json` transferred | < 250 KB gzipped |
-| Total page weight, first view (no panel images) | < 600 KB |
-| Time to interactive, local server | < 1.5 s |
-| Zoom transition | ≥ 55 fps sustained |
-| Images lazy-loaded | all except the root centre disc |
+| Pack `*.json` gzipped (genus-leaf tree) | < 250 KB where feasible; plant/fish dumps may exceed — report the real size |
+| Time to interactive, local server | < 1.5 s for mammals/birds |
+| Zoom transition | ≥ 55 fps on mammals/birds |
+| Images lazy-loaded | all except the focused centre disc |
 
-If a budget is missed, report the real number and the cause. Do not adjust the budget
-to match the result.
+If a budget is missed, report the number and cause. Do not rewrite the budget.
 
-## 4. Documentation
+## Documentation
 
-`mammals/README.md` must contain:
+Root `README.md`: hub table, `/?group=` URLs, `npm run serve` / `test` / `data` /
+`names`. Pack README: provenance, rebuild command, pointer to `CREDITS.md`, no
+claim that the pack is a standalone app.
 
-- What this is, with a screenshot.
-- **Data provenance:** MDD version, DOI, retrieval date, and the full citation
-  (ASM Mammal Diversity Database, with its Zenodo DOI).
-- **Image provenance:** a statement that all artwork was gathered from free-licence
-  sources and none was AI-generated, a pointer to `CREDITS.md`, and the per-source
-  licence summary.
-- **Attribution for the visualisation technique:** Mike Bostock's Zoomable Sunburst,
-  Observable, ISC licence, with link.
-- How to rebuild: `npm run data`, `npm run images`, `npm run names`, `npm run verify`, `npm run serve`.
-- Known gaps: the list from `missing-images.txt`, and any taxa where the MDD and common
-  usage disagree.
-- Licence for the repo's own code, and the note that image licences are *separate and
-  per-file*.
+Append harvest notes to the pack `NOTES.md` and `shared/NOTES.md` when the hub
+behaviour changes.
 
-## 5. Final sweep
+## Sweep
 
-- Remove dead code, `console.log`s, and any unused dependency.
-- Confirm the page works served from a subpath (`/mammals/`) — no absolute `/` asset paths.
-- Confirm it works fully offline after first load.
-- Confirm no runtime request leaves the origin (check the Network panel; screenshot it).
+- No `console.log` left in `shared/src`.
+- No absolute `/` asset paths; hub works from the site root.
+- Network panel: no third-party runtime requests after load.
+- Do not recreate independent shells in `Mammals/` or `Birds/`.
 
-## Sign-off report
+## Sign-off
 
-Post a single summary containing: the counts table, image coverage percentages,
-illustration-vs-photo ratio, perf numbers, test results, Lighthouse scores, and an
-explicit list of anything that did not meet its target with the reason why.
+Counts table (or pointer to `meta.json`), image coverage if harvested, test
+output, and anything that missed its target with the reason.

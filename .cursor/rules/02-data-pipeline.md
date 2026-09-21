@@ -1,107 +1,57 @@
-# Stage 2 — Build the mammal taxonomy tree
+# Taxonomy pipelines
 
-Write `mammals/scripts/build-taxonomy.mjs`, which downloads an authoritative mammal
-checklist, normalises it, and emits `mammals/data/mammals.json` in the exact shape the
-D3 sunburst consumes.
+Do not hand-edit generated `data/*.json`. Fix the harvest script and regenerate.
+Never invent taxa, counts, or vernaculars.
 
-## Source of truth
+## Which script
 
-**Mammal Diversity Database (MDD)** — American Society of Mammalogists.
-Site: <https://www.mammaldiversity.org/> · Repo:
-<https://github.com/mammaldiversity/mammaldiversity.github.io> · Versioned releases on
-Zenodo: <https://doi.org/10.5281/zenodo.4139722>
+| Group | Script | Source |
+|---|---|---|
+| Mammals | `Mammals/scripts/build-taxonomy.mjs --include-extinct` | ASM MDD (Zenodo concept DOI `10.5281/zenodo.4139722`; pin the resolved version) |
+| Birds | `Birds/scripts/build-taxonomy.mjs --include-extinct` | AviList official short workbook; species rows only |
+| Fishes, Tree, Bushes, Shrubs, Flowers, Amphibians, Insects | `scripts/build-group.mjs --group=<id>` or `--group=all` | see below |
 
-As of MDD v2.2 the checklist covers roughly **6,800 species, 1,350+ genera,
-167 families, 27 orders** of living and recently-extinct mammals. Treat those numbers
-as a sanity range, not a target — print the real counts you parse.
+Root `npm run data` runs `build-group.mjs --group=all` (not MDD/AviList).
 
-**Instructions:**
+## Other-group sources (live API wins over this list)
 
-1. Resolve the current release programmatically (Zenodo API record for the MDD concept
-   DOI, or the CSV in the GitHub repo). Do not hardcode a version URL that will rot —
-   resolve, then log and pin the resolved version + URL into `NOTES.md`.
-2. Download the species-level CSV into `data/raw/`. Cache it: if the file is present and
-   its recorded version matches, skip the download.
-3. Columns vary between MDD versions. Detect them case-insensitively, accepting the usual
-   spellings: `order`, `family`, `genus`, `specificEpithet`/`species`, `sciName`,
-   `mainCommonName`/`commonName`, `extinct`, `domestic`, `iucnStatus`, `authorityYear`,
-   `continentDistribution`. If a required column is missing, fail loudly with the header
-   list printed.
-4. Fallback source if MDD is unreachable: GBIF Backbone Taxonomy via
-   `https://api.gbif.org/v1/species/search?highertaxonKey=359&rank=SPECIES` (Mammalia).
-   Implement it behind `--source=gbif` but keep MDD as the default.
+- **Fishes:** GBIF Chordata children minus non-fish classes (mammals, birds, amphibians, reptiles, tunicates, lancelets). Fishes is a vernacular group, not a clade.
+- **Tree:** BGCI GlobalTreeSearch Darwin Core archive. Dataset is CC-BY-NC (taxonomy only; still reject NC for images).
+- **Shrubs / Bushes / Flowers:** WCVP names table. Shrub = lifeform shrub. Bush = Kew **subshrub** (there is no “bush” lifeform). Flowers = herbaceous lifeforms. Family→order from a cached map, then GBIF match.
+- **Amphibians:** AmphibiaWeb taxonomy snapshot (`amphib_names_YYYYMMDD.txt` from the GitHub taxonomy-archive). The daily site URL may be Cloudflare HTML — use the archive file.
+- **Insects:** GBIF Insecta children. **Stop at family.** Leaves are `{ rank: "family", value: acceptedSpeciesCount }`. Do not dump ~1.1 million species names.
 
-## Normalisation rules
+Cache downloads under `data/raw/` (gitignored). `--include-extinct` is the default for MDD/AviList; `build-group` includes GBIF extinct flags unless `--exclude-extinct`.
 
-- Capitalise ranks consistently: `Carnivora`, `Felidae`, `Panthera`, `Panthera leo`.
-- Skip rows flagged `extinct = 1` **unless** `--include-extinct` is passed; recently
-  extinct species get `"extinct": true` and are rendered muted, not dropped, when included.
-- Keep domestic forms but mark `"domestic": true`.
-- Trim incertae sedis / unnamed genera into a sibling node `"(unplaced)"` rather than
-  discarding them.
-- Sort children alphabetically at build time; the chart re-sorts by value.
+## Tree shape
 
-## Output shape
+Genus-leaf tree (mammals, birds, fishes, plants, amphibians):
 
-`data/mammals.json` — one object, D3 `hierarchy`-ready:
+- Root `rank` is `class` or `group`. Children: order → family → genus.
+- Genus is a leaf: `value` = species count; species live in `species[]` for the panel.
+- Also write `<group>.species.json` with species as a fifth ring (optional UI toggle).
+- `meta.json`: `{ source, version, doi?, retrievedAt, counts }`.
+- `(unplaced)` for incertae sedis. Sort children alphabetically at build; the chart re-sorts by value.
+- Capitalise ranks: `Carnivora`, `Felidae`, `Panthera leo`.
 
-```json
-{
-  "name": "Mammalia",
-  "rank": "class",
-  "children": [
-    {
-      "name": "Carnivora",
-      "rank": "order",
-      "common": "Carnivorans",
-      "children": [
-        {
-          "name": "Felidae",
-          "rank": "family",
-          "common": "Cats",
-          "children": [
-            {
-              "name": "Panthera",
-              "rank": "genus",
-              "value": 5,
-              "species": [
-                { "name": "Panthera leo", "common": "Lion", "iucn": "VU", "year": 1758 }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
-```
+Insect exception: order → family leaves with `value`. `shared/src/util/tree.js`
+`countsUnder` / `filterExtinct` must keep those family leaves.
 
-Key decisions, follow them exactly:
+## Vernaculars
 
-- **The rendered tree stops at genus.** Genus nodes are leaves with
-  `value = number of species`. Their species live in a `species[]` array that the chart
-  ignores and the detail panel reads. This keeps the sunburst at ~1,550 arcs instead of
-  ~8,400 — the difference between a fluid chart and a janky one.
-- Also emit `data/mammals.species.json` containing the same tree **with** species as a
-  fifth ring, for the optional "show species" toggle in stage 5.
-- Emit `data/meta.json`: `{ source, version, doi, retrievedAt, counts: { orders, families, genera, species } }`.
-  The footer renders this as the citation line.
-- Pretty-print with 0 indentation (minified) but keep key order stable so diffs are readable.
+Do not fold English/Persian into the taxonomy JSON.
 
-## Vernacular names
+`scripts/fetch-names.mjs --group=all` (or `--group=fishes,flowers`) writes each pack’s
+`data/vernacular.json` from Wikidata. Resume via `data/raw/wikidata-vernacular-cache.json`.
+English display prefers checklist `common`, then Wikidata. Persian is Wikidata only.
+Missing → Latin.
 
-Do not invent English or Persian names, and do not fold them into the taxonomy JSON.
-`scripts/fetch-names.mjs` writes `data/vernacular.json` from Wikidata (`wdt:P225`
-taxon name, `rdfs:label` and `wdt:P1843` in `en`/`fa`). Species English names already
-live on each species as `common` from MDD / AviList. The UI falls back to Latin when
-a vernacular is missing.
+Mammals/Birds still have pack-local `scripts/fetch-names.mjs`; prefer the root script
+for hub-wide harvests.
 
 ## Definition of done
 
-- `npm run data` prints a counts table and writes all three JSON files.
-- Assert in the script (and fail non-zero) that: root has 20–30 order children, total
-  families 150–190, genera 1,200–1,500, species 6,000–7,500.
-- Spot check printed to stdout: the path `Carnivora → Felidae → Panthera` exists with
-  5 species including `Panthera leo`, and `Chiroptera` is the second-largest order by
-  species count.
-- `NOTES.md` records the resolved MDD version, URL, and retrieval date.
+- Script prints a counts table and writes `<group>.json`, `.species.json`, `meta.json`.
+- Spot-check a known path (e.g. mammals `Carnivora → Felidae → Panthera` includes
+  `Panthera leo`). If a target range cannot be met, say the real number and why.
+- Append source, URL, version, and date to that pack’s `NOTES.md`.

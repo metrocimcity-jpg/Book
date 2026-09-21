@@ -1,0 +1,14 @@
+{
+  "source": "GBIF Backbone Taxonomy",
+  "version": "backbone live search",
+  "doi": "10.15468/39omei",
+  "url": "https://api.gbif.org/v1/species/search",
+  "retrievedAt": "2026-09-20",
+  "note": "Accepted species under GBIF Chordata children that are fishes (bony-fish orders plus Elasmobranchii, Holocephali, Myxini, Petromyzonti, Coelacanthi, Dipneusti). Amphibia, Aves, Mammalia, reptiles, tunicates, and lancelets excluded. Fishes is a vernacular group, not a clade.",
+  "counts": {
+    "orders": 63,
+    "families": 716,
+    "genera": 6493,
+    "species": 46114
+  }
+}

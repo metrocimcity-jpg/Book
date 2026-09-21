@@ -4,20 +4,24 @@ globs: ["Mammals/**", "Birds/**", "mammals/**", "birds/**"]
 alwaysApply: true
 ---
 
-# Project rules — Mammals/ and Birds/
+# Project rules — book of life hub
 
 ## Scope
-- The repo has two sibling apps: `Mammals/` (ASM Mammal Diversity Database) and
-  `Birds/` (AviList). Same stack and UI. Change both when the user asks for a
-  chart/UI behaviour; otherwise stay in the folder they named.
+- One UI lives in `shared/` and root `index.html`. Group folders (`Mammals/`,
+  `Birds/`, `Fishes/`, `Tree/`, `Bushes/`, `Shrubs/`, `Flowers/`, `Amphibians/`,
+  `Insects/`) hold data, colour tokens, images, and harvest scripts — not a
+  second copy of the chart shell.
+- Change `shared/` when the user asks for a chart/UI behaviour; otherwise stay
+  in the folder they named. Do not recreate `index.html`, `src/`, `vendor/`, or
+  `styles/app.css` inside a group folder.
 - Never modify files outside those apps unless explicitly asked (root `README.md`
   and `.cursor/rules/` are fair game when asked to update docs or prompts).
 - Read `NOTES.md` in the app you are changing before editing any script. Append
   to it, never rewrite it.
 
 ## Stack
-- Vanilla ES modules, D3 v7 vendored at `vendor/d3.v7.min.js`. No React, no Vue,
-  no bundler requirement, no CSS framework.
+- Vanilla ES modules, D3 v7 vendored at `shared/vendor/d3.v7.min.js`. No React,
+  no Vue, no bundler requirement, no CSS framework.
 - Zero runtime dependencies. Build-time dependencies in `scripts/` must be asked
   about before installing.
 - No runtime network requests to third-party origins. Everything ships as static

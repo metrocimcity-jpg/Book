@@ -1,0 +1,15 @@
+{
+  "source": "BGCI GlobalTreeSearch",
+  "version": "IPT / GBIF checklist 7cfcd73b-03ae-476b-a61c-872d36b6c38f",
+  "doi": "10.13140/RG.2.2.14427.68644",
+  "url": "https://ipt.brc.ac.uk/archive.do?r=globaltreesearch",
+  "license": "CC-BY-NC 4.0",
+  "retrievedAt": "2026-09-20",
+  "note": "Accepted tree species from GlobalTreeSearch. Family→order mapped with GBIF match. GTS data are CC-BY-NC; code licence is separate.",
+  "counts": {
+    "orders": 61,
+    "families": 267,
+    "genera": 4161,
+    "species": 57596
+  }
+}

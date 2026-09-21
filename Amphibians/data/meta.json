@@ -1,0 +1,14 @@
+{
+  "source": "AmphibiaWeb",
+  "version": "2026-04-01 snapshot",
+  "doi": "",
+  "url": "https://github.com/AmphibiaWeb/taxonomy-archive",
+  "retrievedAt": "2026-09-20",
+  "note": "Monthly snapshot amphib_names_20260401.txt from AmphibiaWeb taxonomy-archive (CC BY 4.0). Daily amphibiaweb.org file is behind a human-check wall.",
+  "counts": {
+    "orders": 3,
+    "families": 77,
+    "genera": 605,
+    "species": 9014
+  }
+}

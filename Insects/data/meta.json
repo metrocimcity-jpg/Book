@@ -1,0 +1,14 @@
+{
+  "source": "GBIF Backbone Taxonomy",
+  "version": "backbone live search",
+  "doi": "10.15468/39omei",
+  "url": "https://api.gbif.org/v1/species/216/children",
+  "retrievedAt": "2026-09-20",
+  "note": "Insecta has ~1.1 million accepted species on GBIF, which exceeds the species-search offset limit and the sunburst budget. This tree is order → family; family.value is the GBIF accepted-species count. Genera and species names are not invented and are not listed.",
+  "counts": {
+    "orders": 42,
+    "families": 2113,
+    "genera": 0,
+    "species": 1102569
+  }
+}
