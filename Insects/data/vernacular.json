@@ -136,7 +136,7 @@
     "fa": "مگسهای عقربی تاسمانی"
   },
   "Archaeognatha": {
-    "fa": "صخرهپر"
+    "fa": "صخره‌پر"
   },
   "Arctiidae": {
     "fa": "شاپرکهای ببری"
@@ -189,951 +189,471 @@
   "Berothidae": {
     "fa": "بالتوریان مهرهدار"
   },
-  "Bibionidae": {
-    "fa": "مگسان مرداب"
-  },
-  "Bittacidae": {
-    "en": "Hangingfly",
-    "fa": "درازبال"
-  },
-  "Blaberidae": {
-    "fa": "سوسکهای بزرگ"
-  },
-  "Blasticotomidae": {
-    "fa": "ارهمگسهای سرخس"
-  },
-  "Blastobasidae": {
-    "fa": "شاخکمانیان بلاستوباسیدا"
-  },
-  "Blattidae": {
-    "fa": "سوسکهای بلاتیدائه"
-  },
   "Blattodea": {
     "fa": "سوسک"
   },
-  "Blephariceridae": {
-    "fa": "پشههای بالتوری"
-  },
-  "Bombycidae": {
-    "fa": "شاپرکهای ابریشمی"
-  },
-  "Bombyliidae": {
-    "fa": "گاومگس"
-  },
-  "Boreidae": {
-    "fa": "مگسهای عقربی برفی"
-  },
-  "Bostrichidae": {
-    "fa": "سوسکهای متهای"
-  },
-  "Bothrideridae": {
-    "fa": "سوسکهای پوستهنشین خشک"
-  },
-  "Brachodidae": {
-    "fa": "خرسکبیدان"
-  },
-  "Brachypsectridae": {
-    "fa": "سوسکهای تگزاسی"
-  },
-  "Brahmaeidae": {
-    "fa": "شاپرکهای برهمن"
-  },
-  "Brentidae": {
-    "fa": "سوسکچههای دماغدراز"
-  },
-  "Bucculatricidae": {
-    "fa": "شیارشفیرگان"
-  },
-  "Buprestidae": {
-    "fa": "سوسکهای جواهر"
-  },
-  "Byrrhidae": {
-    "fa": "سوسکهای قرصی"
-  },
-  "Byturidae": {
-    "fa": "سوسکهای میوه"
-  },
-  "Callidulidae": {
-    "fa": "پروانکیهای جهان قدیم"
-  },
-  "Calliphoridae": {
-    "fa": "مگسهای لاشه"
-  },
-  "Calopterygidae": {
-    "fa": "سنجاقکهای پهنبال"
-  },
-  "Cantharidae": {
-    "fa": "سوسکهای نرمتن"
-  },
-  "Capniidae": {
-    "fa": "بهارههای کوچک زمستانی"
-  },
-  "Carabidae": {
-    "fa": "سوسکهای زمینی"
-  },
-  "Carayonemidae": {
-    "fa": "شپشکهای خزهنشین"
-  },
-  "Caridae": {
-    "fa": "سوسکچههای عصر گوندوآنا"
-  },
-  "Carnidae": {
-    "fa": "مگسهای پلشت"
-  },
-  "Carposinidae": {
-    "fa": "شاپرکهای کرم میوه"
-  },
-  "Castniidae": {
-    "fa": "شاپرکهای پروانهای بزرگ"
-  },
-  "Cecidomyiidae": {
-    "fa": "پشههای تورمی"
-  },
-  "Cecidosidae": {
-    "fa": "برگبرندهواران سسیدوسیدا"
-  },
-  "Celyphidae": {
-    "fa": "مگسهای پشتسوسکی"
-  },
-  "Cephidae": {
-    "fa": "ارهمگسهای ساقه"
-  },
-  "Cerambycidae": {
-    "fa": "سوسکهای شاخدراز"
-  },
-  "Ceraphronidae": {
-    "fa": "ریزلکهگان"
-  },
-  "Ceratopogonidae": {
-    "fa": "پشههای نیشدار"
-  },
-  "Cerococcidae": {
-    "fa": "شپشکهای آبلهای آراسته"
-  },
-  "Cerophytidae": {
-    "fa": "سوسکهای بهار نادر"
-  },
-  "Cerylonidae": {
-    "fa": "سوسکهای پوستهنشین خرد"
-  },
-  "Chamaemyiidae": {
-    "fa": "مگسهای شتهای"
-  },
-  "Chaoboridae": {
-    "fa": "پشههای شبح"
-  },
-  "Chironomidae": {
-    "fa": "پشههای بینیش"
-  },
-  "Chlorocyphidae": {
-    "fa": "سنجاقکهای جواهر"
-  },
-  "Chlorogomphidae": {
-    "fa": "سبزمیخان"
-  },
-  "Chloropidae": {
-    "fa": "مگسهای علف"
-  },
-  "Choreutidae": {
-    "fa": "شاپرکان فلزنشان"
-  },
-  "Choristidae": {
-    "fa": "مگسهای عقربی استرالیا"
-  },
-  "Chorotypidae": {
-    "fa": "ملخهای برگی"
-  },
-  "Chrysididae": {
-    "fa": "زنبورهای بیعسل زمردی"
-  },
-  "Chrysomelidae": {
-    "fa": "سوسکهای درختی"
-  },
-  "Chrysopidae": {
-    "fa": "بالتوریان سبز"
-  },
-  "Cicadellidae": {
-    "fa": "زنجرک"
-  },
-  "Cicadidae": {
-    "fa": "زنجره"
-  },
-  "Cimbicidae": {
-    "fa": "ارهمگسهای شاخکچماقی"
-  },
-  "Cimeliidae": {
-    "fa": "طلاییواران"
-  },
-  "Cimicidae": {
-    "fa": "ساسان (حشرات)"
-  },
-  "Clastopteridae": {
-    "fa": "شکستهبالان"
-  },
-  "Cleridae": {
-    "fa": "سوسکهای رنگارنگ"
-  },
-  "Clusiidae": {
-    "fa": "مگسهای کشیش"
-  },
-  "Coccidae": {
-    "fa": "شپشکهای نرم"
-  },
-  "Coccinellidae": {
-    "fa": "کفشدوزک"
-  },
-  "Coelopidae": {
-    "fa": "مگسهای کتانجک"
-  },
-  "Coenagrionidae": {
-    "fa": "سنجاقکهای برکه"
-  },
-  "Coleophoridae": {
-    "fa": "غلافداران"
-  },
   "Coleoptera": {
     "en": "Beetle",
-    "fa": "قاببالان"
-  },
-  "Colletidae": {
-    "fa": "زنبورهای بنا"
-  },
-  "Colymbotethidae": {
-    "en": "Colymbothetidae"
-  },
-  "Conchaspididae": {
-    "fa": "شپشکهای بیافکنه"
-  },
-  "Coniopterygidae": {
-    "fa": "غباربالان"
-  },
-  "Conopidae": {
-    "fa": "مگسهای سردرشت"
-  },
-  "Copromorphidae": {
-    "fa": "سرگینریختان"
-  },
-  "Cordulegastridae": {
-    "fa": "شکمگرزان"
-  },
-  "Cordulephyidae": {
-    "fa": "بالبستگان"
-  },
-  "Corduliidae": {
-    "fa": "زمردآسیابکان"
-  },
-  "Coreidae": {
-    "fa": "لنگورقیان"
-  },
-  "Corethrellidae": {
-    "fa": "پشههای غورباقهگز"
-  },
-  "Corixidae": {
-    "fa": "حشرات قایقران"
-  },
-  "Corydiidae": {
-    "fa": "سوسریان شنی"
-  },
-  "Cosmopterigidae": {
-    "fa": "شاپرکان بالآرایشی"
-  },
-  "Cossidae": {
-    "fa": "شاپرکهای درودگر"
-  },
-  "Crabronidae": {
-    "fa": "ماسهزنبوران"
-  },
-  "Crambidae": {
-    "fa": "علفبیدان"
-  },
-  "Crowsoniellidae": {
-    "fa": "سوسکهای کراوسون"
-  },
-  "Cucujidae": {
-    "fa": "سوسک پوستهنشین تخت"
-  },
-  "Culicidae": {
-    "en": "Mosquito",
-    "fa": "پشه"
-  },
-  "Cupedidae": {
-    "fa": "سوسکهای مشبک"
-  },
-  "Curculionidae": {
-    "fa": "سوسکچههای خرطومدار"
+    "fa": "قاب‌بالان"
   },
   "Curtonotidae": {
-    "fa": "مگسهای کوآزیمودو"
+    "fa": "مگس‌های کوآزیمودو"
   },
   "Cydnidae": {
-    "fa": "سنهای کاونده"
+    "en": "Burrowing Bugs",
+    "fa": "سن‌های کاونده"
   },
   "Cylindrachetidae": {
-    "fa": "شنکاو"
+    "fa": "شن‌کاو"
+  },
+  "Cylindrotomidae": {
+    "en": "Cylindrotomid Crane Flies"
   },
   "Cynipidae": {
-    "fa": "زنبور گالزا"
+    "en": "Gall Wasps",
+    "fa": "زنبور گال‌زا"
   },
   "Cypselosomatidae": {
     "fa": "آوندتنان"
   },
+  "Dactylopiidae": {
+    "en": "Cochineal Insects"
+  },
   "Dalceridae": {
+    "en": "Tropical Slug Caterpillar Moths",
     "fa": "هزارپابیدان"
   },
+  "Dasydemellidae": {
+    "en": "Shaggy Psocids"
+  },
   "Delphacidae": {
+    "en": "Delphacid Planthoppers",
     "fa": "مهمیزداران"
   },
   "Depressariidae": {
+    "en": "Depressariids",
     "fa": "شاپرکان زردک"
   },
   "Derbidae": {
-    "fa": "خارهداران"
+    "en": "Derbid Planthoppers",
+    "fa": "خاره‌داران"
   },
   "Dermaptera": {
-    "fa": "گوشخیزک"
+    "en": "Earwigs",
+    "fa": "گوش‌خیزک"
   },
   "Dermestidae": {
-    "fa": "سوسکهای چرمخوار"
+    "fa": "سوسک‌های چرم‌خوار"
   },
   "Derodontidae": {
-    "fa": "سوسکهای گردندندانهای قارچ"
+    "fa": "سوسک‌های گردن‌دندانه‌ای قارچ"
   },
-  "Diadocidiidae": {
-    "fa": "پشههای لولهابریشمی"
+  "Deuterophlebiidae": {
+    "en": "Mountain Midges"
   },
   "Diaphanopterodea": {
-    "fa": "شفافبالان"
-  },
-  "Diapriidae": {
-    "fa": "تنکبالان"
-  },
-  "Diaspididae": {
-    "fa": "شپشکهای زرهدار"
-  },
-  "Diastatidae": {
-    "fa": "مگسهای گنداب"
-  },
-  "Dicteriadidae": {
-    "fa": "سنجاقکهای پابرهنه"
-  },
-  "Dilaridae": {
-    "fa": "بالتوریان خوشایند"
-  },
-  "Dinopanorpidae": {
-    "fa": "دیوکژدممگسان"
-  },
-  "Diopsidae": {
-    "fa": "چشمشاخکیان"
-  },
-  "Diprionidae": {
-    "fa": "ارهمگسهای کاجخوار"
+    "fa": "شفاف‌بالان"
   },
   "Diptera": {
     "fa": "دوبالان"
   },
-  "Ditomyiidae": {
-    "fa": "پشههای بالمویی"
-  },
-  "Dixidae": {
-    "fa": "پشههای خوندزد"
-  },
-  "Doidae": {
-    "fa": "شاپرکان مکزیکی"
-  },
-  "Dolichopodidae": {
-    "fa": "مگسهای پادراز"
-  },
   "Douglasiidae": {
-    "fa": "شاپرکهای داگلاس"
+    "en": "Douglas Moths",
+    "fa": "شاپرک‌های داگلاس"
   },
   "Drepanidae": {
-    "fa": "بالبرگشتهها"
+    "fa": "بال‌برگشته‌ها"
   },
   "Drosophilidae": {
-    "fa": "مگسهای میوه"
+    "en": "Lesser fruit flies",
+    "fa": "مگس‌های میوه"
+  },
+  "Dryinidae": {
+    "en": "Dryinids"
+  },
+  "Dryopidae": {
+    "en": "Long-toed Water Beetle"
   },
   "Dytiscidae": {
-    "fa": "غواصسوسکان"
+    "fa": "غواص‌سوسکان"
+  },
+  "Ectopsocidae": {
+    "en": "Outer Barklice"
   },
   "Elachistidae": {
-    "fa": "شاپرکهای چمنکاو"
+    "fa": "شاپرک‌های چمن‌کاو"
   },
   "Elateridae": {
-    "en": "Wireworm",
     "fa": "سوسک بهار"
+  },
+  "Elipsocidae": {
+    "en": "Damp Barklice"
+  },
+  "Elmidae": {
+    "en": "Riffle beetles"
   },
   "Embioptera": {
     "fa": "توربافان"
   },
   "Empididae": {
-    "fa": "مگسهای خنجری"
+    "en": "Dagger flies and balloon flies",
+    "fa": "مگس‌های خنجری"
+  },
+  "Encyrtidae": {
+    "en": "Encyrtids"
+  },
+  "Endomychidae": {
+    "en": "Handsome fungus beetles"
   },
   "Endromidae": {
     "fa": "شکوه کنت"
   },
   "Enicocephalidae": {
-    "fa": "بیهمتاسران"
+    "en": "Unique-headed Bugs",
+    "fa": "بی‌همتاسران"
   },
   "Eomeropidae": {
     "fa": "درازبال سوسکی"
   },
   "Epermeniidae": {
-    "fa": "زلفکداران"
+    "en": "Fringe-tufted Moths",
+    "fa": "زلفک‌داران"
+  },
+  "Ephemerellidae": {
+    "en": "Spiny Crawler Mayflies"
+  },
+  "Ephemeridae": {
+    "en": "Common Burrower Mayflies"
   },
   "Ephemeroptera": {
-    "fa": "حشره یکروزه"
+    "fa": "حشره یک‌روزه"
   },
   "Ephydridae": {
-    "fa": "مگسهای آب شور"
+    "en": "Shore Flies",
+    "fa": "مگس‌های آب شور"
   },
   "Epicopeiidae": {
-    "fa": "شاپرکهای دمچلچلهای شرقی"
+    "fa": "شاپرک‌های دم‌چلچله‌ای شرقی"
+  },
+  "Epipsocidae": {
+    "en": "Epipsocids"
   },
   "Epipyropidae": {
-    "fa": "شاپرکهای گیاهپر"
+    "en": "Planthopper Parasites",
+    "fa": "شاپرک‌های گیاه‌پر"
   },
   "Eriococcidae": {
-    "fa": "شپشکهای نمدی"
+    "en": "Felt Scales",
+    "fa": "شپشک‌های نمدی"
   },
   "Eriocottidae": {
-    "fa": "پروانهسانان اریوکوتیدا"
+    "fa": "پروانه‌سانان اریوکوتیدا"
   },
   "Eriocraniidae": {
-    "fa": "پشمکبهسرواران"
+    "en": "Eriocraniid Moths",
+    "fa": "پشمک‌به‌سرواران"
   },
   "Erotylidae": {
-    "fa": "سوسکهای قارچخور"
+    "en": "Pleasing fungus beetles",
+    "fa": "سوسک‌های قارچ‌خور"
   },
   "Eucharitidae": {
     "fa": "یوکوریتیدی"
   },
+  "Eucinetidae": {
+    "en": "Plate-thigh beetles"
+  },
+  "Eulichadidae": {
+    "en": "Forest Stream Beetles"
+  },
   "Eulophidae": {
-    "fa": "چهاربندیپایان"
+    "fa": "چهاربندی‌پایان"
   },
   "Eumastacidae": {
-    "fa": "ملخهای چوبکبریتی"
+    "en": "Monkey Grasshoppers",
+    "fa": "ملخ‌های چوب‌کبریتی"
   },
   "Euphaeidae": {
-    "fa": "لطیفبالان"
+    "fa": "لطیف‌بالان"
   },
   "Eupterotidae": {
-    "fa": "خوشبالان"
+    "fa": "خوش‌بالان"
+  },
+  "Euxestidae": {
+    "en": "Well Polished Beetles"
   },
   "Evaniidae": {
-    "fa": "زنبورهای علمدار"
+    "en": "Ensign wasps",
+    "fa": "زنبورهای علم‌دار"
+  },
+  "Flatidae": {
+    "en": "Flatid Planthoppers"
   },
   "Forficulidae": {
-    "fa": "قیچیداران"
+    "fa": "قیچی‌داران"
   },
   "Formicidae": {
+    "en": "Ants",
     "fa": "مورچه"
   },
   "Fulgoridae": {
-    "fa": "مگسهای فانوس"
+    "en": "Fulgorid Planthoppers",
+    "fa": "مگس‌های فانوس"
   },
   "Gasteruptiidae": {
+    "en": "Carrot Wasps",
     "fa": "زنبورهای پاچماقی"
   },
   "Gelastocoridae": {
+    "en": "Toad Bugs",
     "fa": "حشرات وزغی"
   },
   "Gelechiidae": {
-    "fa": "دوروزنهایهای گلچیدا"
+    "fa": "دوروزنه‌ای‌های گلچیدا"
+  },
+  "Geocoridae": {
+    "en": "Big-eyed Bugs"
   },
   "Geometridae": {
-    "fa": "زمینسنجان"
+    "fa": "زمین‌سنجان"
   },
   "Gerridae": {
-    "fa": "آبپیمایان"
+    "en": "Water Striders",
+    "fa": "آب‌پیمایان"
+  },
+  "Glaphyridae": {
+    "en": "Bumblebee scarab beetles"
+  },
+  "Glaresidae": {
+    "en": "Enigmatic scarab beetles"
   },
   "Glosselytrodea": {
-    "fa": "زبانغلافان"
+    "fa": "زبان‌غلافان"
+  },
+  "Glossosomatidae": {
+    "en": "Little Black Caddisflies"
   },
   "Glyphipterigidae": {
-    "fa": "شاپرکهای جگنخوار"
+    "fa": "شاپرک‌های جگن‌خوار"
   },
   "Gobryidae": {
-    "fa": "مگسهای سرپهن"
+    "fa": "مگس‌های سرپهن"
   },
   "Gomphidae": {
-    "fa": "آسیابکهای دمچماقی"
+    "fa": "آسیابک‌های دم‌چماقی"
   },
   "Gracillariidae": {
-    "fa": "شاپرکهای برگساب"
+    "en": "Gracillariid",
+    "fa": "شاپرک‌های برگ‌ساب"
   },
   "Gryllacrididae": {
-    "fa": "جیرجیرکهای برگغلتان"
+    "fa": "جیرجیرک‌های برگ‌غلتان"
   },
   "Gryllidae": {
+    "en": "True cricket",
     "fa": "جیرجیرک"
   },
   "Grylloblattidae": {
-    "fa": "یخخیزکان"
+    "fa": "یخ‌خیزکان"
   },
   "Grylloblattodea": {
-    "fa": "یخخیزکان"
+    "en": "Ice Bugs",
+    "fa": "یخ‌خیزکان"
   },
   "Gryllotalpidae": {
     "fa": "آبدزدک"
   },
   "Gyrinidae": {
-    "fa": "سوسکهای چرخان"
+    "fa": "سوسک‌های چرخان"
   },
   "Halictidae": {
-    "fa": "شیرینزنبوران"
+    "en": "Sweat Bees",
+    "fa": "شیرین‌زنبوران"
   },
   "Halimococcidae": {
-    "fa": "شپشکهای نخلی مردمکی"
+    "fa": "شپشک‌های نخلی مردمکی"
   },
   "Hebridae": {
-    "fa": "آبپیمایان مخملی"
+    "en": "Velvet Water Bugs",
+    "fa": "آب‌پیمایان مخملی"
   },
   "Hedylidae": {
-    "fa": "پروانکیهای آمریکایی"
+    "fa": "پروانکی‌های آمریکایی"
   },
   "Heleomyzidae": {
-    "fa": "مگسهای آشغال"
+    "fa": "مگس‌های آشغال"
+  },
+  "Helicopsychidae": {
+    "en": "Snail-case Caddisflies"
   },
   "Heliodinidae": {
-    "fa": "شاپرکهای لاغر"
+    "en": "Sun Moths",
+    "fa": "شاپرک‌های لاغر"
   },
   "Heliozelidae": {
+    "en": "Shield Bearer Moths",
     "fa": "سپرگیران"
   },
   "Hemerobiidae": {
-    "fa": "بالتوریان قهوهای"
+    "fa": "بال‌توریان قهوه‌ای"
+  },
+  "Hemipsocidae": {
+    "en": "Leaf Litter Barklice"
   },
   "Hemiptera": {
-    "fa": "نیمبالان"
-  },
-  "Hepialidae": {
-    "fa": "شبحبیدان"
-  },
-  "Heptageniidae": {
-    "fa": "حشره یکروزه سرپهن"
-  },
-  "Hesperiidae": {
-    "fa": "پشیزبالان"
-  },
-  "Heterobathmiidae": {
-    "fa": "فلزیرنگواران قدیمی"
-  },
-  "Heterogynidae": {
-    "fa": "جنگلبانان مدیترانه"
-  },
-  "Himantopteridae": {
-    "fa": "دوالبالان"
-  },
-  "Hippoboscidae": {
-    "fa": "مگسهای شپشی"
-  },
-  "Hodotermitidae": {
-    "fa": "موریانههای خرمنبردار"
+    "en": "True bug",
+    "fa": "نیم‌بالان"
   },
   "Hyblaeidae": {
-    "fa": "شاپرکهای ساجی"
+    "en": "Teak Moths",
+    "fa": "شاپرک‌های ساجی"
+  },
+  "Hybosoridae": {
+    "en": "Scavenger scarab beetles"
   },
   "Hybotidae": {
-    "fa": "مگسهای رقاص"
+    "en": "Hybotid Dance Flies",
+    "fa": "مگس‌های رقاص"
+  },
+  "Hydrometridae": {
+    "en": "Water Measurers"
   },
   "Hydrophilidae": {
-    "fa": "سوسکهای زبالهگرد آبی"
+    "fa": "سوسک‌های زباله‌گرد آبی"
+  },
+  "Hydropsychidae": {
+    "en": "Netspinning Caddisflies"
+  },
+  "Hydroptilidae": {
+    "en": "Microcaddisflies"
+  },
+  "Hydroscaphidae": {
+    "en": "Skiff beetles"
+  },
+  "Hygrobiidae": {
+    "en": "Squeak beetles"
   },
   "Hymenopodidae": {
     "fa": "آخوندکان گلی"
   },
   "Hymenoptera": {
-    "fa": "پردهبالان"
+    "en": "Hymenopterans",
+    "fa": "پرده‌بالان"
+  },
+  "Ibaliidae": {
+    "en": "Ibaliid Wasps"
   },
   "Ichneumonidae": {
     "fa": "زنبورهای عقربی"
   },
   "Immidae": {
-    "fa": "پینهدارواران"
+    "fa": "پینه‌دارواران"
   },
   "Incurvariidae": {
-    "fa": "برگبرندگان"
+    "en": "Leafcutter Moths",
+    "fa": "برگ‌برندگان"
   },
   "Inocelliidae": {
-    "fa": "مارمگسهای چهارگوشسر"
+    "en": "Square-headed Snakeflies",
+    "fa": "مارمگس‌های چهارگوش‌سر"
   },
   "Insecta": {
     "en": "Insect",
     "fa": "حشرات"
   },
   "Ironomyiidae": {
-    "fa": "مگسهای گواژه"
+    "fa": "مگس‌های گواژه"
+  },
+  "Isonychiidae": {
+    "en": "Brushlegged Mayflies"
   },
   "Isostictidae": {
-    "fa": "باریکبالان"
+    "fa": "باریک‌بالان"
+  },
+  "Issidae": {
+    "en": "Issid Planthoppers"
   },
   "Ithonidae": {
-    "fa": "بالتوریان شاپرکی"
+    "en": "Moth Lacewings",
+    "fa": "بال‌توریان شاپرکی"
   },
   "Jacobsoniidae": {
-    "fa": "سوسکهای جیکوبسونی"
+    "en": "Jacobson's beetles",
+    "fa": "سوسک‌های جیکوبسونی"
   },
   "Jurodidae": {
-    "fa": "سوسکهای سیخوته-آلین"
+    "fa": "سوسک‌های سیخوته-آلین"
+  },
+  "Kalotermitidae": {
+    "en": "Drywood Termites"
   },
   "Kermesidae": {
-    "fa": "شپشکهای قرمزساز"
+    "en": "Gall-like Scale Insects",
+    "fa": "شپشک‌های قرمزساز"
   },
   "Keroplatidae": {
-    "fa": "پشههای صافشاخک"
+    "en": "Predatory Fungus Gnats",
+    "fa": "پشه‌های صاف‌شاخک"
   },
   "Kerriidae": {
-    "fa": "شپشکهای لاک ساز"
+    "en": "Lac Scales",
+    "fa": "شپشک‌های لاک ساز"
+  },
+  "Kinnaridae": {
+    "en": "Kinnarid Planthoppers"
   },
   "Labiduridae": {
-    "fa": "گوشخیزکهای نواری"
+    "en": "Striped Earwigs",
+    "fa": "گوش‌خیزک‌های نواری"
+  },
+  "Lachesillidae": {
+    "en": "Fateful Barklice"
+  },
+  "Lacturidae": {
+    "en": "Tropical Burnet Moths"
   },
   "Lampyridae": {
-    "fa": "کرم شبتاب"
+    "fa": "کرم شب‌تاب"
+  },
+  "Largidae": {
+    "en": "Bordered Plant Bugs"
   },
   "Lasiocampidae": {
-    "fa": "شاپرکهای پشمالو"
-  },
-  "Lauxaniidae": {
-    "fa": "مگسهای برگنشین"
-  },
-  "Lecanodiaspididae": {
-    "fa": "شپشکهای آبلهای کاذب"
-  },
-  "Leiodidae": {
-    "fa": "سوسکهای قارچ گرد"
+    "fa": "شاپرک‌های پشمالو"
   },
   "Lepidoptera": {
     "fa": "پولک بالان"
   },
-  "Lestidae": {
-    "fa": "گستردهبالان"
-  },
-  "Lestoideidae": {
-    "fa": "نوارآبیان"
-  },
-  "Libellulidae": {
-    "fa": "آسیابکهای آبنشین"
-  },
-  "Limacodidae": {
-    "fa": "شاپرکهای فنجانی"
-  },
-  "Limoniidae": {
-    "fa": "لیمونیدا"
-  },
-  "Lonchaeidae": {
-    "fa": "مگسهای نیزهای"
-  },
-  "Lonchopteridae": {
-    "fa": "مگسهای بالنیزهای"
-  },
-  "Lucanidae": {
-    "fa": "سوسکهای گوزنی"
-  },
-  "Lycaenidae": {
-    "fa": "پرنیانبالان"
-  },
-  "Lycidae": {
-    "fa": "سوسکهای بالتوری"
-  },
-  "Lygaeidae": {
-    "fa": "سنهای بذرخوار"
-  },
-  "Lymexylidae": {
-    "fa": "سوسکهای چوب کشتی"
-  },
-  "Lyonetiidae": {
-    "fa": "شاپرکان درازشاخک"
-  },
-  "Lypusidae": {
-    "fa": "دوروزنهایان لیپوسیدا"
-  },
-  "Machaerotidae": {
-    "fa": "کفدهانان لولهدار"
-  },
-  "Macromiidae": {
-    "fa": "آبروهای چشمسبز"
-  },
-  "Manipulatoridae": {
-    "en": "Manipulator modificaputis"
-  },
-  "Mantidae": {
-    "fa": "آخوندکان"
-  },
-  "Mantispidae": {
-    "fa": "آخوندکمگسان"
-  },
   "Mantodea": {
     "fa": "آخوندک"
-  },
-  "Mantophasmatidae": {
-    "fa": "سنگخیزکان"
-  },
-  "Margarodidae": {
-    "fa": "شپشکهای بالشتکی"
   },
   "Mecoptera": {
     "fa": "منقارسران"
   },
-  "Megachilidae": {
-    "fa": "برگبران"
-  },
-  "Megalodontesidae": {
-    "fa": "ارهمگسهای سیاهزرد"
-  },
   "Megaloptera": {
     "fa": "بزرگبالان"
-  },
-  "Megalopygidae": {
-    "fa": "حولهپوشان"
-  },
-  "Megalyridae": {
-    "fa": "بالاروزنکها"
-  },
-  "Megamerinidae": {
-    "fa": "مگسهای پوستنشین"
   },
   "Meganisoptera": {
     "fa": "شیردالمگسسانان"
   },
-  "Megapodagrionidae": {
-    "fa": "صافبالان"
-  },
-  "Megaspilidae": {
-    "fa": "بزرگلکهگان"
-  },
-  "Meloidae": {
-    "fa": "سوسک تاولزا"
-  },
-  "Melyridae": {
-    "fa": "گلخراشهای نرمبال"
-  },
-  "Membracidae": {
-    "fa": "زنجره درختی"
-  },
-  "Meropeidae": {
-    "fa": "مگس گوشخیزکی"
-  },
-  "Mesoveliidae": {
-    "en": "Water treader",
-    "fa": "آبروندگان"
-  },
-  "Micrococcidae": {
-    "fa": "شپشکهای مدیترانه"
-  },
-  "Micropezidae": {
-    "fa": "مگسهای لنگدراز"
-  },
-  "Micropterigidae": {
-    "fa": "کهنشاپرکان"
-  },
-  "Mimallonidae": {
-    "fa": "شاپرکان کیسهدار"
-  },
   "Miomoptera": {
     "fa": "دیرین‌آخوندکان"
-  },
-  "Miridae": {
-    "fa": "حشرات علفی"
-  },
-  "Mogoplistidae": {
-    "fa": "جیرجیرکهای پولکدار"
-  },
-  "Momphidae": {
-    "fa": "ریشکبیدان"
-  },
-  "Mordellidae": {
-    "fa": "گلسوسکان"
-  },
-  "Mormotomyiidae": {
-    "fa": "مگس پشمالوی ترسو"
-  },
-  "Muscidae": {
-    "fa": "مگسهای خانگی"
-  },
-  "Mutillidae": {
-    "fa": "مورچه پاندا"
-  },
-  "Mycetophilidae": {
-    "fa": "پشههای قارچدوست"
-  },
-  "Mymaridae": {
-    "fa": "مگس پریسا"
-  },
-  "Myrmecophilidae": {
-    "fa": "جیرجیرک مورچهای"
-  },
-  "Myrmeleontidae": {
-    "fa": "شیرمور"
-  },
-  "Nabidae": {
-    "fa": "حشرههای دوشیزه"
-  },
-  "Nannochoristidae": {
-    "fa": "مگسهای عقربی عجیب"
-  },
-  "Naucoridae": {
-    "fa": "حشرات بشقابی"
-  },
-  "Nemestrinidae": {
-    "fa": "مگسهای آشفتهرگه"
-  },
-  "Nemonychidae": {
-    "fa": "سوسکچههای گلکاجی"
-  },
-  "Nemopteridae": {
-    "fa": "بالقاشقیان"
-  },
-  "Neopseustidae": {
-    "fa": "ناقوسیان کهن"
-  },
-  "Nepidae": {
-    "fa": "ساسهای سوزنی"
-  },
-  "Nepticulidae": {
-    "fa": "کوتولهبیدان"
-  },
-  "Neriidae": {
-    "fa": "مگسهای کاکتوس"
   },
   "Neuroptera": {
     "en": "Net-winged insects",
     "fa": "بال‌توری‌ها"
   },
-  "Nitidulidae": {
-    "fa": "سوسک شیرهخوار"
-  },
-  "Nocticolidae": {
-    "fa": "سوسریان غارزی"
-  },
-  "Noctuidae": {
-    "fa": "شاپرکان جغدی"
-  },
-  "Nolidae": {
-    "fa": "شاپرکهای کاکلی"
-  },
-  "Nosodendridae": {
-    "fa": "سوسکهای درخت زخمی"
-  },
-  "Notodontidae": {
-    "fa": "شاپرکهای گربهای"
-  },
-  "Notonectidae": {
-    "fa": "پشتشناگران"
-  },
-  "Nymphalidae": {
-    "fa": "فرچهپایان"
-  },
-  "Nymphidae": {
-    "fa": "بالتوریان پاشکافته"
-  },
-  "Nymphomyiidae": {
-    "fa": "مگسهای ریزجثه"
-  },
-  "Ochteridae": {
-    "fa": "ساحلیهای مخملی"
-  },
-  "Odiniidae": {
-    "fa": "مگسهای دالاننشین"
-  },
   "Odonata": {
     "fa": "سنجاقک‌سانان"
-  },
-  "Oecophoridae": {
-    "fa": "شاپرکهای داسی"
-  },
-  "Oenosandridae": {
-    "fa": "شاپرکهای بیاعتنا"
-  },
-  "Oestridae": {
-    "fa": "مگس پاشنه"
-  },
-  "Ommatidae": {
-    "fa": "اومایان"
-  },
-  "Opetiidae": {
-    "fa": "مگسهای پاصاف"
-  },
-  "Opomyzidae": {
-    "fa": "مگسهای ساقهنشین"
-  },
-  "Opostegidae": {
-    "fa": "چشمسفیدان"
-  },
-  "Ortheziidae": {
-    "fa": "شپشکهای علمدار"
   },
   "Orthoptera": {
     "fa": "راست‌بالان"
   },
-  "Orussidae": {
-    "fa": "زنبورهای چوبی انگلی"
-  },
-  "Osmylidae": {
-    "fa": "بالتوریان آبنشین"
-  },
   "Palaeodictyoptera": {
     "fa": "شش‌بالان"
   },
-  "Palaephatidae": {
-    "fa": "شاپرکان گوندوانا"
-  },
-  "Pallopteridae": {
-    "fa": "مگسهای پرپرزن"
-  },
-  "Pamphagidae": {
-    "fa": "ملخهای وزغی"
-  },
-  "Pamphiliidae": {
-    "fa": "ارهمگسهای تارتن"
-  },
-  "Panorpidae": {
-    "fa": "مگس عقربی معمولی"
-  },
-  "Panorpodidae": {
-    "fa": "مگس عقربی صورتکوتاه"
-  },
-  "Pantophthalmidae": {
-    "fa": "مگسهای الوار"
-  },
-  "Papilionidae": {
-    "fa": "پروانههای دمچلچلهای"
-  },
-  "Pediciidae": {
-    "fa": "مگسهای درنای چشمپشمی"
-  },
-  "Pediculidae": {
-    "en": "Human lice"
-  },
-  "Peloridiidae": {
-    "fa": "حشرات خزهنشین"
-  },
-  "Pentatomidae": {
-    "fa": "سنهای بدبو"
-  },
-  "Pergidae": {
-    "fa": "ارهمگسهای میانجثه"
-  },
-  "Perilestidae": {
-    "fa": "کوتاهبالان"
-  },
-  "Perissommatidae": {
-    "fa": "پشههای چهارچشمی"
-  },
-  "Petaluridae": {
-    "fa": "گلبرگدمان"
-  },
-  "Phasmatidae": {
-    "fa": "چوبکان"
-  },
   "Phasmida": {
     "fa": "چوبکسانان"
-  },
-  "Phengodidae": {
-    "fa": "سوسکهای شبتاب"
-  },
-  "Phiditiidae": {
-    "fa": "شاپرکان خاکی"
   },
   "Plecoptera": {
     "en": "Stoneflies",

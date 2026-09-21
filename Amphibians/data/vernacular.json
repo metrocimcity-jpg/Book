@@ -4,115 +4,62 @@
     "fa": "قورباغه‌های نگارین"
   },
   "Amphibia": {
+    "en": "Amphibians",
     "fa": "دوزیستان"
   },
   "Amphiumidae": {
     "en": "Amphiumas"
   },
   "Anura": {
+    "en": "Frog",
     "fa": "قورباغه"
   },
   "Arthroleptidae": {
     "fa": "قورباغههای جیرجیری"
   },
-  "Bombinatoridae": {
-    "fa": "آتشدلان"
-  },
-  "Brevicipitidae": {
-    "fa": "قورباغههای باران"
-  },
-  "Bufonidae": {
-    "fa": "وزغهای راستین"
-  },
-  "Caeciliidae": {
-    "fa": "کورسمندران"
-  },
   "Caudata": {
+    "en": "Salamanders",
     "fa": "سمندر"
-  },
-  "Centrolenidae": {
-    "fa": "قورباغه شیشهای"
-  },
-  "Ceratobatrachidae": {
-    "fa": "شاخغوکان"
-  },
-  "Chikilidae": {
-    "fa": "کورسمندرهای هندی"
-  },
-  "Craugastoridae": {
-    "fa": "خشکدلان"
-  },
-  "Cryptobranchidae": {
-    "fa": "سمندر بزرگ"
   },
   "Dendrobatidae": {
     "fa": "قورباغه زهرآگین"
   },
   "Dermophiidae": {
-    "fa": "کورسمندرهای زندهزا"
-  },
-  "Dicamptodontidae": {
-    "fa": "سمندر بزرگ آرام"
-  },
-  "Dicroglossidae": {
-    "fa": "قورباغههای زبانچنگالی"
+    "fa": "کورسمندرهای زنده‌زا"
   },
   "Eleutherodactylidae": {
     "fa": "آزادانگشتان"
   },
+  "Grandisoniidae": {
+    "en": "Indo-African caecilians"
+  },
   "Gymnophiona": {
     "en": "Caecilian",
-    "fa": "بیپائیان"
+    "fa": "بی‌پائیان"
   },
   "Heleophrynidae": {
     "fa": "قورباغه شبح"
   },
   "Hemiphractidae": {
-    "fa": "شاخکغوکان"
+    "fa": "شاخک‌غوکان"
   },
-  "Herpelidae": {
-    "fa": "کورسمندرهای آفریقایی"
+  "Hemisotidae": {
+    "en": "Shovelnose Frogs"
   },
   "Hylidae": {
-    "fa": "قورباغههای درختی راستین"
+    "fa": "قورباغه‌های درختی راستین"
   },
   "Hylodidae": {
-    "fa": "قورباغههای هیلودیدائه"
+    "fa": "قورباغه‌های هیلودیدائه"
   },
   "Hynobiidae": {
     "fa": "سمندرهای آسیایی"
   },
   "Hyperoliidae": {
-    "fa": "قورباغههای جگن"
+    "fa": "قورباغه‌های جگن"
   },
   "Ichthyophiidae": {
-    "fa": "کورسمندرهای دمدار آسیایی"
-  },
-  "Leiopelmatidae": {
-    "fa": "قورباغههای بدوی نیوزیلند"
-  },
-  "Leptodactylidae": {
-    "fa": "قورباغههای جنوبی"
-  },
-  "Mantellidae": {
-    "fa": "قورباغههای ماداگاسکاری"
-  },
-  "Megophryidae": {
-    "fa": "قورباغههای خاشاک"
-  },
-  "Microhylidae": {
-    "fa": "قورباغههای دهانباریک"
-  },
-  "Myobatrachidae": {
-    "fa": "قورباغههای زمینی استرالیا"
-  },
-  "Nyctibatrachidae": {
-    "fa": "شبغوکان"
-  },
-  "Pelobatidae": {
-    "fa": "وزغ بیلپای اروپایی"
-  },
-  "Petropedetidae": {
-    "fa": "قورباغههای تندابه آفریقایی"
+    "en": "Fish Caecilians",
+    "fa": "کورسمندرهای دم‌دار آسیایی"
   }
 }
