@@ -1091,9 +1091,102 @@
   "Agrostis blasdalei": {
     "en": "Blasdale bentgrass"
   },
+  "Agrostis canina": {
+    "en": "Brown bent",
+    "fa": "علف بوریای مخملی"
+  },
+  "Agrostis capillaris": {
+    "en": "Common bent"
+  },
+  "Agrostis castellana": {
+    "en": "Bentgrass"
+  },
+  "Agrostis clavata": {
+    "en": "Clavate bentgrass"
+  },
+  "Agrostis densiflora": {
+    "en": "California bentgrass"
+  },
+  "Agrostis elliottiana": {
+    "en": "Awned bent grass"
+  },
+  "Agrostis gigantea": {
+    "en": "Redtop",
+    "fa": "علف بوریای غولآسا"
+  },
+  "Agrostis hallii": {
+    "en": "Hall's bentgrass"
+  },
+  "Agrostis hendersonii": {
+    "en": "Henderson's bentgrass"
+  },
+  "Agrostis hooveri": {
+    "en": "Hoover's bentgrass"
+  },
+  "Agrostis howellii": {
+    "en": "Howell's bentgrass"
+  },
+  "Agrostis hyemalis": {
+    "en": "Winter bentgrass"
+  },
+  "Agrostis idahoensis": {
+    "en": "Idaho bentgrass"
+  },
+  "Agrostis lacuna-vernalis": {
+    "en": "Vernal pool bentgrass"
+  },
+  "Agrostis mertensii": {
+    "en": "Northern bentgrass"
+  },
+  "Agrostis microphylla": {
+    "en": "Small-leaf bentgrass"
+  },
+  "Agrostis olympica": {
+    "fa": "علف بوریای کوهسری"
+  },
+  "Agrostis oregonensis": {
+    "en": "Oregon bentgrass"
+  },
+  "Agrostis pallens": {
+    "en": "Seashore bentgrass"
+  },
+  "Agrostis perennans": {
+    "en": "Upland bentgrass"
+  },
+  "Agrostis rossiae": {
+    "en": "Ross' bentgrass"
+  },
+  "Agrostis sandwicensis": {
+    "en": "Hawai'i bentgrass"
+  },
+  "Agrostis scabra": {
+    "en": "Rough bentgrass"
+  },
+  "Agrostis stolonifera": {
+    "en": "Fiorin",
+    "fa": "علف بوریا"
+  },
+  "Agrostis tandilensis": {
+    "en": "Kennedy's bentgrass"
+  },
+  "Agrostis trachychlaena": {
+    "en": "Bentgrass"
+  },
+  "Agrostis variabilis": {
+    "en": "Mountain bentgrass"
+  },
+  "Agrostis vinealis": {
+    "en": "Brown bent"
+  },
   "Aira": {
     "en": "Hairgrass",
     "fa": "علف موئین"
+  },
+  "Aira caryophyllea": {
+    "en": "Silver hairgrass"
+  },
+  "Aira praecox": {
+    "en": "Early Hair Grass"
   },
   "Aizoaceae": {
     "en": "Carpet Weeds",
@@ -1106,8 +1199,27 @@
     "en": "Bugleweed",
     "fa": "آجوگا"
   },
+  "Ajuga genevensis": {
+    "en": "Blue bugle"
+  },
+  "Ajuga pyramidalis": {
+    "en": "Pyramidal Bugle"
+  },
+  "Ajuga reptans": {
+    "en": "Bugle",
+    "fa": "لبدیسی خزنده"
+  },
   "Albuca": {
     "fa": "سوسن خندان"
+  },
+  "Albuca nelsonii": {
+    "en": "Nelson's Slime Lily"
+  },
+  "Albuca shawii": {
+    "fa": "سوسن خندان شاوی"
+  },
+  "Albuca yerburyi": {
+    "en": "Yellow Shum Shum Lily"
   },
   "Alcea": {
     "en": "Hollyhock",

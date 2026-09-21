@@ -182,6 +182,9 @@
   "Boraginales": {
     "fa": "گاوزبانسانان"
   },
+  "Bouvardia": {
+    "fa": "بوواردیا"
+  },
   "Brassicaceae": {
     "en": "Crucifers",
     "fa": "شببویان"
@@ -192,11 +195,18 @@
   "Burseraceae": {
     "fa": "روشنکان"
   },
+  "Butia": {
+    "fa": "نخلهای پرسان"
+  },
   "Buxaceae": {
     "fa": "شمشادیان"
   },
   "Cactaceae": {
     "fa": "کاکتوس"
+  },
+  "Calliandra": {
+    "en": "Stickpea",
+    "fa": "گردافشانها"
   },
   "Calophyllaceae": {
     "fa": "زیبابرگان"
@@ -240,6 +250,17 @@
   },
   "Celastrales": {
     "fa": "گوشوارکسانان"
+  },
+  "Celosia": {
+    "en": "Cockscombs",
+    "fa": "تاج خروسی"
+  },
+  "Cestrum": {
+    "en": "Jessamine",
+    "fa": "محبوبه شب"
+  },
+  "Chamaecrista": {
+    "en": "Sensitive pea"
   },
   "Chrysobalanaceae": {
     "fa": "کریزوبالاناسه"
@@ -539,9 +560,6 @@
     "en": "Pokeweed Family",
     "fa": "سرخابکولیان"
   },
-  "Pinaceae": {
-    "fa": "کاجیان"
-  },
   "Pinales": {
     "en": "Conifers",
     "fa": "کاج‌سانان"
@@ -553,22 +571,13 @@
   "Piperales": {
     "fa": "فلفلسیاهسانان"
   },
-  "Pittosporaceae": {
-    "fa": "میخکدرختیان"
-  },
   "Plantaginaceae": {
     "en": "Plantain Family",
     "fa": "بارهنگیان"
   },
-  "Platanaceae": {
-    "fa": "چناریان"
-  },
   "Plumbaginaceae": {
     "en": "Leadwort Family",
     "fa": "بهمنیان"
-  },
-  "Podocarpaceae": {
-    "fa": "بوداکاجیان"
   },
   "Polemoniaceae": {
     "fa": "گلآتشیان"
@@ -601,9 +610,6 @@
   "Rhamnaceae": {
     "en": "Buckthorn family",
     "fa": "عنابیان"
-  },
-  "Rhizophoraceae": {
-    "fa": "چندلیان"
   },
   "Rosaceae": {
     "fa": "گلسرخیان"

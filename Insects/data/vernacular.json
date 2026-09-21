@@ -262,9 +262,6 @@
   "Calopterygidae": {
     "fa": "سنجاقکهای پهنبال"
   },
-  "Canacidae": {
-    "fa": "مگس ساحلی"
-  },
   "Cantharidae": {
     "fa": "سوسکهای نرمتن"
   },
@@ -466,58 +463,40 @@
     "fa": "سوسکچههای خرطومدار"
   },
   "Curtonotidae": {
-    "fa": "مگس‌های کوآزیمودو"
+    "fa": "مگسهای کوآزیمودو"
   },
   "Cydnidae": {
-    "en": "Burrowing Bugs",
-    "fa": "سن‌های کاونده"
+    "fa": "سنهای کاونده"
   },
   "Cylindrachetidae": {
-    "fa": "شن‌کاو"
-  },
-  "Cylindrotomidae": {
-    "en": "Cylindrotomid Crane Flies"
+    "fa": "شنکاو"
   },
   "Cynipidae": {
-    "en": "Gall Wasps",
-    "fa": "زنبور گال‌زا"
+    "fa": "زنبور گالزا"
   },
   "Cypselosomatidae": {
     "fa": "آوندتنان"
   },
-  "Dactylopiidae": {
-    "en": "Cochineal Insects"
-  },
   "Dalceridae": {
-    "en": "Tropical Slug Caterpillar Moths",
     "fa": "هزارپابیدان"
   },
-  "Dasydemellidae": {
-    "en": "Shaggy Psocids"
-  },
   "Delphacidae": {
-    "en": "Delphacid Planthoppers",
     "fa": "مهمیزداران"
   },
   "Depressariidae": {
-    "en": "Depressariids",
     "fa": "شاپرکان زردک"
   },
   "Derbidae": {
-    "en": "Derbid Planthoppers",
-    "fa": "خاره‌داران"
+    "fa": "خارهداران"
   },
   "Dermaptera": {
     "fa": "گوشخیزک"
   },
   "Dermestidae": {
-    "fa": "سوسک‌های چرم‌خوار"
+    "fa": "سوسکهای چرمخوار"
   },
   "Derodontidae": {
-    "fa": "سوسک‌های گردن‌دندانه‌ای قارچ"
-  },
-  "Deuterophlebiidae": {
-    "en": "Mountain Midges"
+    "fa": "سوسکهای گردندندانهای قارچ"
   },
   "Diadocidiidae": {
     "fa": "پشههای لولهابریشمی"
@@ -1147,157 +1126,25 @@
   "Phasmatidae": {
     "fa": "چوبکان"
   },
+  "Phasmida": {
+    "fa": "چوبکسانان"
+  },
   "Phengodidae": {
     "fa": "سوسکهای شبتاب"
   },
   "Phiditiidae": {
     "fa": "شاپرکان خاکی"
   },
-  "Phoenicococcidae": {
-    "fa": "شپشکهای نخلی"
-  },
-  "Phylliidae": {
-    "fa": "حشرات برگی"
-  },
-  "Phylloxeridae": {
-    "fa": "موشتگان"
-  },
-  "Pieridae": {
-    "fa": "کاهیبالان"
-  },
-  "Piophilidae": {
-    "fa": "مگس پنیر"
-  },
-  "Pipunculidae": {
-    "fa": "مگسهای سربزرگ"
-  },
-  "Platycnemididae": {
-    "fa": "سنجاقکهای پاسفید"
-  },
-  "Platystictidae": {
-    "fa": "سنجاقکهای سایه"
-  },
   "Plecoptera": {
     "en": "Stoneflies",
     "fa": "بهاره‌ها"
   },
-  "Pleidae": {
-    "fa": "پشتشناگران کوتوله"
-  },
-  "Plutellidae": {
-    "fa": "پنهانخوران پلوتلیدا"
-  },
-  "Pneumoridae": {
-    "fa": "ملخهای شکمباد"
-  },
-  "Polythoridae": {
-    "fa": "پرچمبالان"
-  },
-  "Pompilidae": {
-    "fa": "زنبور وحشی عنکبوتی"
-  },
-  "Prodoxidae": {
-    "fa": "یوکابیدان"
-  },
-  "Prophalangopsidae": {
-    "fa": "بالخورک"
-  },
-  "Proscopiidae": {
-    "fa": "ملخهای ترکهای"
-  },
-  "Prostomidae": {
-    "fa": "سوسکهای شاخگلویی"
-  },
-  "Protoneuridae": {
-    "fa": "نخدنبان"
-  },
   "Protorthoptera": {
     "en": "Primitive Winged Insects"
-  },
-  "Pseudococcidae": {
-    "fa": "شپشک آردی"
-  },
-  "Pseudolestidae": {
-    "fa": "شبهگستردهبالان"
-  },
-  "Pseudophasmatidae": {
-    "fa": "چوبکهای راهراه"
-  },
-  "Psilidae": {
-    "fa": "مگسهای زنگاری"
-  },
-  "Psychidae": {
-    "fa": "شاپرکهای کرمکیسهای"
-  },
-  "Psychodidae": {
-    "fa": "مگس راهآب"
-  },
-  "Psychopsidae": {
-    "fa": "بالتوریان ابریشمی"
-  },
-  "Psyllidae": {
-    "fa": "شپش گیاهی جهنده"
-  },
-  "Pterolonchidae": {
-    "fa": "نیزهبالان"
-  },
-  "Pteronarcyidae": {
-    "fa": "بهارههای آزادماهی"
-  },
-  "Pterophoridae": {
-    "fa": "پرپرواران"
-  },
-  "Ptiliidae": {
-    "fa": "سوسکهای پاپر"
-  },
-  "Ptychopteridae": {
-    "fa": "مگسهای درنای شبح"
-  },
-  "Putoidae": {
-    "fa": "شپشکهای آردی بزرگ"
-  },
-  "Pyralidae": {
-    "fa": "پوزهبیدان"
-  },
-  "Pyrgomorphidae": {
-    "fa": "ملخهای جلف"
-  },
-  "Raphidiidae": {
-    "fa": "سوزنیان"
   },
   "Raphidioptera": {
     "en": "Snakeflies",
     "fa": "مارمگس"
-  },
-  "Reduviidae": {
-    "fa": "سن ضارب"
-  },
-  "Rhagionidae": {
-    "fa": "مگسهای پاشلک"
-  },
-  "Rhaphidophoridae": {
-    "fa": "جیرجیرکهای شتری"
-  },
-  "Rhopalidae": {
-    "fa": "ناجوربالان بیبوی گیاهزی"
-  },
-  "Rhynchitidae": {
-    "fa": "سوسکچههای دماغ دندانی"
-  },
-  "Rhyparochromidae": {
-    "fa": "خاکرنگان"
-  },
-  "Riodinidae": {
-    "fa": "فلزنقشیان"
-  },
-  "Rivetinidae": {
-    "fa": "ریوتینیدا"
-  },
-  "Roeslerstammiidae": {
-    "fa": "شاپرکهای قاقمی کوچک"
-  },
-  "Romaleidae": {
-    "fa": "ملخهای دستوپاچلفتی"
   },
   "Siphonaptera": {
     "en": "Flea",
